@@ -1,0 +1,11 @@
+{
+  "klass": "Configs::Project::SceneTitle",
+  "introMovieMapId": 14,
+  "bgmName": "",
+  "bgmDuration": 4418000,
+  "isLanguageSelectionEnabled": true,
+  "additionalSplashes": [
+    "pokemon logo"
+  ],
+  "controlWaitTime": 0.5
+}
