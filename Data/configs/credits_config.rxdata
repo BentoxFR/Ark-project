@@ -1,6 +1,6 @@
 o:Configs::CreditsConfig:@project_splashI"
-title:ET:@chief_project_titleI"Main Supporter;T:@chief_project_nameI"Pokémon Workshop;T:@leaders[{:
-titleI"Creator of PSDK;T:	nameI"Nuri Yuri;T{;I"Developper of LiteRGSS2;T;I"Scorbutics;T{;I"Developpers of PSDK;T;I"!Aerun, Rey, Palbolsky, Leikt;T{;I""Lead Graphic Designer of PSDK;T;I"SirMalo;T{;I"#Occasional Contributors of .25;T;I"!SoloReprise, buttjuice & Mud;T{;I"MacOS Supporter;T;I"Lynn Isip;T:@game_creditsI"�# PSDK related credits
+title:ET:	@bgmI"ending;T:@line_heighti:@speedf44:@leader_spacingi5:@chief_project_titleI"Main Supporter;T:@chief_project_nameI"Pokémon Workshop;T:@leaders[{:
+titleI"Creator of PSDK;T:	nameI"Nuri Yuri;T{;I"Developper of LiteRGSS2;T;I"Scorbutics;T{;I"Developpers of PSDK;T;I"!Aerun, Rey, Palbolsky, Leikt;T{;I""Lead Graphic Designer of PSDK;T;I"SirMalo;T{;I"#Occasional Contributors of .25;T;I"!SoloReprise, buttjuice & Mud;T{;I"MacOS Supporter;T;I"Lynn Isip;T:@game_creditsI"�# PSDK related credits
 
 ## Pokémon Universe
 Game Freak, CREATURES INC. et The Pokémon Company
@@ -256,4 +256,4 @@ Pokémon Fangame Making in 2008.
  
  
  
- ;T:	@bgmI"ending;T:@line_heighti:@speedf44:@leader_spacingi5
+ ;T
