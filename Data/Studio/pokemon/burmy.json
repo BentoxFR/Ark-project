@@ -23,6 +23,8 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "wormadam",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
@@ -32,11 +34,11 @@
               "type": "gender",
               "value": 2
             }
-          ],
-          "dbSymbol": "wormadam",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "mothim",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
@@ -46,9 +48,7 @@
               "type": "gender",
               "value": 1
             }
-          ],
-          "dbSymbol": "mothim",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -78,7 +78,49 @@
         "shed_skin",
         "overcoat"
       ],
-      "frontOffsetY": 26,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hidden_power",
+          "level": 20
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        }
+      ],
       "resources": {
         "icon": "412",
         "iconShiny": "",
@@ -91,49 +133,7 @@
         "characterShiny": "412s_0",
         "cry": "412cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "protect"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "tackle"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "bug_bite"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "snore"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        }
-      ]
+      }
     },
     {
       "form": 1,
@@ -155,6 +155,8 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "wormadam",
+          "form": 1,
           "conditions": [
             {
               "type": "minLevel",
@@ -164,11 +166,11 @@
               "type": "gender",
               "value": 2
             }
-          ],
-          "dbSymbol": "wormadam",
-          "form": 1
+          ]
         },
         {
+          "dbSymbol": "mothim",
+          "form": 1,
           "conditions": [
             {
               "type": "minLevel",
@@ -178,13 +180,11 @@
               "type": "gender",
               "value": 1
             }
-          ],
-          "dbSymbol": "mothim",
-          "form": 1
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 61,
+      "baseExperience": 45,
       "baseLoyalty": 70,
       "catchRate": 120,
       "femaleRate": 50,
@@ -211,6 +211,48 @@
         "overcoat"
       ],
       "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hidden_power",
+          "level": 20
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        }
+      ],
       "resources": {
         "icon": "412_01",
         "iconShiny": "",
@@ -223,37 +265,7 @@
         "characterShiny": "412s_1",
         "cry": "412cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "protect"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "tackle"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "bug_bite"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        }
-      ]
+      }
     },
     {
       "form": 2,
@@ -275,6 +287,8 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "wormadam",
+          "form": 2,
           "conditions": [
             {
               "type": "minLevel",
@@ -284,11 +298,11 @@
               "type": "gender",
               "value": 2
             }
-          ],
-          "dbSymbol": "wormadam",
-          "form": 2
+          ]
         },
         {
+          "dbSymbol": "mothim",
+          "form": 2,
           "conditions": [
             {
               "type": "minLevel",
@@ -298,13 +312,11 @@
               "type": "gender",
               "value": 1
             }
-          ],
-          "dbSymbol": "mothim",
-          "form": 2
+          ]
         }
       ],
       "experienceType": 1,
-      "baseExperience": 61,
+      "baseExperience": 45,
       "baseLoyalty": 70,
       "catchRate": 120,
       "femaleRate": 50,
@@ -331,6 +343,48 @@
         "overcoat"
       ],
       "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hidden_power",
+          "level": 20
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        }
+      ],
       "resources": {
         "icon": "412_02",
         "iconShiny": "",
@@ -343,37 +397,7 @@
         "characterShiny": "412s_2",
         "cry": "412cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "protect"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "tackle"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "bug_bite"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
-        }
-      ]
+      }
     },
     {
       "form": 3,
@@ -395,6 +419,8 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "wormadam",
+          "form": 3,
           "conditions": [
             {
               "type": "minLevel",
@@ -404,11 +430,11 @@
               "type": "gender",
               "value": 2
             }
-          ],
-          "dbSymbol": "wormadam",
-          "form": 3
+          ]
         },
         {
+          "dbSymbol": "mothim",
+          "form": 3,
           "conditions": [
             {
               "type": "minLevel",
@@ -418,9 +444,7 @@
               "type": "gender",
               "value": 1
             }
-          ],
-          "dbSymbol": "mothim",
-          "form": 3
+          ]
         }
       ],
       "experienceType": 1,
@@ -442,39 +466,26 @@
         "overcoat"
       ],
       "frontOffsetY": 0,
-      "resources": {
-        "icon": "412",
-        "iconShiny": "",
-        "front": "412",
-        "frontShiny": "412",
-        "back": "412",
-        "backShiny": "412_03",
-        "footprint": "412",
-        "character": "",
-        "characterShiny": "",
-        "cry": "412cry.ogg",
-        "hasFemale": false
-      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "protect"
+          "move": "protect",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "tackle"
+          "move": "tackle",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "bug_bite"
+          "move": "bug_bite",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "hidden_power"
+          "move": "hidden_power",
+          "level": 20
         },
         {
           "klass": "TechLearnableMove",
@@ -902,9 +913,22 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "dive"
+          "move": "whirlpool"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "412",
+        "iconShiny": "",
+        "front": "412",
+        "frontShiny": "412",
+        "back": "412",
+        "backShiny": "412_03",
+        "footprint": "412",
+        "character": "",
+        "characterShiny": "",
+        "cry": "412cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

@@ -1,4 +1,0 @@
---- !ruby/object:Configs::OnlineConfig
-enabled: false
-server_ip: 127.0.0.1
-server_port: 3259

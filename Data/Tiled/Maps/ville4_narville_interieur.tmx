@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="left-up" width="38" height="53" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/Interieur.tsx"/>
+ <tileset firstgid="2753" source="../Tilesets/passages.tsx"/>
+ <tileset firstgid="2769" source="../Tilesets/Interieur_molarock.tsx"/>
+ <layer id="1" name="sol" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1sENgCAQAEFiGdZA//X5RxIgoCLMJDw993cXAqs5j/uLyWuVfh8z/9C1R1duxk5drTN19c0EgDeVbq+R+7HnLtT1z6437y9dz82ctQsAvlTa+zW7v2bmiHtC1xpdM9xfutbogtEusC5GdQ==
+  </data>
+ </layer>
+ <layer id="15" name="deco_sol" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1zEOgzAQRNEVPglQBSrICeBgSSrg2EzjglQgrYWB/6QpbY3kZmwGAPsNhdn4F1zTR2/3VX6Ob+hx56Szs7I49kpxJwAA8FcGs0qpw9lNtl7q0yhtZr069emVd2a9nsZjA6fY5h4bmB0NAIC/uHlz271x8+a2e+l1TPwjXOGfwI7GHa3dphkh
+  </data>
+ </layer>
+ <layer id="16" name="ombres" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztlsEKgCAQRKW/yqhj//9JdUjYw0rqqKs1D/YS9Zw0Ypwjf2Fd7Nd/Gwunds8G7lVYW3pyna1yoc6ZcqHEnMd93T9T6kCo4Rw1FyGEEGJJi746aq5WPRqlRc9Bu6rmLHV4MftAuTRyOm+qs7cjxRnec9Tv3vLfQwghhKTCHv3NHl0D6TwL/Vou2atL+yryfCwXygznaOno4SQE5QLfZCD6
+  </data>
+ </layer>
+ <layer id="9" name="murs" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1jsOgCAQBUA8l516Te9q6TYkfkACziQvodqwgeKlxFPzhbSYuWayT+f5rtzMGChtSf4XAIyopx4dO7QeTQ1/6bxxz9F3BYBaeurRbzuvHj2G+F5b47sAfOEAvWIe8w==
+  </data>
+ </layer>
+ <layer id="19" name="deco_murs1" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt2LEOgjAUheF2vBtjH8PVkXdEJ+NjuGni6NPIpqM3EQIDtoW2gcT/S5p0KOd2YDipMUjxtMa09ruvdDW6P+g62uWZdxlyq4k5MV569t2dd7pO3f6ccK+HDLluYs5cLnxklcyt3mufIaNEZp0hw5e5kwIDAADAqsbd9iJ5OrRvRj8nZNxtb5KnQ/tm9HOA65/8B3R7AADKmft+HPN9TIcOSXk//vU9HRoAsFUfrgUpxQ==
+  </data>
+ </layer>
+ <layer id="11" name="escaliers1" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt2CESQGAUhdE38+9/XTQajUZjCV4XjGC8cM4KvnpvBDxbWsTa/q6427JpL9h1ZNNZsAsAAOBPXe6kvuBWGrJpLNg1ZdNcsAsAvuaPfscfDVDDBVq0D+4=
+  </data>
+ </layer>
+ <layer id="18" name="dessous1" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztzbERABAABMGPjProP0MdhDog2J25+BIAAAAAAAD4X6tJv3phlGSeVnnzB/60AeytBC0=
+  </data>
+ </layer>
+ <layer id="10" name="mobiliers1" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztmDFLAzEYhkOhvbTg4FjUQaSDf0XddNWtVYdWC7rppOBgxcGKS8VF8A+pk/oL/AXSwfe4hN6FyOU+k16V74Fv6JEm7+UCeRIhGB9cyOmMc1ZwnOuAuY7Q9zFqhLp0GGc/1ebO0n5c95PrBH2foh5RNw65+lP6dkV5ysn1VS3ep685/ol2TYhOLewYFLrI1POQa66R/e1jPhsB5stlbYRYC5+Wd6ng2TPqBfU6g2uDYRiGKRebQw8iIa4if2MU8eddtN2TiUM/GP8bItMtMdcC9uYlY3+O/Vn7dB4HaHMoE4c2HXGETPeEXLELrCBTq5r1gtiftU+XTZPguzHrclIbAd5jmZhrU05qy1OuxdS3WyXmmlX+ytnC9GqKZ4c+pzEMwzD/i7raN7bhgDvKA88Dupvrvfe8ytVGpo7KNSjgvK7o/lzvvZsqVxeZelGy7w49O2/cp+7Pdu9tUgnkOOk1QcF2h7cms35NIb0mKLwhzzvqw5g3PY/U+1W9Jmy4nEV+Oz4F6lkkNC5nkTznDeHR7NlMGXwDztpFJw==
+  </data>
+ </layer>
+ <layer id="17" name="audessus1" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt17EJgEAMBVARPNRVxKFcxFUcxU0sncPCxsYrLMwp7zVpP4HAT1XxN1MbneBbFvsqTtNHJ+CJ/eaWVjcGAAQorYPU6Zx9is3xFYOfAADgdXOmg43dezmutsJ6PUDOAdoRBY0=
+  </data>
+ </layer>
+ <group id="2" name="z=0"/>
+ <layer id="12" name="escaliers2" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztzgEJAEAIBLAD++d54xlDHrcES+Bfr5Ku7QUAAAAAAABw2QD3BQF2
+  </data>
+ </layer>
+ <layer id="21" name="murs_superieur" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1sEJACAMA8DOpe4/l4I+uoHQ3kH+yS8RQHfjZL4AAEBFXT5v3ll9KwAAV/5/63MXgM42tx8DOQ==
+  </data>
+ </layer>
+ <layer id="22" name="deco_murs2" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1jENADAMBLFfw6T8pfIrijRDbAQ3XgKQnJouAACAXnfJ83p7AAAA+O8Bk9UBIQ==
+  </data>
+ </layer>
+ <layer id="13" name="mobiliers2" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAQBMHLHguxLO2/DGt4EUxm8oVNAAAAAAAA+G2Ou25VsuvtCwA9B4I8APg=
+  </data>
+ </layer>
+ <layer id="23" name="dessous2" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAgNcAH3gAAQ==
+  </data>
+ </layer>
+ <layer id="20" name="audessus2" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJzt1rENwCAMRFFK0rMJ+2/FAGkRDQJiwJf/JrBsnXwh4G/Kc3oCfez4W5736Xl2AACwru4Cyr0gx9MT2ErCt/Oizc9MnpQzCADAbSz+rvIvV+/T2KeXE4serZxNYNQLAKoPZw==
+  </data>
+ </layer>
+ <group id="3" name="z=1"/>
+ <layer id="25" name="dessous3" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAgNcAH3gAAQ==
+  </data>
+ </layer>
+ <layer id="14" name="mobiliers3" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAgNcAH3gAAQ==
+  </data>
+ </layer>
+ <layer id="24" name="audessus3" width="38" height="53">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20Hb6AAAAAAAAAAgNcAH3gAAQ==
+  </data>
+ </layer>
+ <group id="4" name="z=2"/>
+ <group id="5" name="z=3"/>
+ <layer id="7" name="passages" width="38" height="53" visible="0" opacity="0.44">
+  <data encoding="base64" compression="zlib">
+   eJztl8EOAyEIRPfc//8jswdv/aTGpAdj1gIDRkznJb0oHaYLa/G6CML7pf9E657sa1yTYqygv0vS8Ooi35fWKlhHKY/HF9pfM01Lf0n7K/rL66txB/gaqcD7OIuz8BRfEpxfhBBC8rFjVo36L9rhKxrtrLrDlya/tY5ZfJXv/j25ByH9VQ+oY7/uvUOu8GWNk96fiDvp0/6ucyLb+UUIIf/MirM5QvNX/G5fmnWrL69m2yuKnOjzQjVnzzW6v6R8Wl+Nfr6OqGOPpNnXcZzvrbmssUjfo3FRmivm/wjNrOcqOZsPglsK5w==
+  </data>
+ </layer>
+ <group id="8" name="Infos"/>
+</map>

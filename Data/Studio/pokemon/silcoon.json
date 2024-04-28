@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "beautifly",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 10
             }
-          ],
-          "dbSymbol": "beautifly",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -45,13 +45,45 @@
       "hatchSteps": 3840,
       "babyDbSymbol": "wurmple",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shed_skin",
         "shed_skin",
         "shed_skin"
       ],
-      "frontOffsetY": 26,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 1
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "iron_defense"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "harden"
+        }
+      ],
       "resources": {
         "icon": "266",
         "iconShiny": "",
@@ -64,31 +96,7 @@
         "characterShiny": "266s_0",
         "cry": "266cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "harden"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "harden"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "iron_defense"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
-        }
-      ]
+      }
     }
   ]
 }

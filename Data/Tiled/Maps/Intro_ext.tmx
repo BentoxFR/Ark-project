@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="left-up" width="80" height="60" tilewidth="32" tileheight="32" infinite="0" nextlayerid="165" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/Exterieurs_1.tsx"/>
+ <tileset firstgid="1497" source="../Tilesets/passages.tsx"/>
+ <tileset firstgid="1641" source="../Tilesets/Ville_1.tsx"/>
+ <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
+ <tileset firstgid="7633" source="../Tilesets/Intro.tsx"/>
+ <tileset firstgid="8913" source="../Tilesets/Interieur.tsx"/>
+ <tileset firstgid="11665" source="../Tilesets/systemtags.tsx"/>
+ <layer id="135" name="creuvace1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="136" name="plantes_sousmarine1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="137" name="sols1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2j1PAjEAh3EQFoXFl0UxJhxhECYRv6iTcWRxQcJH5D9empO0XN99ht9EuLZPeuQobJrBYGPhXb7nfr3qmitZB7i2OYbLONsXey5z+ZGdJ0ej35fj+/eZ9HOZs899sdVaPgy1779Qawt5/75d8BlEv37oRz/60S9Wv6U0lhat1r6epUyl9XMRY6+W0q/9bGErxPegUvvFMFTvKxnJuLLnvxiu1exGJjKln7NbNbuTe3moqJ/Ps4hzZwyPavYkM3lu7MYtoZ/LHPsIPS79+gl9D/m4R3LuV4PPebffjn1/aL2eet65yP0zJHf0ox/9ykU/+tGvXPSjX0o2/+/oOndJPe/csdfoR79y0Y9+9CvXf+r31xnypcyz59Tri7lXQki9PvrljX791PJ7KQAAAAAAAAAASO8EpOAg+g==
+  </data>
+ </layer>
+ <layer id="138" name="verdures_deco1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="139" name="arbres_racine1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="140" name="batiments1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztl0lKA0EYhWut8QbZRMghVAwYJTv1LI7g7AnUhQqCioKKW3Xj0ms4z/M8u1DwNXRBUfRUoTqW8D74CHSqi+qX+uvvCOEG7VkhGg1ty9pfRzGFOV2l6Z/lt56z5yasqxWiHjbAhTLudyE/kzVv5Oytc0uba9Vw7hlH8iuXPqy/H47AUTgEh2F1XogBfA4q1+RY7ztbuJJfF9bRDXtgr5KHzCDsmavywdaEXJff2cKV/PS9kgl4ZjkmLtNK4kp+SfaIrD+1RuPQ69t25l5+zTHvNyU4iXFTvtOwEHNPi6XfRD2zwrKIOt/SPPs8FhP2m1mMm/Odt9j/wpDPrWYl61bfo/J60B6T86RV82sJ3xmW4LLvSsJ7TOjA+E6lf+jnYbWfWVANh9W1nmvGcu/wKKT0/6PVcE49A/WZ1b0WtJ/Czk45Z1q1K3Gxf4T1EZN3kaRjy6lt9R4X8hvLVcZxOKGdLfr+DOrv+hj1N4nqv6WIHKJ6sK3+S5Lxl/uPEEKIfbZx1u7AXbgH9+EBPIRHPIdjOUZGJ/AUnsFzeAEv4RXzi+UaGd3AW3gH7+EDfIRPzC+WZ2T0Al/hG3yHH/ATfjE/I76R1w8zI8R5iqxTQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEkFT5BUnU+Gs=
+  </data>
+ </layer>
+ <layer id="141" name="1ere_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="142" name="2eme_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="143" name="3eme_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="144" name="4eme_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="145" name="5eme_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="146" name="6eme_falaises1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0CEOwCAQBMD7yhlwBc3/HwZJBQZcVTOTrNl1GwHwnZ4RZaXmeR+Xnu1ZH7V8vwQAAAAAAAAAAAAAAAAAAAAA+KMJR6ECLA==
+  </data>
+ </layer>
+ <layer id="148" name="mobiliers1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2VtOwkAUgOF591kSyhMkPrIAQcXirWvANw2yMUUXgIvxthfPRKTN2Ol1Rgr9v+TEhspkcjjTMwxK7bZZ9+fvMlDqWeIlyH/PSv7nNfh7fdv1M0dt0vE3dlus+v7GHlX87CPL+2yvVxmriWbGXKc15+5i/QI2bz2lPiW+etueSXPpHL1LfJTIUWTpv1nPMtv63aXnn8lHf7+Tfnef6HkPcr3w2AMB06PU29M6lh5r7+DI39hpzP1LXS72L3xHQFm6Zw4drUuX/Xc+kH4lsRi4GzNpnDPXuve1tGeEzzMC/D/fddp0yZ7je00VWXOuuXo2AjanUmNnEhNqrZIrydu1xI1EJDEtkEfWdexCcnEpEfbj6zzkLzYyaq5IbshfTOeOfGDbxlKDJ9RhaeF6/RbtHdoxed5I7v/OC+TxUO51yN+Guf9Ly9/v99Syddpmrs+4AQAA4I7eq4WWPW3WPq7qvX3j8/zJ9rnsE5/5a8vZoPn75tA4F63y+6g5BgAAAAAAAAAAALJ9A/tCRq0=
+  </data>
+ </layer>
+ <layer id="147" name="audessus1" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2KENgEAMBdC/AOxwghUw3GIwOgocCsiF5IJ4z9RU1fy2CQC0W0uylasCAAAAwJOlJNUfCQC6mBsydzh7Rxn9ar+ZkR0HAADgnya32ifmBwAAAAAAQC8HzhcGOA==
+  </data>
+ </layer>
+ <group id="2" name="z=0" offsetx="-2" offsety="3"/>
+ <layer id="149" name="creuvace_relief2" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEOgkAQRuHlKJ5LO72QsTIWxliJhVeUmizsmD+7OLPvS2yFvDAIY0qYu+22PgPf6Kehn6bUbz+kdBjanItHpX7Hqd2JfouYXw39NPTTPOkn4frT0E9DPw39NPTTePj9vU/nOFb+fDIdLMd9O+jXYkaumWNEmc0WM9KiX+0Zqj0jZ+F7LkGuRUXuGrOKMssK+mnop2nRL/K+vkW/yPt65ldDPw39NPTTPIQGHvYstb2Mu5fc3sXDnmUr87n+dVYjP/NZqP0iP/NZqP16Z+nX+4yusfTrfUbX9DS/yg7ZKnI/5R3Cin4a+mki91PeYa0iv+suvcP+4/+lAAAA3rDz0pR2XvTVsFMEUMJ9VsN9FgB8+wIjAY40
+  </data>
+ </layer>
+ <layer id="150" name="batiments2" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1cs2gnEYRvH/rXzfnZJQKIcO6KBbKIdCFDkTReFWzOxlbNDsa7B/a+35u57JG4IkSZIkSZIkSZrVOArhnT5oQlP6pC/6jpK+TpI0r378EZIkSZIkSZKkfzTjEFp0SEd0TCfUpg4t0CKlaInStEwrtBonfX3yTtngjM6pSxd0ST3qU4aytEbrtEE5ytOm+4UrNrimAd3QLd3RPT3QFm3TDhWoSCUq0677hUc2eKJneqEhvdIbjWiP9qlCVapRnQ6o4X6SJEmSJEnSn18ofDtn
+  </data>
+ </layer>
+ <layer id="151" name="verdures_deco2" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="152" name="mobiliers2" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2ElOwzAUxnFfg1QCZYHULSwACRY9A+wYz8CMBGcBDgArTsG0YLoPL1KfElzHZHBSXP4/6QnkNGnyxUNSY+K2NlevvcmxZtmo5JrL2psc6y/a9JzrMDVmXmohdW9fdrRfJ8bcSN0mv3/3nXzmPpn8v0+Hcg1HUudSF1KnUmfj6zqWvyeFNv1sE8Pxfo8DY16kXgdhzj8UvTY7D82gT1lGT1LPjozepO1T6svaFsP8p1l2nWmW0bvUR40+pnOWPX59c1nZ+O1q/tO+WRyjVffR/jwN2/K9O1K7UntS+1IHPZ1Lcc4qy8I3v4WY+2Kk113Mqmzcarurj+lxpjGP9sm+PnvtVK4xXDaufbkq3/NLEyGfXx5q3O9L+exV6u53RXX6k72mdynkmhnb+0eTsW3vk62Zi4HuUUzvHxm7f7rW9zZ92DVHbEWWEfCfhZobAZ8V6Wer9LXWRhUzZFzn1iWLjZp5kF/O/j26Sjbk9xN5APGqO36XGO8T9PmvyXqMnC8/1pnqQv/GDQAAgHB8z2pdbJs1vBe0Q37hZZm2zZX7AgAAAAAAAAAAgD59Aw4nbHw=
+  </data>
+ </layer>
+ <group id="3" name="z=1"/>
+ <layer id="153" name="arbres_centre3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="154" name="verdures_deco3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="155" name="batiments3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt1ckNwlAQRMG5E4UtESQ76bCTBtgsIdFE8YWokt69b10FwNdk2noBAPwPvwsA0Natq7qnIY3pkZ7pld5d63UAAAAAAADAL9n1Vft0SMd0Sud0Sdc0S/O0SMu0Suu0Sdu+9XoAAAAAAKClD6fIEzU=
+  </data>
+ </layer>
+ <layer id="156" name="mobiliers3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt0jkKwmAUhdFsJa7D0qFxwkw2DvtfhbcUwg9JISFwDnz94/KqCgD4da+rqklt6lKfhnrpq+C/tpulL1i3Xfbbp0M62nK2UzY7p0u6plthQ3861mSTNnWpT0N6FHbyp2XP7PFK7/QpbDP1Txmb86eUTflTAAAAAAAAAAAAAAAAAIA1+QIMzRS4
+  </data>
+ </layer>
+ <layer id="157" name="arbres_top3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="158" name="batiments_toits3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <layer id="159" name="variant_batiments3" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <group id="14" name="z=2" offsetx="-2" offsety="3"/>
+ <layer id="160" name="mobiliers4" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzkkNgEAABMHVsg65scONTMYFIVQl/e9SAAAAAAAAAAAAAAAA/mmppaxpS3s60pmudKcmtalLfRrSmKY017fvAQAAAAAAvusB+OoK6Q==
+  </data>
+ </layer>
+ <layer id="161" name="batiments4" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzskJACAMAMG0kv678GzLlOBPhBnY/0YAAAAAAPynZUSvRjWrVe18fQUAAAAAAAAAAAAAAADAjQNc2wVi
+  </data>
+ </layer>
+ <group id="101" name="z=3"/>
+ <layer id="162" name="passages" width="80" height="60" visible="0" opacity="0.27">
+  <data encoding="base64" compression="zlib">
+   eJztmEmOwyAQAHPJ/983c8ttnjEaRVYY1EDTC96qJKQ4xk1TNot4PI7Bz9Ne/ng9P2VEWa/8Xcc8Sv96/fbGz+rnbP09SlQerX5Z3WX6i0LyJ+U0ynkjYvyWsbNZ4beMObr+Cmrb24/s+UXb9uheVo7e8WutE8FMG3VO9fjtxVi9/lr8zT4zm7Nlzl45z7fGSi+fXv+isXrI9ifF0eaivRfBmfy1/rd8lxvfTqcZ78cSz/reZmJmkRE/O+dILLm2vv/IfKLjZdAb99vvXg5Hnf9Woe2Ht1jb3cOF5Zmz+6vHj7Zuxv1oJBdZ680eJZsV7Z7d3xFyODOSD/zp8a4fd0dywfenp+Vi5HW7vjseB/jDnxfrnMb890Yz70nP4O+Ndm1t7Q3vTs9fecbN/kVm5vvDn57W+AUd+POBPx/484E/H3fyN3PeNFPq/d9Vyd6LXX2vhz8frfNM6fxTE0eKcXV/K8pVwR8AAAAAAAAAAAAAwH9+AbW2vus=
+  </data>
+ </layer>
+ <layer id="163" name="systemtags" width="80" height="60" visible="0" opacity="0.47">
+  <data encoding="base64" compression="zlib">
+   eJzt0DENAAAIwDAMoR6D3Jw8HKRNZmARAADwR+WMHf8AAAAAAAAAAAAAAAAAAAC40LmcBwE=
+  </data>
+ </layer>
+ <group id="12" name="Infos" offsetx="-2" offsety="3"/>
+</map>

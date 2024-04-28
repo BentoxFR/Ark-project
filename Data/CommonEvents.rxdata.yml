@@ -1,7 +1,6 @@
 ---
 -
 - !ruby/object:RPG::CommonEvent
-  name: Wild battle common event
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -34,21 +33,21 @@
     parameters: []
     indent: 0
     code: 0
+  name: Wild battle common event
   trigger: 0
   switch_id: 1
   id: 1
 - !ruby/object:RPG::CommonEvent
-  name: Player auto appearance (on warp)
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Player auto appearance (on warp)
   trigger: 0
   switch_id: 1
   id: 2
 - !ruby/object:RPG::CommonEvent
-  name: Going back to Pokemon center
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -861,11 +860,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Going back to Pokemon center
   trigger: 0
   switch_id: 1
   id: 3
 - !ruby/object:RPG::CommonEvent
-  name: Nurse event
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -903,6 +902,12 @@
     code: 101
   - !ruby/object:RPG::EventCommand
     parameters:
+    - !binary |-
+      Q2hlY2tpbmcgaWYgdGhlcmUgaXMgYXQgbGVhc3QgYSBmb2xsb3dpbmcgUG9rw6ltb24=
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
     - 1
     - 19
     - 0
@@ -910,6 +915,16 @@
     - 3
     indent: 1
     code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - This variable applies the moves set to the player
+    indent: 2
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - to the follower
+    indent: 2
+    code: 408
   - !ruby/object:RPG::EventCommand
     parameters:
     - 21
@@ -982,6 +997,21 @@
     - 1
     indent: 3
     code: 122
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Changing the follower graphic to a Pokeball and
+    indent: 3
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - making it disappear, then repeating for each other
+    indent: 3
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - follower
+    indent: 3
+    code: 408
   - !ruby/object:RPG::EventCommand
     parameters:
     - -1
@@ -1081,6 +1111,16 @@
     code: 412
   - !ruby/object:RPG::EventCommand
     parameters:
+    - Setting the coordinates of the return point in case
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - the player blacks out
+    indent: 1
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
     - 47
     - 47
     - 0
@@ -1110,7 +1150,7 @@
     code: 122
   - !ruby/object:RPG::EventCommand
     parameters:
-    - "<--- Animation soin"
+    - Healing animation
     indent: 1
     code: 108
   - !ruby/object:RPG::EventCommand
@@ -1125,7 +1165,7 @@
     code: 655
   - !ruby/object:RPG::EventCommand
     parameters:
-    - 48
+    - 40
     indent: 1
     code: 106
   - !ruby/object:RPG::EventCommand
@@ -1160,9 +1200,6 @@
         code: 15
         parameters:
         - 50
-      - &33 !ruby/object:RPG::MoveCommand
-        code: 18
-        parameters: []
       - !ruby/object:RPG::MoveCommand
         code: 0
         parameters: []
@@ -1180,16 +1217,21 @@
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *33
-    indent: 1
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
     - 51
     - 51
     - 0
     indent: 1
     code: 121
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Creating a loop until the following switch turns off
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "(in a separated event)"
+    indent: 1
+    code: 408
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 1
@@ -1233,14 +1275,14 @@
       repeat: false
       skippable: false
       list:
-      - &34 !ruby/object:RPG::MoveCommand
+      - &33 !ruby/object:RPG::MoveCommand
         code: 17
         parameters: []
-      - &35 !ruby/object:RPG::MoveCommand
+      - &34 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 5
-      - &36 !ruby/object:RPG::MoveCommand
+      - &35 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -1248,6 +1290,11 @@
         parameters: []
     indent: 1
     code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *33
+    indent: 1
+    code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
     - *34
@@ -1260,19 +1307,9 @@
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *36
-    indent: 1
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
     - 5
     indent: 1
     code: 106
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - "<--- Fin animation soin"
-    indent: 1
-    code: 108
   - !ruby/object:RPG::EventCommand
     parameters:
     - 'gp.enter_in_taking_pokemon_state # take Pokemon animation'
@@ -1280,9 +1317,84 @@
     code: 355
   - !ruby/object:RPG::EventCommand
     parameters:
-    - 48
+    - 40
     indent: 1
     code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 0
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &36 !ruby/object:RPG::MoveCommand
+        code: 41
+        parameters:
+        - npc_Nurse-02
+        - 0
+        - 2
+        - 0
+      - &37 !ruby/object:RPG::MoveCommand
+        code: 15
+        parameters:
+        - 20
+      - &38 !ruby/object:RPG::MoveCommand
+        code: 41
+        parameters:
+        - npc_Nurse-01
+        - 0
+        - 2
+        - 0
+      - &39 !ruby/object:RPG::MoveCommand
+        code: 15
+        parameters:
+        - 10
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 1
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *36
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *37
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *38
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *39
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 210
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - End of the healing animation
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !binary |-
+      SWYgRm9sbG93LW1lIGVuYWJsZWQsIG1ha2luZyB0aGUgUG9rw6ltb24gZ2V0
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !binary |-
+      b3V0IG9mIHRoZWlyIFBva8OpYmFsbHM=
+    indent: 1
+    code: 408
   - !ruby/object:RPG::EventCommand
     parameters:
     - 1
@@ -1395,35 +1507,35 @@
       repeat: false
       skippable: false
       list:
-      - &37 !ruby/object:RPG::MoveCommand
+      - &40 !ruby/object:RPG::MoveCommand
         code: 34
         parameters: []
-      - &38 !ruby/object:RPG::MoveCommand
+      - &41 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
-      - &39 !ruby/object:RPG::MoveCommand
+      - &42 !ruby/object:RPG::MoveCommand
         code: 41
         parameters:
         - pokeball_hgss
         - 0
         - 2
         - 0
-      - &40 !ruby/object:RPG::MoveCommand
+      - &43 !ruby/object:RPG::MoveCommand
         code: 42
         parameters:
         - 255
-      - &41 !ruby/object:RPG::MoveCommand
+      - &44 !ruby/object:RPG::MoveCommand
         code: 44
         parameters:
         - !ruby/object:RPG::AudioFile
           name: Pokeopen
           volume: 80
           pitch: 100
-      - &42 !ruby/object:RPG::MoveCommand
+      - &45 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 10
-      - &43 !ruby/object:RPG::MoveCommand
+      - &46 !ruby/object:RPG::MoveCommand
         code: 19
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -1431,21 +1543,6 @@
         parameters: []
     indent: 3
     code: 209
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *37
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *38
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *39
-    indent: 3
-    code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
     - *40
@@ -1464,6 +1561,21 @@
   - !ruby/object:RPG::EventCommand
     parameters:
     - *43
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *44
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *45
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *46
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -1550,11 +1662,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Nurse event
   trigger: 0
   switch_id: 1
   id: 4
 - !ruby/object:RPG::CommonEvent
-  name: Speaking to Follower
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -1845,11 +1957,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Speaking to Follower
   trigger: 0
   switch_id: 1
   id: 5
 - !ruby/object:RPG::CommonEvent
-  name: Call worldmap
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -1860,11 +1972,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Call worldmap
   trigger: 0
   switch_id: 1
   id: 6
 - !ruby/object:RPG::CommonEvent
-  name: Quest book
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -1875,11 +1987,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Quest book
   trigger: 0
   switch_id: 1
   id: 7
 - !ruby/object:RPG::CommonEvent
-  name: Falling from cracked ground
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2040,11 +2152,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Falling from cracked ground
   trigger: 0
   switch_id: 1
   id: 8
 - !ruby/object:RPG::CommonEvent
-  name: Entering surf
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2184,11 +2296,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Entering surf
   trigger: 0
   switch_id: 1
   id: 9
 - !ruby/object:RPG::CommonEvent
-  name: Exiting surf
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2202,10 +2314,10 @@
       repeat: false
       skippable: false
       list:
-      - &44 !ruby/object:RPG::MoveCommand
+      - &47 !ruby/object:RPG::MoveCommand
         code: 34
         parameters: []
-      - &45 !ruby/object:RPG::MoveCommand
+      - &48 !ruby/object:RPG::MoveCommand
         code: 12
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -2215,12 +2327,12 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *44
+    - *47
     indent: 0
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *45
+    - *48
     indent: 0
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -2262,64 +2374,24 @@
     parameters: []
     indent: 0
     code: 0
+  name: Exiting surf
   trigger: 0
   switch_id: 1
   id: 10
 - !ruby/object:RPG::CommonEvent
-  name: Bike
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
     - 0
-    - 17
+    - 76
     - 0
     indent: 0
     code: 111
   - !ruby/object:RPG::EventCommand
     parameters:
-    - Yuki::FollowMe.smart_enable
+    - "\\t[22,43]"
     indent: 1
-    code: 355
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gp.leave_cycling_state
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gm.autoplay
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters: []
-    indent: 1
-    code: 0
-  - !ruby/object:RPG::EventCommand
-    parameters: []
-    indent: 0
-    code: 412
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - 0
-    - 23
-    - 0
-    indent: 0
-    code: 111
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - Yuki::FollowMe.smart_enable
-    indent: 1
-    code: 355
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gp.leave_cycling_state
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gm.autoplay
-    indent: 1
-    code: 655
+    code: 101
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 1
@@ -2330,34 +2402,110 @@
     code: 411
   - !ruby/object:RPG::EventCommand
     parameters:
-    - Yuki::FollowMe.smart_disable
+    - 0
+    - 17
+    - 0
     indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_enable
+    indent: 2
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.leave_cycling_state
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gm.autoplay
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 0
+    - 23
+    - 0
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_enable
+    indent: 2
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.leave_cycling_state
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gm.autoplay
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 411
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_disable
+    indent: 2
     code: 355
   - !ruby/object:RPG::EventCommand
     parameters:
     - gp.enter_in_cycling_state
-    indent: 1
+    indent: 2
     code: 655
   - !ruby/object:RPG::EventCommand
     parameters:
     - 19
     - 19
     - 1
-    indent: 1
+    indent: 2
     code: 121
   - !ruby/object:RPG::EventCommand
     parameters:
-    - 8999, 3 \n[1] monte sur la bicyclette.
-    indent: 1
+    - !ruby/object:RPG::AudioFile
+      name: se_item_bike
+      volume: 80
+      pitch: 100
+    indent: 2
+    code: 250
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 8999, 3 \n[1] monte sur la Bicyclette !
+    indent: 2
     code: 101
   - !ruby/object:RPG::EventCommand
     parameters:
     - !ruby/object:RPG::AudioFile
-      name: '09 Bicycle'
+      name: Bike
       volume: 100
       pitch: 100
-    indent: 1
+    indent: 2
     code: 241
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 1
@@ -2370,11 +2518,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Bike
   trigger: 0
   switch_id: 1
   id: 11
 - !ruby/object:RPG::CommonEvent
-  name: Strenght
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2410,7 +2558,7 @@
       repeat: false
       skippable: true
       list:
-      - &46 !ruby/object:RPG::MoveCommand
+      - &49 !ruby/object:RPG::MoveCommand
         code: 11
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -2420,9 +2568,17 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *46
+    - *49
     indent: 1
     code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !ruby/object:RPG::AudioFile
+      name: HM_Strength
+      volume: 80
+      pitch: 100
+    indent: 1
+    code: 250
   - !ruby/object:RPG::EventCommand
     parameters:
     - 26
@@ -2658,11 +2814,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Strenght
   trigger: 0
   switch_id: 1
   id: 12
 - !ruby/object:RPG::CommonEvent
-  name: Escape rod
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2683,56 +2839,56 @@
       repeat: false
       skippable: false
       list:
-      - &47 !ruby/object:RPG::MoveCommand
+      - &50 !ruby/object:RPG::MoveCommand
         code: 18
         parameters: []
-      - &48 !ruby/object:RPG::MoveCommand
+      - &51 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &49 !ruby/object:RPG::MoveCommand
+      - &52 !ruby/object:RPG::MoveCommand
         code: 19
         parameters: []
-      - &50 !ruby/object:RPG::MoveCommand
+      - &53 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &51 !ruby/object:RPG::MoveCommand
+      - &54 !ruby/object:RPG::MoveCommand
         code: 17
         parameters: []
-      - &52 !ruby/object:RPG::MoveCommand
+      - &55 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &53 !ruby/object:RPG::MoveCommand
+      - &56 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
-      - &54 !ruby/object:RPG::MoveCommand
+      - &57 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &55 !ruby/object:RPG::MoveCommand
+      - &58 !ruby/object:RPG::MoveCommand
         code: 18
         parameters: []
-      - &56 !ruby/object:RPG::MoveCommand
+      - &59 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &57 !ruby/object:RPG::MoveCommand
+      - &60 !ruby/object:RPG::MoveCommand
         code: 19
         parameters: []
-      - &58 !ruby/object:RPG::MoveCommand
+      - &61 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &59 !ruby/object:RPG::MoveCommand
+      - &62 !ruby/object:RPG::MoveCommand
         code: 17
         parameters: []
-      - &60 !ruby/object:RPG::MoveCommand
+      - &63 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &61 !ruby/object:RPG::MoveCommand
+      - &64 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -2740,21 +2896,6 @@
         parameters: []
     indent: 1
     code: 209
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *47
-    indent: 1
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *48
-    indent: 1
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *49
-    indent: 1
-    code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
     - *50
@@ -2813,6 +2954,21 @@
   - !ruby/object:RPG::EventCommand
     parameters:
     - *61
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *62
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *63
+    indent: 1
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *64
     indent: 1
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -2885,11 +3041,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Escape rod
   trigger: 0
   switch_id: 1
   id: 13
 - !ruby/object:RPG::CommonEvent
-  name: Dig
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2952,11 +3108,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Dig
   trigger: 0
   switch_id: 1
   id: 14
 - !ruby/object:RPG::CommonEvent
-  name: Fly
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -2991,11 +3147,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Fly
   trigger: 0
   switch_id: 1
   id: 15
 - !ruby/object:RPG::CommonEvent
-  name: Daycare (management)
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -3869,11 +4025,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Daycare (management)
   trigger: 0
   switch_id: 1
   id: 16
 - !ruby/object:RPG::CommonEvent
-  name: Daycare (status)
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4351,11 +4507,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Daycare (status)
   trigger: 0
   switch_id: 1
   id: 17
 - !ruby/object:RPG::CommonEvent
-  name: Berry tree
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4529,9 +4685,9 @@
   - !ruby/object:RPG::EventCommand
     parameters:
     - !ruby/object:RPG::AudioFile
-      name: ROSA_EggReceived
-      volume: 80
-      pitch: 95
+      name: Obtained a Berry!
+      volume: 100
+      pitch: 100
     indent: 5
     code: 249
   - !ruby/object:RPG::EventCommand
@@ -4688,11 +4844,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Berry tree
   trigger: 0
   switch_id: 1
   id: 18
 - !ruby/object:RPG::CommonEvent
-  name: Dowsing Machine
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4725,11 +4881,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Dowsing Machine
   trigger: 0
   switch_id: 1
   id: 19
 - !ruby/object:RPG::CommonEvent
-  name: Headbutt
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4896,11 +5052,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Headbutt
   trigger: 0
   switch_id: 1
   id: 20
 - !ruby/object:RPG::CommonEvent
-  name: Cut
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -4949,187 +5105,20 @@
     code: 655
   - !ruby/object:RPG::EventCommand
     parameters:
-    - 0
-    - !ruby/object:RPG::MoveRoute
-      repeat: false
-      skippable: false
-      list:
-      - &62 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 2
-        - 1
-      - &63 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &64 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 2
-        - 2
-      - &65 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &66 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 2
-        - 3
-      - &67 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &68 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 4
-        - 0
-      - &69 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &70 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 4
-        - 1
-      - &71 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &72 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 4
-        - 2
-      - &73 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &74 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 4
-        - 3
-      - &75 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - &76 !ruby/object:RPG::MoveCommand
-        code: 41
-        parameters:
-        - Y_Coupe
-        - 0
-        - 6
-        - 0
-      - &77 !ruby/object:RPG::MoveCommand
-        code: 15
-        parameters:
-        - 2
-      - !ruby/object:RPG::MoveCommand
-        code: 0
-        parameters: []
+    - 'animate_from_charset([0, 1, 2, 3], 40, last_frame_delay: true)'
     indent: 3
-    code: 209
+    code: 355
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *62
+    - !ruby/object:RPG::AudioFile
+      name: HM_Cut
+      volume: 80
+      pitch: 100
     indent: 3
-    code: 509
+    code: 250
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *63
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *64
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *65
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *66
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *67
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *68
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *69
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *70
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *71
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *72
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *73
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *74
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *75
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *76
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *77
-    indent: 3
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - wait_character_move_completion
+    - wait_charset_animation
     indent: 3
     code: 355
   - !ruby/object:RPG::EventCommand
@@ -5209,11 +5198,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Cut
   trigger: 0
   switch_id: 1
   id: 21
 - !ruby/object:RPG::CommonEvent
-  name: Old rod
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5318,11 +5307,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Old rod
   trigger: 0
   switch_id: 1
   id: 22
 - !ruby/object:RPG::CommonEvent
-  name: Good Rod
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5427,11 +5416,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Good Rod
   trigger: 0
   switch_id: 1
   id: 23
 - !ruby/object:RPG::CommonEvent
-  name: Super Rod
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5536,11 +5525,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Super Rod
   trigger: 0
   switch_id: 1
   id: 24
 - !ruby/object:RPG::CommonEvent
-  name: Rock Smash (rock)
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5601,47 +5590,47 @@
       repeat: false
       skippable: false
       list:
-      - &78 !ruby/object:RPG::MoveCommand
+      - &65 !ruby/object:RPG::MoveCommand
         code: 41
         parameters:
         - rock_smash
         - 0
         - 2
         - 1
-      - &79 !ruby/object:RPG::MoveCommand
+      - &66 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 2
-      - &80 !ruby/object:RPG::MoveCommand
+      - &67 !ruby/object:RPG::MoveCommand
         code: 41
         parameters:
         - rock_smash
         - 0
         - 2
         - 2
-      - &81 !ruby/object:RPG::MoveCommand
+      - &68 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 2
-      - &82 !ruby/object:RPG::MoveCommand
+      - &69 !ruby/object:RPG::MoveCommand
         code: 41
         parameters:
         - rock_smash
         - 0
         - 2
         - 3
-      - &83 !ruby/object:RPG::MoveCommand
+      - &70 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 2
-      - &84 !ruby/object:RPG::MoveCommand
+      - &71 !ruby/object:RPG::MoveCommand
         code: 41
         parameters:
         - rock_smash
         - 0
         - 4
         - 0
-      - &85 !ruby/object:RPG::MoveCommand
+      - &72 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 2
@@ -5652,42 +5641,42 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *78
+    - *65
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *79
+    - *66
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *80
+    - *67
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *81
+    - *68
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *82
+    - *69
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *83
+    - *70
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *84
+    - *71
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *85
+    - *72
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -5830,11 +5819,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Rock Smash (rock)
   trigger: 0
   switch_id: 1
   id: 25
 - !ruby/object:RPG::CommonEvent
-  name: Waterfall
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -5898,7 +5887,7 @@
       repeat: false
       skippable: false
       list:
-      - &86 !ruby/object:RPG::MoveCommand
+      - &73 !ruby/object:RPG::MoveCommand
         code: 37
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -5908,7 +5897,7 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *86
+    - *73
     indent: 3
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -5928,7 +5917,7 @@
       repeat: false
       skippable: true
       list:
-      - &87 !ruby/object:RPG::MoveCommand
+      - &74 !ruby/object:RPG::MoveCommand
         code: 12
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -5938,7 +5927,7 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *87
+    - *74
     indent: 5
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -5961,10 +5950,10 @@
       repeat: false
       skippable: false
       list:
-      - &88 !ruby/object:RPG::MoveCommand
+      - &75 !ruby/object:RPG::MoveCommand
         code: 12
         parameters: []
-      - &89 !ruby/object:RPG::MoveCommand
+      - &76 !ruby/object:RPG::MoveCommand
         code: 38
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -5974,12 +5963,12 @@
     code: 209
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *88
+    - *75
     indent: 5
     code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
-    - *89
+    - *76
     indent: 5
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -6075,11 +6064,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Waterfall
   trigger: 0
   switch_id: 1
   id: 26
 - !ruby/object:RPG::CommonEvent
-  name: Flash
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -6164,16 +6153,21 @@
     parameters: []
     indent: 0
     code: 0
+  name: Flash
   trigger: 0
   switch_id: 1
   id: 27
 - !ruby/object:RPG::CommonEvent
-  name: Whirlpool
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
+    - NE PAS TOUCHER - DON'T TOUCH
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
     - 12
-    - "front_event_calling(28)\r\n"
+    - "$game_player.front_system_tag == ::GameData::SystemTags::Whirlpool"
     indent: 0
     code: 111
   - !ruby/object:RPG::EventCommand
@@ -6184,8 +6178,7 @@
     code: 111
   - !ruby/object:RPG::EventCommand
     parameters:
-    - !binary |-
-      ODk5OSwgNyBWb3VzIMOqdGVzIGZhY2Ugw6AgdW4gc2lwaG9uLi4uIFZvdWxlei12b3VzIGxlIGZhaXJlIGRpc3BhcmHDrnRyZSA/
+    - 8999, 7 It's a huge swirl of water. Would you like to use Whirlpool?
     indent: 2
     code: 101
   - !ruby/object:RPG::EventCommand
@@ -6203,13 +6196,186 @@
     code: 402
   - !ruby/object:RPG::EventCommand
     parameters:
-    - Faire l'animation sur l'évènement
+    - index = pokemon_index(:has_skill?, :whirlpool, true)
     indent: 3
-    code: 108
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - pfm_text.set_pknick($actors[index])
+    indent: 3
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 8999, 26 Pokemon uses Whirpool.
+    indent: 3
+    code: 101
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 8
+    indent: 3
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &77 !ruby/object:RPG::MoveCommand
+        code: 37
+        parameters: []
+      - &78 !ruby/object:RPG::MoveCommand
+        code: 39
+        parameters: []
+      - &79 !ruby/object:RPG::MoveCommand
+        code: 29
+        parameters:
+        - 2
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 3
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *77
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *78
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *79
+    indent: 3
+    code: 509
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 3
-    code: 116
+    code: 112
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 12
+    - "$game_player.front_system_tag == ::GameData::SystemTags::Whirlpool"
+    indent: 4
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: true
+      list:
+      - &80 !ruby/object:RPG::MoveCommand
+        code: 12
+        parameters: []
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 5
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *80
+    indent: 5
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - wait_character_move_completion 0
+    indent: 5
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 5
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 4
+    code: 411
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 5
+    code: 113
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 5
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 4
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 4
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 3
+    code: 413
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &81 !ruby/object:RPG::MoveCommand
+        code: 12
+        parameters: []
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 3
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *81
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - wait_character_move_completion 0
+    indent: 3
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &82 !ruby/object:RPG::MoveCommand
+        code: 38
+        parameters: []
+      - &83 !ruby/object:RPG::MoveCommand
+        code: 29
+        parameters:
+        - 4
+      - &84 !ruby/object:RPG::MoveCommand
+        code: 40
+        parameters: []
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 3
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *82
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *83
+    indent: 3
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *84
+    indent: 3
+    code: 509
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 3
@@ -6272,23 +6438,14 @@
     indent: 0
     code: 412
   - !ruby/object:RPG::EventCommand
-    parameters:
-    - 43
-    - 43
-    - 0
-    - 0
-    - -1
-    indent: 0
-    code: 122
-  - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Whirlpool
   trigger: 0
   switch_id: 1
   id: 28
 - !ruby/object:RPG::CommonEvent
-  name: Dive
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -6516,11 +6673,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Dive
   trigger: 0
   switch_id: 1
   id: 29
 - !ruby/object:RPG::CommonEvent
-  name: Rock climb (check)
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -6533,6 +6690,12 @@
     - "front_event_calling(30)\r\n"
     indent: 0
     code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !binary |-
+      ODk5OSwgMjcgTGEgcGFyb2kgZXN0IHRyw6hzIHJvY2FpbGxldXNlLi4u
+    indent: 1
+    code: 101
   - !ruby/object:RPG::EventCommand
     parameters:
     - 12
@@ -6576,7 +6739,7 @@
     code: 655
   - !ruby/object:RPG::EventCommand
     parameters:
-    - 8999, 12 [VAR PKNICK(0000)] utilise Escalade !
+    - 8999, 10 [VAR PKNICK(0000)] utilise Escalade !
     indent: 3
     code: 101
   - !ruby/object:RPG::EventCommand
@@ -6661,11 +6824,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Rock climb (check)
   trigger: 0
   switch_id: 1
   id: 30
 - !ruby/object:RPG::CommonEvent
-  name: Teleport
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -6710,56 +6873,56 @@
       repeat: false
       skippable: false
       list:
-      - &90 !ruby/object:RPG::MoveCommand
+      - &85 !ruby/object:RPG::MoveCommand
         code: 18
         parameters: []
-      - &91 !ruby/object:RPG::MoveCommand
+      - &86 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &92 !ruby/object:RPG::MoveCommand
+      - &87 !ruby/object:RPG::MoveCommand
         code: 19
         parameters: []
-      - &93 !ruby/object:RPG::MoveCommand
+      - &88 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &94 !ruby/object:RPG::MoveCommand
+      - &89 !ruby/object:RPG::MoveCommand
         code: 17
         parameters: []
-      - &95 !ruby/object:RPG::MoveCommand
+      - &90 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &96 !ruby/object:RPG::MoveCommand
+      - &91 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
-      - &97 !ruby/object:RPG::MoveCommand
+      - &92 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 4
-      - &98 !ruby/object:RPG::MoveCommand
+      - &93 !ruby/object:RPG::MoveCommand
         code: 18
         parameters: []
-      - &99 !ruby/object:RPG::MoveCommand
+      - &94 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &100 !ruby/object:RPG::MoveCommand
+      - &95 !ruby/object:RPG::MoveCommand
         code: 19
         parameters: []
-      - &101 !ruby/object:RPG::MoveCommand
+      - &96 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &102 !ruby/object:RPG::MoveCommand
+      - &97 !ruby/object:RPG::MoveCommand
         code: 17
         parameters: []
-      - &103 !ruby/object:RPG::MoveCommand
+      - &98 !ruby/object:RPG::MoveCommand
         code: 15
         parameters:
         - 1
-      - &104 !ruby/object:RPG::MoveCommand
+      - &99 !ruby/object:RPG::MoveCommand
         code: 16
         parameters: []
       - !ruby/object:RPG::MoveCommand
@@ -6767,6 +6930,31 @@
         parameters: []
     indent: 2
     code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *85
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *86
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *87
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *88
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *89
+    indent: 2
+    code: 509
   - !ruby/object:RPG::EventCommand
     parameters:
     - *90
@@ -6815,31 +7003,6 @@
   - !ruby/object:RPG::EventCommand
     parameters:
     - *99
-    indent: 2
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *100
-    indent: 2
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *101
-    indent: 2
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *102
-    indent: 2
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *103
-    indent: 2
-    code: 509
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - *104
     indent: 2
     code: 509
   - !ruby/object:RPG::EventCommand
@@ -6944,11 +7107,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Teleport
   trigger: 0
   switch_id: 1
   id: 31
 - !ruby/object:RPG::CommonEvent
-  name: Defog
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -6983,64 +7146,24 @@
     parameters: []
     indent: 0
     code: 0
+  name: Defog
   trigger: 0
   switch_id: 1
   id: 32
 - !ruby/object:RPG::CommonEvent
-  name: AccroBike
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
     - 0
-    - 23
+    - 76
     - 0
     indent: 0
     code: 111
   - !ruby/object:RPG::EventCommand
     parameters:
-    - Yuki::FollowMe.smart_enable
+    - "\\t[22,43]"
     indent: 1
-    code: 355
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gp.leave_cycling_state
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gm.autoplay
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters: []
-    indent: 1
-    code: 0
-  - !ruby/object:RPG::EventCommand
-    parameters: []
-    indent: 0
-    code: 412
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - 0
-    - 17
-    - 0
-    indent: 0
-    code: 111
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - Yuki::FollowMe.smart_enable
-    indent: 1
-    code: 355
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gp.leave_cycling_state
-    indent: 1
-    code: 655
-  - !ruby/object:RPG::EventCommand
-    parameters:
-    - gm.autoplay
-    indent: 1
-    code: 655
+    code: 101
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 1
@@ -7051,24 +7174,84 @@
     code: 411
   - !ruby/object:RPG::EventCommand
     parameters:
-    - Yuki::FollowMe.smart_disable
+    - 0
+    - 23
+    - 0
     indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_enable
+    indent: 2
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.leave_cycling_state
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gm.autoplay
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 0
+    - 17
+    - 0
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_enable
+    indent: 2
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.leave_cycling_state
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gm.autoplay
+    indent: 2
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 411
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_disable
+    indent: 2
     code: 355
   - !ruby/object:RPG::EventCommand
     parameters:
     - gp.enter_in_acro_bike_state
-    indent: 1
+    indent: 2
     code: 655
   - !ruby/object:RPG::EventCommand
     parameters:
     - 2
-    indent: 1
+    indent: 2
     code: 117
   - !ruby/object:RPG::EventCommand
     parameters:
     - !binary |-
-      ODk5OSwgMTMgXG5bMV0gbW9udGUgc3VyIGxlIFbDqWxvIENyb3NzLg==
-    indent: 1
+      ODk5OSwgMTEgXG5bMV0gbW9udGUgc3VyIGxlIFbDqWxvIENyb3NzLg==
+    indent: 2
     code: 101
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -7076,8 +7259,16 @@
       name: '09 Bicycle'
       volume: 100
       pitch: 100
-    indent: 1
+    indent: 2
     code: 241
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 1
@@ -7090,11 +7281,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: AccroBike
   trigger: 0
   switch_id: 1
   id: 33
 - !ruby/object:RPG::CommonEvent
-  name: Gracidea
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -7227,11 +7418,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: Gracidea
   trigger: 0
   switch_id: 1
   id: 34
 - !ruby/object:RPG::CommonEvent
-  name: DNA Splicers
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -7277,11 +7468,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: DNA Splicers
   trigger: 0
   switch_id: 1
   id: 35
 - !ruby/object:RPG::CommonEvent
-  name: DNA Splicers (2)
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -7322,11 +7513,11 @@
     parameters: []
     indent: 0
     code: 0
+  name: DNA Splicers (2)
   trigger: 0
   switch_id: 1
   id: 36
 - !ruby/object:RPG::CommonEvent
-  name: Reveal Glass
   list:
   - !ruby/object:RPG::EventCommand
     parameters:
@@ -7424,636 +7615,1288 @@
     parameters: []
     indent: 0
     code: 0
+  name: Reveal Glass
   trigger: 0
   switch_id: 1
   id: 37
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using Reins of unity item (absofusion)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - extend_data = [:calyrex, [:glastrier, :spectrier]]
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :absofusion, extend_data)
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :calyrex && pkmn.form != 0 }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:reins_of_unity2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:reins_of_unity, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Reins of unity
   trigger: 0
   switch_id: 1
   id: 38
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using Reins of unity item (separate)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :separate, :calyrex)
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :calyrex && pkmn.form == 0 }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:reins_of_unity, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:reins_of_unity2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Reins of unity (2)
   trigger: 0
   switch_id: 1
   id: 39
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using solarizer item (absofusion)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - extend_data = [:necrozma, [:solgaleo]]
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :absofusion, extend_data)
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :necrozma && pkmn.form != 0
+      }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:n_solarizer2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:n_solarizer, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Solarizer
   trigger: 0
   switch_id: 1
   id: 40
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using solarizer item (separate)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :separate, :necrozma)
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :necrozma && pkmn.form == 0
+      }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:n_solarizer, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:n_solarizer2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Solarizer (2)
   trigger: 0
   switch_id: 1
   id: 41
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using lunarizer item (absofusion)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - extend_data = [:necrozma, [:lunala]]
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :absofusion, extend_data)
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :necrozma && pkmn.form != 0
+      }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:n_lunarizer2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:n_lunarizer, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Lunarizer
   trigger: 0
   switch_id: 1
   id: 42
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Call when using lunarizer item (separate)
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - call_party_menu(::Yuki::Var::Party_Menu_Sel, $actors, :separate, :necrozma)
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - found = $actors.find { |pkmn| pkmn.db_symbol == :necrozma && pkmn.form == 0
+      }
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - if found
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.add_item(:n_lunarizer, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - "  $bag.remove_item(:n_lunarizer2, 1)"
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - end
+    indent: 0
+    code: 655
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: Lunarizer (2)
   trigger: 0
   switch_id: 1
   id: 43
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - This variable allows the player to rotate during the
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - elevation animation. We set it to 0 because it can be
+    indent: 0
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - used by other events.
+    indent: 0
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 26
+    - 26
+    - 0
+    - 0
+    - 0
+    indent: 0
+    code: 122
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 10
+    indent: 0
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !binary |-
+      RGlzYWJsaW5nIHRoZSBmb2xsb3dpbmcgUG9rw6ltb24gaWYgYXBwcm9wcmlhdGUu
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Disabling the shadow under the player.
+    indent: 0
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_disable
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.shadow_disabled = true
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.leave_cycling_state
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !ruby/object:RPG::AudioFile
+      name: SE_Warp
+      volume: 80
+      pitch: 100
+    indent: 0
+    code: 250
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Resetting the y position of the player.
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_screen_y = gp.offset_shadow_screen_y = 0
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.reset_follower
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 0
+    code: 112
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 12
+    - gp.offset_screen_y == -256
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 113
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Moving the player up by 16 pixels, then adding 1 to the
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - temporary variable [26]. As long as the player hasn't
+    indent: 1
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - moved up by 256 pixels, this elevation will loop.
+    indent: 1
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_screen_y -= 16
+    indent: 1
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_shadow_screen_y = gp.offset_screen_y
+    indent: 1
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 26
+    - 26
+    - 1
+    - 0
+    - 1
+    indent: 1
+    code: 122
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Rotating the player one in three loops.
+    indent: 1
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 12
+    - gv[26] % 3 == 0
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &100 !ruby/object:RPG::MoveCommand
+        code: 20
+        parameters: []
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 2
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *100
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 1
+    indent: 1
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 0
+    code: 413
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !ruby/object:Tone
+      red: -255
+      green: -255
+      blue: -255
+      gray: 0
+    - 10
+    indent: 0
+    code: 223
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 20
+    indent: 0
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &101 !ruby/object:RPG::MoveCommand
+        code: 42
+        parameters:
+        - 0
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 0
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *101
+    indent: 0
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 0
+    code: 210
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: TP Player Going Up Anim
   trigger: 0
   switch_id: 1
   id: 44
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - This animation only plays if the player has used
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - a warp in another map.
+    indent: 0
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Setting the y position of the player on the very
+    indent: 0
+    code: 108
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - top of the screen.
+    indent: 0
+    code: 408
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_screen_y = gp.offset_shadow_screen_y = -256
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !ruby/object:Tone
+      red: 0
+      green: 0
+      blue: 0
+      gray: 0
+    - 10
+    indent: 0
+    code: 223
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &102 !ruby/object:RPG::MoveCommand
+        code: 42
+        parameters:
+        - 255
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 0
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *102
+    indent: 0
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 10
+    indent: 0
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - !ruby/object:RPG::AudioFile
+      name: SE_Warp
+      volume: 80
+      pitch: 100
+    indent: 0
+    code: 250
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 0
+    code: 112
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 12
+    - gp.offset_screen_y == 0
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 113
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_screen_y += 16
+    indent: 1
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_shadow_screen_y = gp.offset_screen_y
+    indent: 1
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 26
+    - 26
+    - 1
+    - 0
+    - 1
+    indent: 1
+    code: 122
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 12
+    - gv[26] % 3 == 0
+    indent: 1
+    code: 111
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - -1
+    - !ruby/object:RPG::MoveRoute
+      repeat: false
+      skippable: false
+      list:
+      - &103 !ruby/object:RPG::MoveCommand
+        code: 20
+        parameters: []
+      - !ruby/object:RPG::MoveCommand
+        code: 0
+        parameters: []
+    indent: 2
+    code: 209
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - *103
+    indent: 2
+    code: 509
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 2
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 412
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 1
+    indent: 1
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 1
+    code: 0
+  - !ruby/object:RPG::EventCommand
+    parameters: []
+    indent: 0
+    code: 413
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 4
+    indent: 0
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.offset_screen_y = gp.offset_shadow_screen_y = nil
+    indent: 0
+    code: 355
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.reset_follower
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - gp.shadow_disabled = false
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - Yuki::FollowMe.smart_enable
+    indent: 0
+    code: 655
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 4
+    indent: 0
+    code: 106
+  - !ruby/object:RPG::EventCommand
+    parameters:
+    - 26
+    - 26
+    - 0
+    - 0
+    - 0
+    indent: 0
+    code: 122
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: TP Player Going Down Anim
   trigger: 0
   switch_id: 1
   id: 45
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: "--- Reserved"
   trigger: 0
   switch_id: 1
   id: 46
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: "--- Reserved"
   trigger: 0
   switch_id: 1
   id: 47
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: "--- Reserved"
   trigger: 0
   switch_id: 1
   id: 48
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: "--- Reserved"
   trigger: 0
   switch_id: 1
   id: 49
 - !ruby/object:RPG::CommonEvent
-  name: "--- Reserved"
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: "--- Reserved"
   trigger: 0
   switch_id: 1
   id: 50
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 51
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 52
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 53
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 54
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 55
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 56
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 57
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 58
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 59
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 60
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 61
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 62
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 63
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 64
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 65
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 66
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 67
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 68
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 69
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 70
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 71
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 72
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 73
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 74
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 75
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 76
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 77
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 78
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 79
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 80
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 81
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 82
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 83
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 84
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 85
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 86
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 87
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 88
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 89
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 90
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 91
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 92
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 93
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 94
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 95
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 96
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 97
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 98
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 99
 - !ruby/object:RPG::CommonEvent
-  name: ''
   list:
   - !ruby/object:RPG::EventCommand
     parameters: []
     indent: 0
     code: 0
+  name: ''
   trigger: 0
   switch_id: 1
   id: 100

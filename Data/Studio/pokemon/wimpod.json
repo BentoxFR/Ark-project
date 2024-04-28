@@ -23,17 +23,17 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "golisopod",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "golisopod",
-          "form": 0
+          ]
         }
       ],
-      "experienceType": 0,
+      "experienceType": 1,
       "baseExperience": 46,
       "baseLoyalty": 70,
       "catchRate": 90,
@@ -45,13 +45,150 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wimpod",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "wimp_out",
         "wimp_out",
         "wimp_out"
       ],
-      "frontOffsetY": 24,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "struggle_bug",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 1
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "leech_life"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "round"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "scald"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "surf"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "waterfall"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "confide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "struggle_bug"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "aqua_jet"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "harden"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "metal_claw"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spikes"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "wide_guard"
+        }
+      ],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -60,12 +197,11 @@
         "back": "767",
         "backShiny": "767",
         "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
+        "character": "767_0",
+        "characterShiny": "767s_0",
+        "cry": "767cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": []
+      }
     },
     {
       "form": 1,
@@ -87,14 +223,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "golisopod",
+          "form": 1,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "golisopod",
-          "form": 1
+          ]
         }
       ],
       "experienceType": 0,
@@ -116,6 +252,7 @@
         "wimp_out"
       ],
       "frontOffsetY": 0,
+      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -126,10 +263,9 @@
         "footprint": "",
         "character": "",
         "characterShiny": "",
-        "cry": "",
+        "cry": "767cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": []
+      }
     },
     {
       "form": 2,
@@ -151,14 +287,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "golisopod",
+          "form": 2,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "golisopod",
-          "form": 2
+          ]
         }
       ],
       "experienceType": 0,
@@ -180,6 +316,7 @@
         "wimp_out"
       ],
       "frontOffsetY": 0,
+      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -190,10 +327,9 @@
         "footprint": "",
         "character": "",
         "characterShiny": "",
-        "cry": "",
+        "cry": "767cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": []
+      }
     },
     {
       "form": 3,
@@ -215,14 +351,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "golisopod",
+          "form": 3,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "golisopod",
-          "form": 3
+          ]
         }
       ],
       "experienceType": 0,
@@ -244,6 +380,7 @@
         "wimp_out"
       ],
       "frontOffsetY": 0,
+      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -254,10 +391,9 @@
         "footprint": "",
         "character": "",
         "characterShiny": "",
-        "cry": "",
+        "cry": "767cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": []
+      }
     },
     {
       "form": 4,
@@ -279,14 +415,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "golisopod",
+          "form": 4,
           "conditions": [
             {
               "type": "minLevel",
               "value": 30
             }
-          ],
-          "dbSymbol": "golisopod",
-          "form": 4
+          ]
         }
       ],
       "experienceType": 0,
@@ -308,6 +444,7 @@
         "wimp_out"
       ],
       "frontOffsetY": 0,
+      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -318,10 +455,9 @@
         "footprint": "",
         "character": "",
         "characterShiny": "",
-        "cry": "",
+        "cry": "767cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": []
+      }
     }
   ]
 }

@@ -1,2 +1,48 @@
-en,fr,it,es
----,---,---,---
+en,fr,it,es,pt,de
+---,---,---,---,---,---
+Opening Cutscene,Opening Cutscene,Opening Cutscene,Opening Cutscene,Opening Cutscene,Opening Cutscene
+Start,Start,Start,Start,Start,Start
+Hub,Hub,Hub,Hub,Hub,Hub
+Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env),Elevator (env)
+River,River,River,River,River,River
+Beach,Beach,Beach,Beach,Beach,Beach
+Cave,Cave,Cave,Cave,Cave,Cave
+Marsh,Marsh,Marsh,Marsh,Marsh,Marsh
+Tundra,Tundra,Tundra,Tundra,Tundra,Tundra
+Cycling Road,Cycling Road,Cycling Road,Cycling Road,Cycling Road,Cycling Road
+Rocket HQ,Rocket HQ,Rocket HQ,Rocket HQ,Rocket HQ,Rocket HQ
+Elevator (sys),Elevator (sys),Elevator (sys),Elevator (sys),Elevator (sys),Elevator (sys)
+Laboratory,Laboratory,Laboratory,Laboratory,Laboratory,Laboratory
+Library,Library,Library,Library,Library,Library
+Studio,Studio,Studio,Studio,Studio,Studio
+Game Corner,Game Corner,Game Corner,Game Corner,Game Corner,Game Corner
+Battle Arena,Battle Arena,Battle Arena,Battle Arena,Battle Arena,Battle Arena
+Wifi,Wifi,Wifi,Wifi,Wifi,Wifi
+Exterior,Exterior,Exterior,Exterior,Exterior,Exterior
+Route,Route,Route,Route,Route,Route
+Basement,Basement,Basement,Basement,Basement,Basement
+Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,Chemin pluvieux
+Intro ext,Intro ext,Intro ext,Intro ext,Intro ext,Intro ext
+Intro indoor,Intro indoor,Intro indoor,Intro indoor,Intro indoor,Intro indoor
+Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2
+route 10,route 10,route 10,route 10,route 10,route 10
+route 11,route 11,route 11,route 11,route 11,route 11
+route 111,Start (Arkhè),route 111,route 111,route 111,route 111
+route 12,route 12,route 12,route 12,route 12,route 12
+route 13,route 13,route 13,route 13,route 13,route 13
+route 9,route 9,route 9,route 9,route 9,route 9
+ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde
+ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur
+Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock
+ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket
+ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock
+ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple
+ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur
+ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi
+ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition
+ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot
+ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur
+ville4 narville,ville4 narville,ville4 narville,ville4 narville,ville4 narville,ville4 narville
+ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio
+ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur
+ville5,ville5,ville5,ville5,ville5,ville5

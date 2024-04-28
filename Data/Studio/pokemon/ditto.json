@@ -34,13 +34,29 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "ditto",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "metal_powder",
+          "chance": 5
+        },
+        {
+          "dbSymbol": "quick_powder",
+          "chance": 5
+        }
+      ],
       "abilities": [
         "limber",
         "limber",
         "imposter"
       ],
-      "frontOffsetY": 33,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "transform",
+          "level": 1
+        }
+      ],
       "resources": {
         "icon": "132",
         "iconShiny": "",
@@ -53,14 +69,7 @@
         "characterShiny": "132s_0",
         "cry": "132cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "transform"
-        }
-      ]
+      }
     }
   ]
 }

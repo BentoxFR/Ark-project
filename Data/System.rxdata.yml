@@ -47,7 +47,7 @@ variables:
 - "--- Reserved"
 - "--- Reserved"
 - Coin count
-- "--- Reserved"
+- Soot count
 - call_party_menu pokemon index
 - Daycare Price
 - Daycare Rate
@@ -106,9 +106,9 @@ variables:
 - "--- Reserved"
 - "--- Reserved"
 - "--- Reserved"
-- Suie
-- Pathfinding_cross_map
 - ''
+- ''
+- Elevator floor
 - ''
 - ''
 - ''
@@ -510,21 +510,21 @@ cancel_se: !ruby/object:RPG::AudioFile
   name: select
   volume: 80
   pitch: 90
-magic_number: 93804324
+battle_end_me: !ruby/object:RPG::AudioFile
+  name: ''
+  volume: 100
+  pitch: 100
+magic_number: 34748347
 escape_se: !ruby/object:RPG::AudioFile
   name: Fleee
   volume: 80
   pitch: 70
-battle_end_me: !ruby/object:RPG::AudioFile
-  name: fainted_jingle
-  volume: 100
-  pitch: 100
-start_map_id: 4
+start_map_id: 2
+gameover_name: ''
 shop_se: !ruby/object:RPG::AudioFile
   name: Down
   volume: 80
   pitch: 100
-gameover_name: ''
 words: !ruby/object:RPG::System::Words
   str: ''
   armor3: ''
@@ -583,7 +583,7 @@ switches:
 - "=== Deprecated"
 - "=== Deprecated"
 - "=== Deprecated"
-- "=== Deprecated"
+- Player fled last battle
 - Lost last battle
 - Won last battle
 - !binary |-
@@ -594,13 +594,14 @@ switches:
 - Exp disabled
 - !binary |-
   Q2F0Y2hpbmcgUG9rw6ltb24gZGlzYWJsZWQ=
+- No move when default
 - No ball animation for enemy
+- Authorize defeat nuzlocke
+- Party Menu Reminder
+- AI can win
 - "--- Reserved"
-- "--- Reserved"
-- "--- Reserved"
-- "--- Reserved"
-- "--- Reserved"
-- "--- Reserved"
+- !binary |-
+  UG9rw6ltb24gZXhwIHNjYWxl
 - Water Reflection Disabled
 - Player is running
 - Player can run
@@ -653,14 +654,13 @@ switches:
   UG9rw6lkZXggTmF0aW9uYWwgZW5hYmxlZA==
 - !binary |-
   UG9rw6lkZXggZW5hYmxlZA==
-- !binary |-
-  Um9jaGVyIGJyaXPDqQ==
-- Evoli ajouté
-- Mew rencontrable
-- Jumelles battues
-- test_path_crossmap
-- ''
-- ''
+- Ghost Quest
+- HQ red switch
+- HQ green switch
+- HQ orange switch
+- HQ blue switch
+- HQ right door
+- Starters given
 - ''
 - ''
 - ''
@@ -1058,7 +1058,7 @@ decision_se: !ruby/object:RPG::AudioFile
   name: select
   volume: 80
   pitch: 100
-edit_map_id: 8
+edit_map_id: 17
 battle_start_se: !ruby/object:RPG::AudioFile
   name: ''
   volume: 80
@@ -1084,7 +1084,7 @@ cursor_se: !ruby/object:RPG::AudioFile
 elements:
 - ''
 - ''
-start_y: 14
+start_y: 17
 battler_hue: 0
 load_se: !ruby/object:RPG::AudioFile
   name: select
@@ -1095,7 +1095,7 @@ title_bgm: !ruby/object:RPG::AudioFile
   volume: 100
   pitch: 100
 buzzer_se: !ruby/object:RPG::AudioFile
-  name: Pokerebond
+  name: GUI sel buzzer
   volume: 100
   pitch: 100
 windowskin_name: pokesys0
@@ -1125,5 +1125,5 @@ save_se: !ruby/object:RPG::AudioFile
   volume: 80
   pitch: 150
 battle_transition: ''
-start_x: 9
+start_x: 16
 _: 7829367

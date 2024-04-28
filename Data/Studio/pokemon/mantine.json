@@ -9,7 +9,7 @@
       "weight": 220,
       "type1": "water",
       "type2": "flying",
-      "baseHp": 65,
+      "baseHp": 85,
       "baseAtk": 40,
       "baseDfe": 70,
       "baseSpd": 70,
@@ -34,134 +34,139 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "mantine",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "water_absorb",
         "swift_swim",
         "water_veil"
       ],
-      "frontOffsetY": 16,
-      "resources": {
-        "icon": "226",
-        "iconShiny": "",
-        "front": "226",
-        "frontShiny": "226",
-        "back": "226",
-        "backShiny": "226",
-        "footprint": "226",
-        "character": "226_0",
-        "characterShiny": "226s_0",
-        "cry": "226cry.ogg",
-        "hasFemale": false
-      },
+      "frontOffsetY": 0,
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "psybeam"
+          "move": "bullet_seed",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "bullet_seed"
+          "move": "bubble_beam",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "signal_beam"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "bubble",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "bubble"
+          "move": "psybeam",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "supersonic"
+          "move": "roost",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "bubble_beam"
+          "move": "signal_beam",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 3,
-          "move": "supersonic"
+          "move": "supersonic",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "bubble_beam"
+          "move": "supersonic",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 11,
-          "move": "confuse_ray"
+          "move": "bubble_beam",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 14,
-          "move": "wing_attack"
+          "move": "confuse_ray",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 16,
-          "move": "headbutt"
+          "move": "wing_attack",
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 19,
-          "move": "water_pulse"
+          "move": "headbutt",
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "wide_guard"
+          "move": "water_pulse",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 27,
-          "move": "take_down"
+          "move": "wide_guard",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 32,
-          "move": "agility"
+          "move": "take_down",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 36,
-          "move": "air_slash"
+          "move": "agility",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 39,
-          "move": "aqua_ring"
+          "move": "air_slash",
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 46,
-          "move": "bounce"
+          "move": "aqua_ring",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 49,
-          "move": "hydro_pump"
+          "move": "bounce",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 49
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "snore"
+          "move": "defog"
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "icy_wind"
+          "move": "liquidation"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "seed_bomb"
         },
         {
           "klass": "TutorLearnableMove",
@@ -169,11 +174,27 @@
         },
         {
           "klass": "TutorLearnableMove",
+          "move": "gunk_shot"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "aqua_tail"
+        },
+        {
+          "klass": "TutorLearnableMove",
           "move": "signal_beam"
         },
         {
           "klass": "TutorLearnableMove",
           "move": "bounce"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "snore"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "iron_head"
         },
         {
           "klass": "TutorLearnableMove",
@@ -185,23 +206,19 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "aqua_tail"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "seed_bomb"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "gunk_shot"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "iron_head"
+          "move": "icy_wind"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "surf"
+          "move": "toxic"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hail"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "hidden_power"
         },
         {
           "klass": "TechLearnableMove",
@@ -217,59 +234,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "earthquake"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "toxic"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "double_team"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "waterfall"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rock_slide"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TechLearnableMove",
           "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "return"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "hidden_power"
         },
         {
           "klass": "TechLearnableMove",
@@ -277,19 +242,23 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "hail"
+          "move": "roost"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "facade"
+          "move": "frustration"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "secret_power"
+          "move": "earthquake"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "dive"
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
         },
         {
           "klass": "TechLearnableMove",
@@ -301,7 +270,15 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "giga_impact"
+          "move": "facade"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
         },
         {
           "klass": "TechLearnableMove",
@@ -317,23 +294,47 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "giga_impact"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "bulldoze"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rock_slide"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "surf"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "waterfall"
         },
         {
           "klass": "TechLearnableMove",
           "move": "confide"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "slam"
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "hydro_pump"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "haze"
+          "klass": "TechLearnableMove",
+          "move": "whirlpool"
         },
         {
           "klass": "BreedLearnableMove",
@@ -341,11 +342,11 @@
         },
         {
           "klass": "BreedLearnableMove",
-          "move": "splash"
+          "move": "haze"
         },
         {
           "klass": "BreedLearnableMove",
-          "move": "twister"
+          "move": "hydro_pump"
         },
         {
           "klass": "BreedLearnableMove",
@@ -357,13 +358,38 @@
         },
         {
           "klass": "BreedLearnableMove",
+          "move": "slam"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "splash"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "twister"
+        },
+        {
+          "klass": "BreedLearnableMove",
           "move": "water_sport"
         },
         {
           "klass": "BreedLearnableMove",
           "move": "wide_guard"
         }
-      ]
+      ],
+      "resources": {
+        "icon": "226",
+        "iconShiny": "",
+        "front": "226",
+        "frontShiny": "226",
+        "back": "226",
+        "backShiny": "226",
+        "footprint": "226",
+        "character": "226_0",
+        "characterShiny": "226s_0",
+        "cry": "226cry.ogg",
+        "hasFemale": false
+      }
     }
   ]
 }

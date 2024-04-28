@@ -1,6 +1,8 @@
 o:Configs::CreditsConfig:@project_splashI"
-title:ET:	@bgmI"ending;T:@line_heighti:@speedf44:@leader_spacingi5:@chief_project_titleI"Main Supporter;T:@chief_project_nameI"Pokémon Workshop;T:@leaders[{:
-titleI"Creator of PSDK;T:	nameI"Nuri Yuri;T{;I"Developper of LiteRGSS2;T;I"Scorbutics;T{;I"Developpers of PSDK;T;I"!Aerun, Rey, Palbolsky, Leikt;T{;I""Lead Graphic Designer of PSDK;T;I"SirMalo;T{;I"#Occasional Contributors of .25;T;I"!SoloReprise, buttjuice & Mud;T{;I"MacOS Supporter;T;I"Lynn Isip;T:@game_creditsI"�# PSDK related credits
+title:ET:	@bgmI"ending.ogg;T:@line_heighti:@speedf44:@leader_spacingi5:@chief_project_titleI"Main Supporter;T:@chief_project_nameI"Pokémon Workshop;T:@leaders[{:
+titleI"Creator of PSDK;T:	nameI"Nuri Yuri;T{;I"Developer of LiteRGSS2;T;I"Scorbutics;T{;I"Maintainers of PSDK;T;I"%Aerun, Nuri Yuri, Palbolsky, Rey;T{;I""Lead Graphic Designer of PSDK;T;I"SirMalo;T{;I""Developers of Pokémon Studio;T;I"eAerun, HollowGap, karbbone, mentalyaz, Nuri Yuri,
+                Palbolsky, Walven, Waris, Zozo;T{;I")Former Developers of Pokémon Studio;T;I"arki, Badong, Toinane;T{;I"#Consultant for Pokémon Studio;T;I"WatchMeBakinWaffles;T{;I" Active contributors of PSDK;T;I"%invatorzen, Lexio, Matatix, Zozo;T{;I"Occasional contributors;T;I"0Beef, Enigmix, Flo, joeyw, Mud, SoloReprise;T{;I"MacOS Supporter;T;I"Lynn Isip;T{;I"Former Developer of PSDK;T;I"
+Leikt;T:@game_creditsI"# PSDK related credits
 
 ## Pokémon Universe
 Game Freak, CREATURES INC. et The Pokémon Company
@@ -41,7 +43,7 @@ Leikt || Palbolsky
 
 ## PSDK Wiki
 Aerun || Akiyra
-Bugfix || buttjuice
+Bugfix || invatorzen
 Guizmo || Jaizu
 Metaiko || Mud'
 Nuri Yuri || ralandel
@@ -69,7 +71,7 @@ SMB64 || yyyyj
 
 ## Ruby Host
 Aerun || AEliso
-Bentoxx || Buttjuice
+Bentoxx || invatorzen
 Maxoumi || Nuri Yuri
 Splifingald || yyyyj
 
@@ -117,7 +119,7 @@ Yoh || Nuri Yuri
 
 ## Overworlds Sprites
 
-### Gen1 to 5 Overworlds
+### Gen1 to 7 Overworlds
 2and2makes5 || Aerun
 Chocosrawlooid || cSc-A7X
 Fernandojl || Gallanty
@@ -177,6 +179,11 @@ Poképedia
 ### Item icons
 Maxoumi (Brick icon & ADN Berserk)
 yyyyj (Pink Ribon icons)
+
+## Soundtracks
+
+### Zinnia Battle Theme Remix
+ TeruTeruSky
 
 ## Texts
 

@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "wobbuffet",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 15
             }
-          ],
-          "dbSymbol": "wobbuffet",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -45,13 +45,63 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shadow_tag",
         "shadow_tag",
         "telepathy"
       ],
-      "frontOffsetY": 28,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charm",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "encore",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counter",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "safeguard",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 15
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        }
+      ],
       "resources": {
         "icon": "360",
         "iconShiny": "",
@@ -64,48 +114,7 @@
         "characterShiny": "360s_0",
         "cry": "360cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "splash"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "charm"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "encore"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "counter"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "mirror_coat"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "safeguard"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "destiny_bond"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "safeguard"
-        }
-      ]
+      }
     }
   ]
 }

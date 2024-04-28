@@ -1,6 +1,28 @@
 {
   "title": "Pokémon Arkhè",
-  "studioVersion": "2.0.3",
-  "iconPath": "project_icon.png",
-  "isTiledMode": true
+  "studioVersion": "2.1.0",
+  "iconPath": "Image discord.png",
+  "isTiledMode": true,
+  "languagesTranslation": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese"
+    },
+    {
+      "code": "de",
+      "name": "German"
+    }
+  ]
 }

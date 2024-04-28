@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "butterfree",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 10
             }
-          ],
-          "dbSymbol": "butterfree",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -60,7 +60,30 @@
         "shed_skin",
         "shed_skin"
       ],
-      "frontOffsetY": 29,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 1
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "iron_defense"
+        },
+        {
+          "klass": "EvolutionLearnableMove",
+          "move": "harden"
+        }
+      ],
       "resources": {
         "icon": "011",
         "iconShiny": "",
@@ -73,31 +96,7 @@
         "characterShiny": "011s_0",
         "cry": "011cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "harden"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 7,
-          "move": "harden"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "iron_defense"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
-        }
-      ]
+      }
     }
   ]
 }

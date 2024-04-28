@@ -23,19 +23,19 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "cosmoem",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 43
             }
-          ],
-          "dbSymbol": "cosmoem",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 2,
       "baseExperience": 40,
-      "baseLoyalty": 1,
+      "baseLoyalty": 0,
       "catchRate": 45,
       "femaleRate": -1,
       "breedGroups": [
@@ -45,13 +45,22 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "unaware",
         "unaware",
         "unaware"
       ],
-      "frontOffsetY": 13,
+      "frontOffsetY": 0,
       "resources": {
         "icon": "789",
         "iconShiny": "",
@@ -60,12 +69,23 @@
         "back": "789",
         "backShiny": "789",
         "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "",
+        "character": "789_0",
+        "characterShiny": "789s_0",
+        "cry": "789cry.ogg",
         "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "teleport",
+          "level": 23
+        }
+      ]
     }
   ]
 }

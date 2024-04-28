@@ -16,20 +16,20 @@ $data[0][1] = {
   enter: {
     max_counter: 7,
     data: [
-      { file: 'herbe', rect: [0, 0, 16, 16], zoom: 1, position: :grass_pos, se_player_play: 'audio/particles/grass01_a' },
+      { file: 'tall-grass', rect: [0, 0, 16, 16], zoom: 1, position: :grass_pos, se_player_play: 'audio/particles/step_tall-grass' },
       { wait: 3 },
-      { rect: [0, 16, 16, 16] },
+      { rect: [16, 0, 16, 16] },
       { wait: 3 },
-      { rect: [0, 32, 16, 16] },
+      { rect: [32, 0, 16, 16] },
       { wait: 3 },
-      { rect: [0, 48, 16, 16] }
+      { rect: [48, 0, 16, 16] }
     ],
     loop: false
   },
   stay: {
     max_counter: 1,
     data: [
-      { file: 'herbe', zoom: 1, position: :grass_pos, rect: [0, 48, 16, 16] }
+      { file: 'tall-grass', zoom: 1, position: :grass_pos, rect: [48, 0, 16, 16] }
     ],
     loop: false
   },
@@ -46,14 +46,14 @@ $data[0][2] = {
     max_counter: 8,
     data: [
       nil, nil, nil,
-      { file: 'hauteherbe', zoom: 1, position: :grass_pos, se_player_play: 'audio/particles/grass01_b' }
+      { file: 'long-grass', zoom: 1, position: :grass_pos, add_z: 2, se_player_play: 'audio/particles/step_tall-grass' }
     ],
     loop: false
   },
   stay: {
     max_counter: 1,
     data: [
-      { file: 'hauteherbe', zoom: 1, position: :grass_pos }
+      { file: 'long-grass', zoom: 1, add_z: 2, position: :grass_pos }
     ],
     loop: false
   },
@@ -69,7 +69,7 @@ $data[0][:exclamation] = {
   enter: {
     max_counter: 36,
     data: [
-      { file: 'emotions', rect: [0, 0, 16, 16], zoom: 1, position: :center_pos, add_z: -1, oy_offset: 0 },
+      { file: 'emotions', rect: [0, 0, 16, 16], zoom: 1, position: :center_pos, add_z: -1, oy_offset: 0, se_play: 'audio/particles/se_exclamation'},
       nil, {oy_offset: 2},
       nil, {oy_offset: 4},
       nil, {oy_offset: 8},
@@ -90,14 +90,15 @@ $data[0][:exclamation] = {
   },
   leave: $data[0][2][:leave]
 }
-
+# interrogation emotion particle
+# eval(format(emotion_str, name: 'interrogation', y: 32, x: 0, target: 16, se_play: 'audio/particles/exclamation'))
 # All the existing emotions
 emotion_str = <<-EOEMOTION
 $data[0][:%<name>s] = {
   enter: {
     max_counter: 60,
     data: [
-      { file: "emotions", rect: [%<x>d, %<y>d, 16, 16], zoom: 1, position: :center_pos, oy_offset: 10 },
+      { file: "emotions", rect: [%<x>d, %<y>d, 16, 16], zoom: 1, position: :center_pos, oy_offset: 10, se_play: 'audio/particles/' + :%<name>s.to_s},
       *Array.new(28),
       { rect: [%<target>d, %<y>d, 16, 16] }
     ],
@@ -122,13 +123,14 @@ eval(format(emotion_str, name: 'nocomment', y: 32, x: 96, target: 112))
 # The dust when the player jump
 $data[0][:dust] = {
   enter: {
-    max_counter: 7,
+    max_counter: 9,
     loop: false,
     data: [
-      { file: 'dust', rect: [0, 0, 16, 8], zoom: 1, position: :center_pos, add_z: 2 },
-      { wait: 5 }, { rect: [16, 0, 16, 8], se_player_play: 'audio/particles/jump' },
-      { wait: 5 }, { rect: [32, 0, 16, 8] },
-      { wait: 5 }, { rect: [48, 0, 1, 1] }
+      { file: 'dust', rect: [0, 0, 32, 16], zoom: 1, position: :center_pos, add_z: 2 },
+      { wait: 4 }, { rect: [32, 0, 32, 16], se_player_play: 'audio/particles/se_jump-landing' },
+      { wait: 4 }, { rect: [64, 0, 32, 16] },
+      { wait: 4 }, { rect: [96, 0, 32, 16] },
+      { wait: 5 }, { rect: [128, 0, 1, 1] }
     ]
   },
   stay: EMPTY,
@@ -204,6 +206,48 @@ $data[0][:pond] = {
       { wait: 8 }, { rect: [64, 0, 16, 16] },
       { wait: 8 }, { rect: [80, 0, 16, 16] },
       { wait: 8 }, { rect: [96, 0, 16, 16] }
+    ]
+  }
+}
+# Circle shown when we step on a puddle tile
+$data[0][:puddle] = {
+  enter: {
+    max_counter: 7,
+    data: [
+      { wait: 5 }, { se_player_play: 'audio/particles/step_puddle' }
+    ],
+    loop: false
+  },
+  stay: EMPTY,
+  leave: {
+    max_counter: 13,
+    loop: false,
+    data: [
+      { file: 'ripple', rect: [0, 0, 16, 16], zoom: 1, set_z: -1, position: :center_pos, opacity: 255 },
+      { wait: 8 }, { rect: [16, 0, 16, 16] },
+      { wait: 8 }, { rect: [32, 0, 16, 16] },
+      { wait: 8 }, { rect: [48, 0, 16, 16] }
+    ]
+  }
+}
+# Circle shown when we step on a muddy puddle tile
+$data[1][:puddle] = {
+  enter: {
+    max_counter: 7,
+    data: [
+      { wait: 5 }, { se_player_play: 'audio/particles/step_swamp' }
+    ],
+    loop: false
+  },
+  stay: EMPTY,
+  leave: {
+    max_counter: 13,
+    loop: false,
+    data: [
+      { file: 'ripple-mud', rect: [0, 0, 16, 16], zoom: 1, add_z: -1, position: :center_pos, opacity: 255 },
+      { wait: 8 }, { rect: [16, 0, 16, 16] },
+      { wait: 8 }, { rect: [32, 0, 16, 16] },
+      { wait: 8 }, { rect: [48, 0, 16, 16] }
     ]
   }
 }
@@ -300,16 +344,16 @@ $data[0][:wetsand] = {
     max_counter: 1,
     loop: false,
     data: [
-      { file: 'wetsand', rect: [0, 0, 20, 11], zoom: 0.8, position: :character_pos, oy_offset: 0 }
+      { file: 'splash', rect: [0, 0, 32, 16], position: :character_pos, se_player_play: 'audio/particles/step_Puddle' }
     ]
   },
   stay: {
     max_counter: 9,
-    loop: false,
+    loop: true,
     data: [
-      { file: 'wetsand', rect: [0, 0, 20, 11], zoom: 0.8, position: :character_pos, oy_offset: 0 }, { rect: [0, 0, 20, 11] },
-      { wait: 1 }, { rect: [20, 0, 20, 11] },
-      { wait: 1 }, { rect: [40, 0, 20, 11] }
+      { wait: 2, file: 'splash', rect: [0, 0, 32, 16], position: :character_pos }, { rect: [0, 0, 32, 16] }, 
+      { wait: 2 }, { rect: [32, 0, 32, 16] },
+      { wait: 2 }, { rect: [64, 0, 32, 16] }
     ]
   },
   leave: EMPTY
@@ -321,7 +365,7 @@ $data[0][:water_dust] = {
     max_counter: 8,
     loop: false,
     data: [
-      { file: 'wetsand', rect: [0, 0, 20, 11], zoom: 0.8, position: :character_pos, oy_offset: 6 },
+      { file: 'splash', rect: [0, 0, 20, 11], zoom: 0.8, position: :character_pos, oy_offset: 6 },
       { wait: 1 }, { rect: [0, 0, 20, 11] },
       { wait: 1 }, { rect: [20, 0, 20, 11] },
       { wait: 1 }, { rect: [40, 0, 20, 11] },

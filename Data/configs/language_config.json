@@ -4,11 +4,15 @@
   "choosableLanguageCode": [
     "en",
     "fr",
-    "es"
+    "es",
+    "pt",
+    "de"
   ],
   "choosableLanguageTexts": [
     "English",
     "French",
-    "Spanish"
+    "Spanish",
+    "Portuguese",
+    "German"
   ]
 }

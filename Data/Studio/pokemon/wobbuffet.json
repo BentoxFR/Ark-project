@@ -34,13 +34,48 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wobbuffet",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "shadow_tag",
         "shadow_tag",
         "telepathy"
       ],
-      "frontOffsetY": 22,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counter",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "safeguard",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 1
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "safeguard"
+        }
+      ],
       "resources": {
         "icon": "202",
         "iconShiny": "",
@@ -57,33 +92,7 @@
         "characterShinyF": "202fs_0",
         "cry": "202cry.ogg",
         "hasFemale": true
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "counter"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "mirror_coat"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "safeguard"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "destiny_bond"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "safeguard"
-        }
-      ]
+      }
     }
   ]
 }

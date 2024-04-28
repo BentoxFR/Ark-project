@@ -23,14 +23,14 @@
       "evDfs": 0,
       "evolutions": [
         {
+          "dbSymbol": "kakuna",
+          "form": 0,
           "conditions": [
             {
               "type": "minLevel",
               "value": 7
             }
-          ],
-          "dbSymbol": "kakuna",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
@@ -60,7 +60,32 @@
         "shield_dust",
         "run_away"
       ],
-      "frontOffsetY": 29,
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 9
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "bug_bite"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "electroweb"
+        }
+      ],
       "resources": {
         "icon": "013",
         "iconShiny": "",
@@ -73,32 +98,7 @@
         "characterShiny": "013s_0",
         "cry": "013cry.ogg",
         "hasFemale": false
-      },
-      "moveSet": [
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "poison_sting"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "string_shot"
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "bug_bite"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "electroweb"
-        }
-      ]
+      }
     }
   ]
 }

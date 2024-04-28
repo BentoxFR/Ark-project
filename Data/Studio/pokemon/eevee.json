@@ -23,36 +23,38 @@
       "evDfs": 1,
       "evolutions": [
         {
+          "dbSymbol": "vaporeon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "water_stone"
             }
-          ],
-          "dbSymbol": "vaporeon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "jolteon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "thunder_stone"
             }
-          ],
-          "dbSymbol": "jolteon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "flareon",
+          "form": 0,
           "conditions": [
             {
               "type": "stone",
               "value": "fire_stone"
             }
-          ],
-          "dbSymbol": "flareon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "espeon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -62,11 +64,11 @@
               "type": "dayNight",
               "value": 3
             }
-          ],
-          "dbSymbol": "espeon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "umbreon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -76,35 +78,35 @@
               "type": "dayNight",
               "value": 0
             }
-          ],
-          "dbSymbol": "umbreon",
-          "form": 0
+          ]
         },
         {
-          "conditions": [
-            {
-              "type": "maps",
-              "value": [
-                -1
-              ]
-            }
-          ],
           "dbSymbol": "leafeon",
-          "form": 0
-        },
-        {
+          "form": 0,
           "conditions": [
             {
               "type": "maps",
               "value": [
-                -1
+                50
               ]
             }
-          ],
-          "dbSymbol": "glaceon",
-          "form": 0
+          ]
         },
         {
+          "dbSymbol": "glaceon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "maps",
+              "value": [
+                90
+              ]
+            }
+          ]
+        },
+        {
+          "dbSymbol": "sylveon",
+          "form": 0,
           "conditions": [
             {
               "type": "minLoyalty",
@@ -114,16 +116,14 @@
               "type": "func",
               "value": "elv_nymphali"
             }
-          ],
-          "dbSymbol": "sylveon",
-          "form": 0
+          ]
         }
       ],
       "experienceType": 1,
       "baseExperience": 65,
       "baseLoyalty": 70,
       "catchRate": 45,
-      "femaleRate": 12,
+      "femaleRate": 12.5,
       "breedGroups": [
         5,
         5
@@ -131,13 +131,22 @@
       "hatchSteps": 8960,
       "babyDbSymbol": "eevee",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "run_away",
         "adaptability",
         "anticipation"
       ],
-      "frontOffsetY": 24,
+      "frontOffsetY": 0,
       "resources": {
         "icon": "133",
         "iconShiny": "",
@@ -154,92 +163,100 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "helping_hand"
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "growl"
+          "move": "helping_hand",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tackle"
+          "move": "growl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 1,
-          "move": "tail_whip"
+          "move": "covet",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 5,
-          "move": "sand_attack"
+          "move": "tail_whip",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 9,
-          "move": "baby_doll_eyes"
+          "move": "sand_attack",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 10,
-          "move": "swift"
+          "move": "baby_doll_eyes",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 13,
-          "move": "quick_attack"
+          "move": "quick_attack",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 17,
-          "move": "bite"
+          "move": "bite",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 20,
-          "move": "refresh"
+          "move": "swift",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 23,
-          "move": "covet"
+          "move": "refresh",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 25,
-          "move": "take_down"
+          "move": "take_down",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 29,
-          "move": "charm"
+          "move": "charm",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 33,
-          "move": "baton_pass"
+          "move": "baton_pass",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 37,
-          "move": "double_edge"
+          "move": "double_edge",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 41,
-          "move": "last_resort"
+          "move": "last_resort",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "level": 45,
-          "move": "trump_card"
+          "move": "trump_card",
+          "level": 45
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "snore"
+          "move": "laser_focus"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "helping_hand"
+        },
+        {
+          "klass": "TutorLearnableMove",
+          "move": "last_resort"
         },
         {
           "klass": "TutorLearnableMove",
@@ -247,11 +264,7 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "iron_tail"
-        },
-        {
-          "klass": "TutorLearnableMove",
-          "move": "helping_hand"
+          "move": "covet"
         },
         {
           "klass": "TutorLearnableMove",
@@ -259,15 +272,15 @@
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "covet"
+          "move": "iron_tail"
         },
         {
           "klass": "TutorLearnableMove",
-          "move": "last_resort"
+          "move": "snore"
         },
         {
           "klass": "TechLearnableMove",
-          "move": "dig"
+          "move": "work_up"
         },
         {
           "klass": "TechLearnableMove",
@@ -275,47 +288,7 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "double_team"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rest"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "substitute"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "protect"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "swagger"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "attract"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "sleep_talk"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "return"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "frustration"
-        },
-        {
-          "klass": "TechLearnableMove",
           "move": "hidden_power"
-        },
-        {
-          "klass": "TechLearnableMove",
-          "move": "rain_dance"
         },
         {
           "klass": "TechLearnableMove",
@@ -323,7 +296,27 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rain_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "frustration"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "return"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "shadow_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "double_team"
         },
         {
           "klass": "TechLearnableMove",
@@ -331,7 +324,11 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "secret_power"
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "attract"
         },
         {
           "klass": "TechLearnableMove",
@@ -343,19 +340,39 @@
         },
         {
           "klass": "TechLearnableMove",
-          "move": "retaliate"
+          "move": "swagger"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sleep_talk"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "substitute"
         },
         {
           "klass": "TechLearnableMove",
           "move": "confide"
         },
         {
-          "klass": "BreedLearnableMove",
-          "move": "curse"
+          "klass": "TechLearnableMove",
+          "move": "secret_power"
         },
         {
           "klass": "BreedLearnableMove",
-          "move": "flail"
+          "move": "captivate"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "charm"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "covet"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "curse"
         },
         {
           "klass": "BreedLearnableMove",
@@ -367,7 +384,27 @@
         },
         {
           "klass": "BreedLearnableMove",
-          "move": "charm"
+          "move": "fake_tears"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "flail"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "natural_gift"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stored_power"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "synchronoise"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "tickle"
         },
         {
           "klass": "BreedLearnableMove",
@@ -376,34 +413,6 @@
         {
           "klass": "BreedLearnableMove",
           "move": "yawn"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "fake_tears"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "tickle"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "covet"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "natural_gift"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "captivate"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "synchronoise"
-        },
-        {
-          "klass": "BreedLearnableMove",
-          "move": "stored_power"
         }
       ]
     }
