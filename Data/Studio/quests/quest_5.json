@@ -1,0 +1,28 @@
+{
+  "klass": "Quest",
+  "id": 5,
+  "dbSymbol": "quest_5",
+  "isPrimary": true,
+  "resolution": "default",
+  "objectives": [
+    {
+      "objectiveMethodName": "objective_speak_to",
+      "objectiveMethodArgs": [
+        0,
+        "Pokémon"
+      ],
+      "textFormatMethodName": "text_speak_to",
+      "hiddenByDefault": false
+    },
+    {
+      "objectiveMethodName": "objective_speak_to",
+      "objectiveMethodArgs": [
+        1,
+        "Capitaine"
+      ],
+      "textFormatMethodName": "text_speak_to",
+      "hiddenByDefault": false
+    }
+  ],
+  "earnings": []
+}

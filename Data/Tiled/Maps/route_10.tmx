@@ -5,6 +5,7 @@
  <tileset firstgid="1641" source="../Tilesets/Ville_1.tsx"/>
  <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
  <tileset firstgid="7633" source="../Tilesets/systemtags.tsx"/>
+ <tileset firstgid="7761" source="../Tilesets/Animation - Nature.tsx"/>
  <layer id="75" name="creuvace1" width="64" height="45">
   <data encoding="base64" compression="zlib">
    eJzt2cEKgzAMxvHS55pPs6t7hXWn0ZP6yFpoIJRmt6mk/x/k5KUfqQZiCADuZoohrEY94tWn+798ZHwa9XWU/2X0eKtZ9fPZYf5sZJRKR31U7rej7EXJn2uuVKu970mVp94Xkr/XW+m7t55rOn/b2xz9ve+Fnm2bcbcn9Q30lt+abUvn++/x7v+a7Z5nvRg9PwAAAAAAuB/Z143w30m0O8rRdjG9HRX5rz7Vecjvc/cOAAAwuh30nEPP
@@ -22,7 +23,7 @@
  </layer>
  <layer id="55" name="verdures_deco1" width="64" height="45">
   <data encoding="base64" compression="zlib">
-   eJztWktuAzEInUUvkM+md8mtu2tu0V277EnSLCy5iAcPzMw4aZ8UNZ7aGDA87HGWZRu8JsddRPtMjLkG5L8F+q6JU7D/sUh2dl3WxmFvBX7w+ZIfK+MWIRKre+BL8QGTgx62ijuU3+z63PFNxMEMeRSxCcGyY0S+XIcKXTPYildmz+sZgHKzgl/2QKuzM3BBD6lPa7N7H7nXeCfmql7DKm6Tn8o5kNwFPKtAhM+uy2/9KnXqZaJ4OxXPOYqI7yr0rrTdqi+eXdE4RzGN+lk5YPVZIy4r4NkV7beIPmfl2Szw1uwA+jJyrfZaiJ6zGS73fBSdR9ZblK+tfo/MK3XI5npUh4iuXs5lZGpy2Nooa13GBxE/WVyq4aL8j+GtCCzbGZ5Ebcu3nj5IBquH9VzKYmKA1dniEwYobrP5gGozY5ucn12DyHkB6abNb+lmybd8YEHbe8lxkXe3SJbm50X568my5Eftt2JitC56fDYiu2+zNUCryehcPGJ/P957Zo1nnsv2mncjmq+9+EFjrTnk9+waZIA4M2NPNN6ra0IUyPZsTGU436vjrC+azkdiDFrHkfxn5tJko/cAFVxkxbTHq7Ogko+Z/tqYj4E7Rk826u/JsfYnrY+MLbbGSGj3iyyQ7cz7rZ6H0F7KmpPRg1kX5m5xC9zXk40jy19y/P09ZfSdy+xAHPiX4NXxtXwiz4nsfqLnq+zd7Mi5rQqPFGt73fE3PJKvtsaz+ebZ7KkAy3OPWJ//f1/DI5obPW+z9XWv/Gu6yntIFjcvTTx9
+   eJztWktOAzEMnQUXoO2GM3AFDo3Ejt6CHSw5CXQRKbX87GfHM5MWnoQgo8SxnWc7H5ZlGzwlx70+X7dPxJhzQP5bRJkVcQz2PxTJzq7L2njcW4FffD7kx0reIkS4uge+FB8wMehhK96h+H4JyPgmeDBDHLGcs2DZMSJfrkOFrhlslVdmj+sZgGKzIr/sgVZnZ8gFPaQ+rc3ufeRe452Yq3oNq3Kb/KmcA8ldwLcKRPLZebnWr1KnXibi27F4zlFEfFehd6XtVn3x7IryHHEa9bNiwOqzBi8r4NkV7beIPifl2yzw1uwR9GXkWu21ED1nM7nc81F0HllvUby2+j0yr9QhG+tRHSK6ejGXkanJYWujrHUZH0T8ZOVSDRe+ROIrwx3LdiZPorblW08fJIPVw/ouZTEcYHW28gkDxNtsPKDazNgm52fXIHJeQLpp81u6WfItH1jQ9l5yXOTuFsnS/Lwovz1Zlvyo/RYnRuuil89GZPdttgZoNRmdi0fs78d736zxzHfZXvNtRPO1xx801ppD/p1dgwxQzszYE+V7dU2IAtme5VQm53t1nPVF0/lAjEHrOBL/zFyabHQPUJGLLE57eXUWVOZjpr825mPgjdGTjfp7cqz9SesjucXWGAntfZEFsp253+rzENpLWXMyejDrwrwtboHLerI8svwlx1/uKaN3LrMD5cC/BK+Or+UTeU5k9xN9vsq+zY6c26pwS1zb642/4ZZ8tTXuzTf3Zk8F2Dx3i/X5//9reERjo8/bbH3dK/6arvIdksUPFmdFzg==
   </data>
  </layer>
  <layer id="56" name="arbres_racine1" width="64" height="45">

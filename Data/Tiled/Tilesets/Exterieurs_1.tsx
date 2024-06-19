@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.2" name="Exterieurs_1" tilewidth="32" tileheight="32" tilecount="1496" columns="8">
- <image source="../Assets/Exterieurs_1.png" trans="ff00ff" width="256" height="6000"/>
+ <image source="../Assets/ARK_Exterieurs_1.png" trans="ff00ff" width="256" height="6000"/>
  <tile id="16" probability="0.25"/>
  <tile id="17" probability="0.25"/>
  <tile id="18" probability="0.25"/>

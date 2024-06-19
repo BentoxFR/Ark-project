@@ -5,6 +5,7 @@
  <tileset firstgid="1641" source="../Tilesets/Ville_1.tsx"/>
  <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
  <tileset firstgid="7633" source="../Tilesets/systemtags.tsx"/>
+ <tileset firstgid="7761" source="../Tilesets/Animation - Nature.tsx"/>
  <layer id="135" name="creuvace1" width="77" height="40">
   <data encoding="base64" compression="zlib">
    eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAAAAAIB3AzAgAAE=
@@ -22,7 +23,7 @@
  </layer>
  <layer id="138" name="verdures_deco1" width="77" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmk0OAiEMhZkj+LPwMHMDva268jguZ+kFlExMlAhSaGmHeV9iiFGn5VHaQnQOlLDRdgAAAAAAq2Sr7YBhoA2gcBycOw3aXthjr+1ABefG9m7Kv+8ZC/l8THwmvXaxWJaK8dRcc5C6H2l57/JPW6r2XGvFvRdq1xp8Q8kFS66vHj/X6aDtRR6X1+uq7URAKidYiI3WPVQurXJWaV2/R0YQZ3JzbZs+3vdMbR33vVColZZmls9aoc6PyLgUWmrdytaO6TmlNdPC2Zurj+LS8k1Mmxx/KfEj9V0wr5XUHYqFPlUKjjPDWmJV446OkrfHYJSyGeZfqr2WOqZik0uvFJy5o2af+TniP11ACo49tJY6wkFpP2/hHCCBduxo2+ei1/gAffIrXil78QlEMzBu
+   eJztmssNwjAMhtMReBzYgVFgWCTgxDgcc2QBiKpKEJE0Dzt20/+TqgoVauePY8cRxoASNtIOAAAAAGCVbKUdUAy0ATmcBmPOg7QX+thLO1DBtbG9h/Dve0ZDPr8cw8+45y4Uy1wxHhtrClznIy3PXea0zdWeaq6o10LtXINfcnLBkuurw43VHqS9SOP2ue7STnjEcoKG2Gi9h0qlVc4qrevPwB2EsWasbfbrc8/U1nG3F/K1ktJMc6/l6/wK3JdCS61b2doRvae0Zmrovan2UVRaToS0SfE3J364vgvGueI6Q9GwT+WComdYS6xKnNHl5O2pZ6jtHeZs+vk3115LHWOxSaVXDMrcUbPO3Bjxny7ABcUaWksdoaB0P6+hD+BAOnak7VPRa3yAPvkXrzlr8Q32/jdD
   </data>
  </layer>
  <layer id="139" name="arbres_racine1" width="77" height="40">

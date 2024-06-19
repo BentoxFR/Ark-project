@@ -9,7 +9,12 @@
       "offset": 0
     }
   ],
-  "eastMaps": [],
+  "eastMaps": [
+    {
+      "mapId": 27,
+      "offset": -50
+    }
+  ],
   "southMaps": [],
   "westMaps": []
 }

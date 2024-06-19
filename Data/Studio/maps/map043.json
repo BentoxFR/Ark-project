@@ -14,8 +14,8 @@
     "pitch": 100
   },
   "tiledFilename": "ville4_narville",
-  "mtime": 1714313331393,
-  "sha1": "588992451751b985e41a025e67cdb2e5e58aef0b",
+  "mtime": 1714485115557,
+  "sha1": "296f95c14382832f4b4de0a473c5c32fc7976481",
   "tileMetadata": {
     "width": 77,
     "height": 40,
@@ -39,6 +39,10 @@
       {
         "firstGlobalId": 7633,
         "source": "../Tilesets/systemtags.tsx"
+      },
+      {
+        "firstGlobalId": 7761,
+        "source": "../Tilesets/Animation - Nature.tsx"
       }
     ],
     "tileByTileId": [
@@ -1093,7 +1097,7 @@
       ],
       [
         {
-          "globalId": 60,
+          "globalId": 11184,
           "transformId": 0
         },
         {
@@ -1224,7 +1228,7 @@
       ],
       [
         {
-          "globalId": 60,
+          "globalId": 11184,
           "transformId": 0
         }
       ],

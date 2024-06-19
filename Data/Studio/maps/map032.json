@@ -14,8 +14,8 @@
     "pitch": 100
   },
   "tiledFilename": "ville1_bourgagde",
-  "mtime": 1714313335684,
-  "sha1": "52f80558c0dbdd934aee445a0c017fad90a03ddf",
+  "mtime": 1714493448635,
+  "sha1": "006e1df7f97f7e65e16a7c033fdab3ad1b0ab4e2",
   "tileMetadata": {
     "width": 50,
     "height": 43,
@@ -39,6 +39,10 @@
       {
         "firstGlobalId": 7633,
         "source": "../Tilesets/systemtags.tsx"
+      },
+      {
+        "firstGlobalId": 7761,
+        "source": "../Tilesets/Animation - Nature.tsx"
       }
     ],
     "tileByTileId": [
@@ -148,7 +152,7 @@
       ],
       [
         {
-          "globalId": 60,
+          "globalId": 11184,
           "transformId": 0
         },
         {
@@ -724,7 +728,7 @@
       ],
       [
         {
-          "globalId": 60,
+          "globalId": 11184,
           "transformId": 0
         },
         {
@@ -1962,7 +1966,7 @@
           "transformId": 0
         },
         {
-          "globalId": 60,
+          "globalId": 11184,
           "transformId": 0
         }
       ],

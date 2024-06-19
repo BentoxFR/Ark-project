@@ -5,6 +5,7 @@
  <tileset firstgid="1641" source="../Tilesets/Ville_1.tsx"/>
  <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
  <tileset firstgid="7633" source="../Tilesets/systemtags.tsx"/>
+ <tileset firstgid="7761" source="../Tilesets/Animation - Nature.tsx"/>
  <layer id="135" name="creuvace1" width="90" height="39">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAA4Gc22AAB
@@ -22,7 +23,7 @@
  </layer>
  <layer id="138" name="verdures_deco1" width="90" height="39">
   <data encoding="base64" compression="zlib">
-   eJztmllOAzEMQOcKFH56F24N/MBRgLu0I7VSiLwvcVLmSSN1yeKxHduZybYdHPzlpVqAZN6qBXhgHt13/jsW+76GS3EwG08JY54SxjyI58vRl8vFz46xZ+WMXFT7DBlGUF1rUXqW2KH9XZvH2vHer9cH8H8UGn+SgsVfTA+YDJyesf+he+jrD2gOaMydCF+M0HFkPUT5KxdTpPegsVeE31nHzMwV0PrdaWWz1kCcPjN0nW1Dat4qJDEpSieaWBeNZuzv6/Vzu34D54e+a2KStA80HzYmBJUTJOvZaj9OLot/SNta/Vur5+p9v+T+snTc3rvGlyna2qcyjkJQurbI6s1tK6CNc1T/beP7Y3N4Ylg77sx618S6iLqqh8slkueqHh1H2AfbD1L5nkJjC6yGkvQdSfRauNcn0toJk0Vji0+ljBVrP7uG1iKJ415Zq+551JzSGAh9jprPouMo3WjHqX62SiGp/Sv17MX7bmp0Lrfs9WaJrRbu9RZV81pyqgRL3l1Jz1DckeQ9yg5WMvbuFjLeVWPvjLB9X4Yvj6T6eVFPv44hHZ6AtpFga62XcRRZNjrfxpb4cN/Gc/6AkwmyPfY5iuwzdNk+g9mDipGYbblcSsXDnQxdzhanIuDiFxcHI8lazxVQ/gy1hdrPyGxn8yS5um87E6P28tg5Boz+TAWUCzFW8mcO7GxJZi7QPBeBfvPoWnqWZtXz/v16s+YcTM/Qel6pboDkHxnzvXNdAIQjQV0=
+   eJztmmtOwzAMgHsFBn92Bi6PBPyBowB3YZU2KUR+P+Jk9JMq7ZEmju3YTpttOzj4y1O1AMm8Vgtwx9y77/x3LPZ9eQ4X42AyHhL6PCX0eRDPp+NeLhc/OvqelTNyUe0zZBhBda1F6Vlih/Z3bR5r+3u7XO/A/1Fo/EkKFn8xPWAycHrG/ofm0Ncf0BhQnzsRvhih48h6iPJXLqZI56CxV4TfWfvMzBXQ+t1pZbPWQJw+M3SdbUNq3CokMSlKJ5pYF42m76/L9X29fgLHh75rYpL0Hmg8rE8IKidI1rPVfpxcFv+QtrX6t1bP1ft+yfyydNzOXePLFG3tUxlHIShdW2T15rYV0MY56v5t4+/HxvDEsLbfmfWuiXURdVUPl0skz1U9Oo6wD7YfpPI9hcYWWA0luXck0WvhVp9IaydMFo0tPpQyVqz97BpaiySOe2WtmvOoMaUxEPocNZ5Fx1G60fZT/WyVQlL7V+rZi/fd1OhcbtnrzRJbLdzqLarmteRUCZa8u5KeobgjyXuUHaxk7N0tZLyrxt4ZYfu+DF8eSfXzop5+HUM6PAFtI8HWWi/jKLJsdL72LfHhvo3n/AE1H8z22Ocoss/QZfsMZg8qRmK25XIpFQ93MnQ5W5yKgItfXByMxLOeZ4PyZ6gt1H5GZjubJ8nVfduZGLWXx84xYPRnKqBciLGSP3NgZ0syc4HmuQj0m0fX0rM0q57379ebNedgeobW80p1AyT/yJjvHesXUltKSw==
   </data>
  </layer>
  <layer id="139" name="arbres_racine1" width="90" height="39">

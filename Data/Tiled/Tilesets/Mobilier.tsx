@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.10.2" name="Mobilier" tilewidth="32" tileheight="32" tilecount="1496" columns="8">
- <image source="../Assets/Mobilier.png" trans="ff00ff" width="256" height="6000"/>
+ <image source="../Assets/ARK_Mobilier.png" trans="ff00ff" width="256" height="6000"/>
  <tile id="1146" probability="0.2"/>
  <tile id="1148" probability="0.2"/>
  <tile id="1149" probability="0.2"/>

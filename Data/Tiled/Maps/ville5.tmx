@@ -6,6 +6,7 @@
  <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
  <tileset firstgid="7633" source="../Tilesets/systemtags.tsx"/>
  <tileset firstgid="7761" source="../Tilesets/Interieur.tsx"/>
+ <tileset firstgid="10513" source="../Tilesets/Animation - Nature.tsx"/>
  <layer id="135" name="creuvace1" width="52" height="39">
   <data encoding="base64" compression="zlib">
    eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAgLcBH7AAAQ==
@@ -23,7 +24,7 @@
  </layer>
  <layer id="138" name="verdures_deco1" width="52" height="39">
   <data encoding="base64" compression="zlib">
-   eJztmNsNgCAMRVnBxzhs7Z+Oou6iPyYGFVKgcIs9CYkmCjelD4oxitIOlvBtx6bi36hdjVki/pmyq1BQoOSl1pgZ59aYkUnPPP/ovCPUJAQNNeHecx9v+Vd67kCtKfbjuTS+taXvvSIP5Pyv8YABko+4Zygk1nNst7EXXDumtw+RYushmwo5IPtmCKQYR4N6Tq9pS4oPSvbXC468RyGlf8ypHdUflSfU/lNSLZWk9aLmHVALHJIPEIY=
+   eJztmNsNgCAMRVnBxyzO5W7+6SjqLvpDYtCABSq32JPwQSJwU/qgGqMo9TAO779t+GT8GrWrMUvEmim7CgUFSl6qjZlxb40ZmbTM+/fOHKEmIWgoCfed+3jKv9JzB2pNueoqqdF3tvS7V+SBnP81HjBA8hH3DYXEeo7tMvYPz47p7UOk2LrLpkIOyL4ZAinG0aC+00vakuKDkv3VwpH3KKT0jzm1o/qjcofaf0qqpZK0Wkr+A6qBAzyiFEA=
   </data>
  </layer>
  <layer id="139" name="arbres_racine1" width="52" height="39">

@@ -69,6 +69,13 @@
             "width": 2464,
             "x": 10592,
             "y": 2624
+        },
+        {
+            "fileName": "route_13.tmx",
+            "height": 1504,
+            "width": 1120,
+            "x": 11104,
+            "y": 3904
         }
     ],
     "onlyShowAdjacentMaps": false,
