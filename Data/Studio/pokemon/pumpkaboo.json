@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 703,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 5,
       "type1": "ghost",
@@ -61,6 +65,19 @@
         "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "710",
+        "iconShiny": "",
+        "front": "710",
+        "frontShiny": "710",
+        "back": "710",
+        "backShiny": "710",
+        "footprint": "",
+        "character": "710_0",
+        "characterShiny": "710s_0",
+        "cry": "710cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -357,23 +374,14 @@
           "klass": "BreedLearnableMove",
           "move": "disable"
         }
-      ],
-      "resources": {
-        "icon": "710",
-        "iconShiny": "",
-        "front": "710",
-        "frontShiny": "710",
-        "back": "710",
-        "backShiny": "710",
-        "footprint": "",
-        "character": "710_0",
-        "characterShiny": "710s_0",
-        "cry": "710cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 704,
+        "description": 164
+      },
       "height": 0.3,
       "weight": 3.5,
       "type1": "ghost",
@@ -430,6 +438,19 @@
         "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "710",
+        "iconShiny": "",
+        "front": "710_01",
+        "frontShiny": "710",
+        "back": "710",
+        "backShiny": "710",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "710cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -726,23 +747,14 @@
           "klass": "BreedLearnableMove",
           "move": "disable"
         }
-      ],
-      "resources": {
-        "icon": "710",
-        "iconShiny": "",
-        "front": "710_01",
-        "frontShiny": "710",
-        "back": "710",
-        "backShiny": "710",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "710cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 705,
+        "description": 165
+      },
       "height": 0.5,
       "weight": 7.5,
       "type1": "ghost",
@@ -799,6 +811,19 @@
         "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "710",
+        "iconShiny": "",
+        "front": "710_02",
+        "frontShiny": "710",
+        "back": "710",
+        "backShiny": "710",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "710cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1095,23 +1120,14 @@
           "klass": "BreedLearnableMove",
           "move": "disable"
         }
-      ],
-      "resources": {
-        "icon": "710",
-        "iconShiny": "",
-        "front": "710_02",
-        "frontShiny": "710",
-        "back": "710",
-        "backShiny": "710",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "710cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 706,
+        "description": 166
+      },
       "height": 0.8,
       "weight": 15,
       "type1": "ghost",
@@ -1168,6 +1184,19 @@
         "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "710",
+        "iconShiny": "",
+        "front": "710_03",
+        "frontShiny": "710",
+        "back": "710",
+        "backShiny": "710",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "710cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1464,20 +1493,7 @@
           "klass": "BreedLearnableMove",
           "move": "disable"
         }
-      ],
-      "resources": {
-        "icon": "710",
-        "iconShiny": "",
-        "front": "710_03",
-        "frontShiny": "710",
-        "back": "710",
-        "backShiny": "710",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "710cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

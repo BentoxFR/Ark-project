@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 596,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 30,
       "type1": "poison",
@@ -379,6 +383,10 @@
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 597,
+        "description": 139
+      },
       "height": 1,
       "weight": 52,
       "type1": "poison",

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 950,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 21.4,
       "type1": "grass",
@@ -50,6 +54,26 @@
         "sweet_veil"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "763",
+        "iconF": "763",
+        "iconShiny": "",
+        "front": "763",
+        "frontF": "763",
+        "frontShiny": "763",
+        "frontShinyF": "763",
+        "back": "763",
+        "backF": "763",
+        "backShiny": "763",
+        "backShinyF": "763",
+        "footprint": "",
+        "character": "763_0",
+        "characterF": "763_0",
+        "characterShiny": "763s_0",
+        "characterShinyF": "763s_0",
+        "cry": "763cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -331,27 +355,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "trop_kick"
         }
-      ],
-      "resources": {
-        "icon": "763",
-        "iconF": "763",
-        "iconShiny": "",
-        "front": "763",
-        "frontF": "763",
-        "frontShiny": "763",
-        "frontShinyF": "763",
-        "back": "763",
-        "backF": "763",
-        "backShiny": "763",
-        "backShinyF": "763",
-        "footprint": "",
-        "character": "763_0",
-        "characterF": "763_0",
-        "characterShiny": "763s_0",
-        "characterShinyF": "763s_0",
-        "cry": "763cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

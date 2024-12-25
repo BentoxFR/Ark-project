@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 401,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 54,
       "type1": "bug",
@@ -408,6 +412,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 402,
+        "description": 105
+      },
       "height": 1.7,
       "weight": 62.5,
       "type1": "bug",
@@ -437,7 +445,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "heracross",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "skill_link",
         "skill_link",

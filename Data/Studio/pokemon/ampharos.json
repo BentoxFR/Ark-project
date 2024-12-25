@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 22,
+        "description": 0
+      },
       "height": 1.4,
       "weight": 61.5,
       "type1": "electric",
@@ -402,6 +406,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 23,
+        "description": 9
+      },
       "height": 1.4,
       "weight": 61.5,
       "type1": "electric",
@@ -431,7 +439,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "mareep",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "mold_breaker",
         "mold_breaker",

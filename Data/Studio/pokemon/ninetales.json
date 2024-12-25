@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 617,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 19.9,
       "type1": "fire",
@@ -270,6 +274,10 @@
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 618,
+        "description": 144
+      },
       "height": 1.1,
       "weight": 19.9,
       "type1": "ice",

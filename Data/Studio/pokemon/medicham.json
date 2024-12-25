@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 546,
+        "description": 0
+      },
       "height": 1.3,
       "weight": 31.5,
       "type1": "fighting",
@@ -438,6 +442,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 547,
+        "description": 123
+      },
       "height": 1.3,
       "weight": 31.5,
       "type1": "fighting",
@@ -467,7 +475,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "meditite",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "pure_power",
         "pure_power",

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 688,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 33.9,
       "type1": "water",
@@ -50,6 +54,23 @@
         "drizzle"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "186",
+        "iconShiny": "",
+        "front": "186",
+        "frontF": "186f",
+        "frontShiny": "186",
+        "frontShinyF": "186f",
+        "back": "186",
+        "backF": "186f",
+        "backShiny": "186",
+        "backShinyF": "186f",
+        "footprint": "186",
+        "character": "186_0",
+        "characterShiny": "186s_0",
+        "cry": "186cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -270,24 +291,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "186",
-        "iconShiny": "",
-        "front": "186",
-        "frontF": "186f",
-        "frontShiny": "186",
-        "frontShinyF": "186f",
-        "back": "186",
-        "backF": "186f",
-        "backShiny": "186",
-        "backShinyF": "186f",
-        "footprint": "186",
-        "character": "186_0",
-        "characterShiny": "186s_0",
-        "cry": "186cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

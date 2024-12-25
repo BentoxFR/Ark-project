@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 415,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 8,
       "type1": "water",
@@ -61,6 +65,19 @@
         "damp"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "116",
+        "iconShiny": "",
+        "front": "116",
+        "frontShiny": "116",
+        "back": "116",
+        "backShiny": "116",
+        "footprint": "116",
+        "character": "116_0",
+        "characterShiny": "116s_0",
+        "cry": "116cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -298,20 +315,7 @@
           "klass": "BreedLearnableMove",
           "move": "water_pulse"
         }
-      ],
-      "resources": {
-        "icon": "116",
-        "iconShiny": "",
-        "front": "116",
-        "frontShiny": "116",
-        "back": "116",
-        "backShiny": "116",
-        "footprint": "116",
-        "character": "116_0",
-        "characterShiny": "116s_0",
-        "cry": "116cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

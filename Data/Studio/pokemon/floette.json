@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 285,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 0.9,
       "type1": "fairy",
@@ -61,6 +65,26 @@
         "symbiosis"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "670",
+        "iconF": "670",
+        "iconShiny": "",
+        "front": "670",
+        "frontF": "670",
+        "frontShiny": "670",
+        "frontShinyF": "670",
+        "back": "670",
+        "backF": "670",
+        "backShiny": "670",
+        "backShinyF": "670",
+        "footprint": "",
+        "character": "670_0",
+        "characterF": "670_0",
+        "characterShiny": "670s_0",
+        "characterShinyF": "670s_0",
+        "cry": "670cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -289,30 +313,14 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "670",
-        "iconF": "670",
-        "iconShiny": "",
-        "front": "670",
-        "frontF": "670",
-        "frontShiny": "670",
-        "frontShinyF": "670",
-        "back": "670",
-        "backF": "670",
-        "backShiny": "670",
-        "backShinyF": "670",
-        "footprint": "",
-        "character": "670_0",
-        "characterF": "670_0",
-        "characterShiny": "670s_0",
-        "characterShinyF": "670s_0",
-        "cry": "670cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 286,
+        "description": 63
+      },
       "height": 0.2,
       "weight": 0.9,
       "type1": "fairy",
@@ -369,6 +377,26 @@
         "symbiosis"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "670_01",
+        "iconF": "670_01",
+        "iconShiny": "",
+        "front": "670_01",
+        "frontF": "670_01",
+        "frontShiny": "670",
+        "frontShinyF": "670",
+        "back": "670",
+        "backF": "670",
+        "backShiny": "670",
+        "backShinyF": "670",
+        "footprint": "",
+        "character": "670_1",
+        "characterF": "670_1",
+        "characterShiny": "670s_1",
+        "characterShinyF": "670s_1",
+        "cry": "670cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -597,30 +625,14 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "670_01",
-        "iconF": "670_01",
-        "iconShiny": "",
-        "front": "670_01",
-        "frontF": "670_01",
-        "frontShiny": "670",
-        "frontShinyF": "670",
-        "back": "670",
-        "backF": "670",
-        "backShiny": "670",
-        "backShinyF": "670",
-        "footprint": "",
-        "character": "670_1",
-        "characterF": "670_1",
-        "characterShiny": "670s_1",
-        "characterShinyF": "670s_1",
-        "cry": "670cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 287,
+        "description": 64
+      },
       "height": 0.2,
       "weight": 0.9,
       "type1": "fairy",
@@ -677,6 +689,26 @@
         "symbiosis"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "670_02",
+        "iconF": "670_02",
+        "iconShiny": "",
+        "front": "670_02",
+        "frontF": "670_02",
+        "frontShiny": "670",
+        "frontShinyF": "670",
+        "back": "670",
+        "backF": "670",
+        "backShiny": "670",
+        "backShinyF": "670",
+        "footprint": "",
+        "character": "670_2",
+        "characterF": "670_2",
+        "characterShiny": "670s_2",
+        "characterShinyF": "670s_2",
+        "cry": "670cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -905,30 +937,14 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "670_02",
-        "iconF": "670_02",
-        "iconShiny": "",
-        "front": "670_02",
-        "frontF": "670_02",
-        "frontShiny": "670",
-        "frontShinyF": "670",
-        "back": "670",
-        "backF": "670",
-        "backShiny": "670",
-        "backShinyF": "670",
-        "footprint": "",
-        "character": "670_2",
-        "characterF": "670_2",
-        "characterShiny": "670s_2",
-        "characterShinyF": "670s_2",
-        "cry": "670cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 288,
+        "description": 65
+      },
       "height": 0.2,
       "weight": 0.9,
       "type1": "fairy",
@@ -985,6 +1001,26 @@
         "symbiosis"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "670_03",
+        "iconF": "670_03",
+        "iconShiny": "",
+        "front": "670_03",
+        "frontF": "670_03",
+        "frontShiny": "670",
+        "frontShinyF": "670",
+        "back": "670",
+        "backF": "670",
+        "backShiny": "670",
+        "backShinyF": "670",
+        "footprint": "",
+        "character": "670_3",
+        "characterF": "670_3",
+        "characterShiny": "670s_3",
+        "characterShinyF": "670s_3",
+        "cry": "670cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1213,30 +1249,14 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "670_03",
-        "iconF": "670_03",
-        "iconShiny": "",
-        "front": "670_03",
-        "frontF": "670_03",
-        "frontShiny": "670",
-        "frontShinyF": "670",
-        "back": "670",
-        "backF": "670",
-        "backShiny": "670",
-        "backShinyF": "670",
-        "footprint": "",
-        "character": "670_3",
-        "characterF": "670_3",
-        "characterShiny": "670s_3",
-        "characterShinyF": "670s_3",
-        "cry": "670cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 289,
+        "description": 66
+      },
       "height": 0.2,
       "weight": 0.9,
       "type1": "fairy",
@@ -1293,6 +1313,26 @@
         "symbiosis"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "670_04",
+        "iconF": "670_04",
+        "iconShiny": "",
+        "front": "670_04",
+        "frontF": "670_04",
+        "frontShiny": "670",
+        "frontShinyF": "670",
+        "back": "670",
+        "backF": "670",
+        "backShiny": "670",
+        "backShinyF": "670",
+        "footprint": "",
+        "character": "670_4",
+        "characterF": "670_4",
+        "characterShiny": "670s_4",
+        "characterShinyF": "670s_4",
+        "cry": "670cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1521,27 +1561,7 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "670_04",
-        "iconF": "670_04",
-        "iconShiny": "",
-        "front": "670_04",
-        "frontF": "670_04",
-        "frontShiny": "670",
-        "frontShinyF": "670",
-        "back": "670",
-        "backF": "670",
-        "backShiny": "670",
-        "backShinyF": "670",
-        "footprint": "",
-        "character": "670_4",
-        "characterF": "670_4",
-        "characterShiny": "670s_4",
-        "characterShinyF": "670s_4",
-        "cry": "670cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

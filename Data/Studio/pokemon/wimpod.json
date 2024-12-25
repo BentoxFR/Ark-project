@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1053,
+        "description": 0
+      },
       "height": 0.5,
       "weight": 12,
       "type1": "bug",
@@ -61,6 +65,19 @@
         "wimp_out"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "767",
+        "iconShiny": "",
+        "front": "767",
+        "frontShiny": "767",
+        "back": "767",
+        "backShiny": "767",
+        "footprint": "",
+        "character": "767_0",
+        "characterShiny": "767s_0",
+        "cry": "767cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -188,23 +205,14 @@
           "klass": "BreedLearnableMove",
           "move": "wide_guard"
         }
-      ],
-      "resources": {
-        "icon": "767",
-        "iconShiny": "",
-        "front": "767",
-        "frontShiny": "767",
-        "back": "767",
-        "backShiny": "767",
-        "footprint": "",
-        "character": "767_0",
-        "characterShiny": "767s_0",
-        "cry": "767cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 1054,
+        "description": 273
+      },
       "height": 0.5,
       "weight": 12,
       "type1": "bug",
@@ -245,14 +253,22 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wimpod",
       "babyForm": 1,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "wimp_out",
         "wimp_out",
         "wimp_out"
       ],
       "frontOffsetY": 0,
-      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -265,10 +281,15 @@
         "characterShiny": "",
         "cry": "767cry.ogg",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 1055,
+        "description": 274
+      },
       "height": 0.5,
       "weight": 12,
       "type1": "bug",
@@ -309,14 +330,22 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wimpod",
       "babyForm": 2,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "wimp_out",
         "wimp_out",
         "wimp_out"
       ],
       "frontOffsetY": 0,
-      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -329,10 +358,15 @@
         "characterShiny": "",
         "cry": "767cry.ogg",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 1056,
+        "description": 275
+      },
       "height": 0.5,
       "weight": 12,
       "type1": "bug",
@@ -373,14 +407,22 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wimpod",
       "babyForm": 3,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "wimp_out",
         "wimp_out",
         "wimp_out"
       ],
       "frontOffsetY": 0,
-      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -393,10 +435,15 @@
         "characterShiny": "",
         "cry": "767cry.ogg",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 1057,
+        "description": 276
+      },
       "height": 0.5,
       "weight": 12,
       "type1": "bug",
@@ -437,14 +484,22 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "wimpod",
       "babyForm": 4,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "wimp_out",
         "wimp_out",
         "wimp_out"
       ],
       "frontOffsetY": 0,
-      "moveSet": [],
       "resources": {
         "icon": "767",
         "iconShiny": "",
@@ -457,7 +512,8 @@
         "characterShiny": "",
         "cry": "767cry.ogg",
         "hasFemale": false
-      }
+      },
+      "moveSet": []
     }
   ]
 }

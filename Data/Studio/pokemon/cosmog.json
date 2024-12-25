@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 168,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 0.1,
       "type1": "psychic",

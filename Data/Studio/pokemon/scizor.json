@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 777,
+        "description": 0
+      },
       "height": 1.8,
       "weight": 118,
       "type1": "bug",
@@ -373,6 +377,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 778,
+        "description": 187
+      },
       "height": 2,
       "weight": 125,
       "type1": "bug",
@@ -402,7 +410,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "scyther",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "technician",
         "technician",

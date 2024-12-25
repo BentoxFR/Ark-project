@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 927,
+        "description": 0
+      },
       "height": 0.6,
       "weight": 12.5,
       "type1": "fighting",
@@ -61,6 +65,19 @@
         "iron_fist"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "532",
+        "iconShiny": "",
+        "front": "532",
+        "frontShiny": "532",
+        "back": "532",
+        "backShiny": "532",
+        "footprint": "532",
+        "character": "532_0",
+        "characterShiny": "532s_0",
+        "cry": "532cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -374,20 +391,7 @@
           "klass": "BreedLearnableMove",
           "move": "wide_guard"
         }
-      ],
-      "resources": {
-        "icon": "532",
-        "iconShiny": "",
-        "front": "532",
-        "frontShiny": "532",
-        "back": "532",
-        "backShiny": "532",
-        "footprint": "532",
-        "character": "532_0",
-        "characterShiny": "532s_0",
-        "cry": "532cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

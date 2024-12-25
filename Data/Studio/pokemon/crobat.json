@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 177,
+        "description": 0
+      },
       "height": 1.8,
       "weight": 75,
       "type1": "poison",
@@ -50,6 +54,19 @@
         "infiltrator"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "169",
+        "iconShiny": "",
+        "front": "169",
+        "frontShiny": "169",
+        "back": "169",
+        "backShiny": "169",
+        "footprint": "169",
+        "character": "169_0",
+        "characterShiny": "169s_0",
+        "cry": "169cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -331,20 +348,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "cross_poison"
         }
-      ],
-      "resources": {
-        "icon": "169",
-        "iconShiny": "",
-        "front": "169",
-        "frontShiny": "169",
-        "back": "169",
-        "backShiny": "169",
-        "footprint": "169",
-        "character": "169_0",
-        "characterShiny": "169s_0",
-        "cry": "169cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

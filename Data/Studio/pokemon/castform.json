@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 123,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 0.8,
       "type1": "normal",
@@ -50,6 +54,19 @@
         "forecast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "351",
+        "iconShiny": "",
+        "front": "351",
+        "frontShiny": "351",
+        "back": "351",
+        "backShiny": "351",
+        "footprint": "351",
+        "character": "351_0",
+        "characterShiny": "351s_0",
+        "cry": "351cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -316,23 +333,14 @@
           "klass": "BreedLearnableMove",
           "move": "reflect_type"
         }
-      ],
-      "resources": {
-        "icon": "351",
-        "iconShiny": "",
-        "front": "351",
-        "frontShiny": "351",
-        "back": "351",
-        "backShiny": "351",
-        "footprint": "351",
-        "character": "351_0",
-        "characterShiny": "351s_0",
-        "cry": "351cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 124,
+        "description": 37
+      },
       "height": 0.3,
       "weight": 0.8,
       "type1": "normal",
@@ -362,13 +370,35 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "castform",
       "babyForm": 1,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "forecast",
         "forecast",
         "forecast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "351_01",
+        "iconShiny": "",
+        "front": "351",
+        "frontShiny": "351",
+        "back": "351",
+        "backShiny": "351",
+        "footprint": "351",
+        "character": "",
+        "characterShiny": "",
+        "cry": "351cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -863,23 +893,14 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "351_01",
-        "iconShiny": "",
-        "front": "351",
-        "frontShiny": "351",
-        "back": "351",
-        "backShiny": "351",
-        "footprint": "351",
-        "character": "",
-        "characterShiny": "",
-        "cry": "351cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 125,
+        "description": 38
+      },
       "height": 0.3,
       "weight": 0.8,
       "type1": "fire",
@@ -909,13 +930,35 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "__undef__",
       "babyForm": 2,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "forecast",
         "forecast",
         "forecast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "351_02",
+        "iconShiny": "",
+        "front": "351_02",
+        "frontShiny": "351_02",
+        "back": "351_02",
+        "backShiny": "351_02",
+        "footprint": "351",
+        "character": "",
+        "characterShiny": "",
+        "cry": "351cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1410,23 +1453,14 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "351_02",
-        "iconShiny": "",
-        "front": "351_02",
-        "frontShiny": "351_02",
-        "back": "351_02",
-        "backShiny": "351_02",
-        "footprint": "351",
-        "character": "",
-        "characterShiny": "",
-        "cry": "351cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 126,
+        "description": 39
+      },
       "height": 0.3,
       "weight": 0.8,
       "type1": "water",
@@ -1456,13 +1490,35 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "__undef__",
       "babyForm": 3,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "forecast",
         "forecast",
         "forecast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "351_03",
+        "iconShiny": "",
+        "front": "351_03",
+        "frontShiny": "351_03",
+        "back": "351_03",
+        "backShiny": "351_03",
+        "footprint": "351",
+        "character": "",
+        "characterShiny": "",
+        "cry": "351cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1957,23 +2013,14 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "351_03",
-        "iconShiny": "",
-        "front": "351_03",
-        "frontShiny": "351_03",
-        "back": "351_03",
-        "backShiny": "351_03",
-        "footprint": "351",
-        "character": "",
-        "characterShiny": "",
-        "cry": "351cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 6,
+      "formTextId": {
+        "name": 127,
+        "description": 40
+      },
       "height": 0.3,
       "weight": 0.8,
       "type1": "ice",
@@ -2003,13 +2050,35 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "__undef__",
       "babyForm": 6,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "forecast",
         "forecast",
         "forecast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "351_06",
+        "iconShiny": "",
+        "front": "351_06",
+        "frontShiny": "351_06",
+        "back": "351_06",
+        "backShiny": "351_06",
+        "footprint": "351",
+        "character": "",
+        "characterShiny": "",
+        "cry": "351cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -2504,20 +2573,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "351_06",
-        "iconShiny": "",
-        "front": "351_06",
-        "frontShiny": "351_06",
-        "back": "351_06",
-        "backShiny": "351_06",
-        "footprint": "351",
-        "character": "",
-        "characterShiny": "",
-        "cry": "351cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 199,
+        "description": 0
+      },
       "height": 0.9,
       "weight": 16,
       "type1": "ice",
@@ -50,6 +54,19 @@
         "insomnia"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "225",
+        "iconShiny": "",
+        "front": "225",
+        "frontShiny": "225",
+        "back": "225",
+        "backShiny": "225",
+        "footprint": "225",
+        "character": "225_0",
+        "characterShiny": "225s_0",
+        "cry": "225cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -281,20 +298,7 @@
           "klass": "BreedLearnableMove",
           "move": "splash"
         }
-      ],
-      "resources": {
-        "icon": "225",
-        "iconShiny": "",
-        "front": "225",
-        "frontShiny": "225",
-        "back": "225",
-        "backShiny": "225",
-        "footprint": "225",
-        "character": "225_0",
-        "characterShiny": "225s_0",
-        "cry": "225cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

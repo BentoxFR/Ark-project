@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 63,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 12.5,
       "type1": "ghost",
@@ -406,6 +410,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 64,
+        "description": 28
+      },
       "height": 1.2,
       "weight": 13,
       "type1": "ghost",
@@ -435,7 +443,16 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "shuppet",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "prankster",
         "prankster",

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 621,
+        "description": 0
+      },
       "height": 0.5,
       "weight": 8,
       "type1": "flying",
@@ -61,6 +65,19 @@
         "telepathy"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "714",
+        "iconShiny": "",
+        "front": "714",
+        "frontShiny": "714",
+        "back": "714",
+        "backShiny": "714",
+        "footprint": "",
+        "character": "714_0",
+        "characterShiny": "714s_0",
+        "cry": "714cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -358,20 +375,7 @@
           "klass": "BreedLearnableMove",
           "move": "tailwind"
         }
-      ],
-      "resources": {
-        "icon": "714",
-        "iconShiny": "",
-        "front": "714",
-        "frontShiny": "714",
-        "back": "714",
-        "backShiny": "714",
-        "footprint": "",
-        "character": "714_0",
-        "characterShiny": "714s_0",
-        "cry": "714cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 416,
+        "description": 0
+      },
       "height": 1.4,
       "weight": 35,
       "type1": "dark",
@@ -383,6 +387,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 417,
+        "description": 107
+      },
       "height": 1.9,
       "weight": 49.5,
       "type1": "dark",
@@ -412,7 +420,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "houndour",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "solar_power",
         "solar_power",

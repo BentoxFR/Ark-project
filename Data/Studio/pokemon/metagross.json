@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 559,
+        "description": 0
+      },
       "height": 1.6,
       "weight": 550,
       "type1": "steel",
@@ -389,6 +393,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 560,
+        "description": 127
+      },
       "height": 2.5,
       "weight": 942.9,
       "type1": "steel",
@@ -418,7 +426,16 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "beldum",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "tough_claws",
         "tough_claws",

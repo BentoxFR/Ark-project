@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 733,
+        "description": 0
+      },
       "height": 1.7,
       "weight": 230,
       "type1": "rock",
@@ -50,6 +54,19 @@
         "sturdy"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "377",
+        "iconShiny": "",
+        "front": "377",
+        "frontShiny": "377",
+        "back": "377",
+        "backShiny": "377",
+        "footprint": "377",
+        "character": "377_0",
+        "characterShiny": "377s_0",
+        "cry": "377cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -352,20 +369,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_climb"
         }
-      ],
-      "resources": {
-        "icon": "377",
-        "iconShiny": "",
-        "front": "377",
-        "frontShiny": "377",
-        "back": "377",
-        "backShiny": "377",
-        "footprint": "377",
-        "character": "377_0",
-        "characterShiny": "377s_0",
-        "cry": "377cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

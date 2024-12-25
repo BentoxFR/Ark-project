@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 510,
+        "description": 0
+      },
       "height": 0.8,
       "weight": 25,
       "type1": "rock",
@@ -50,6 +54,19 @@
         "steadfast"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "745",
+        "iconShiny": "",
+        "front": "745",
+        "frontShiny": "745",
+        "back": "745",
+        "backShiny": "745",
+        "footprint": "",
+        "character": "745_0",
+        "characterShiny": "745s_0",
+        "cry": "745cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -323,23 +340,14 @@
           "klass": "EvolutionLearnableMove",
           "move": "accelerock"
         }
-      ],
-      "resources": {
-        "icon": "745",
-        "iconShiny": "",
-        "front": "745",
-        "frontShiny": "745",
-        "back": "745",
-        "backShiny": "745",
-        "footprint": "",
-        "character": "745_0",
-        "characterShiny": "745s_0",
-        "cry": "745cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 511,
+        "description": 118
+      },
       "height": 1.1,
       "weight": 25,
       "type1": "rock",
@@ -385,6 +393,19 @@
         "no_guard"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "745_01",
+        "iconShiny": "",
+        "front": "745_01",
+        "frontShiny": "745_01",
+        "back": "745_01",
+        "backShiny": "745_01",
+        "footprint": "",
+        "character": "745_1",
+        "characterShiny": "745s_1",
+        "cry": "745_01cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -690,23 +711,14 @@
           "klass": "EvolutionLearnableMove",
           "move": "counter"
         }
-      ],
-      "resources": {
-        "icon": "745_01",
-        "iconShiny": "",
-        "front": "745_01",
-        "frontShiny": "745_01",
-        "back": "745_01",
-        "backShiny": "745_01",
-        "footprint": "",
-        "character": "745_1",
-        "characterShiny": "745s_1",
-        "cry": "745_01cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 512,
+        "description": 119
+      },
       "height": 0.8,
       "weight": 25,
       "type1": "rock",
@@ -752,6 +764,19 @@
         "tough_claws"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "745_02",
+        "iconShiny": "",
+        "front": "745_02",
+        "frontShiny": "745_02",
+        "back": "745_02",
+        "backShiny": "745_02",
+        "footprint": "",
+        "character": "745_2",
+        "characterShiny": "745s_2",
+        "cry": "745_02cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1029,20 +1054,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "thrash"
         }
-      ],
-      "resources": {
-        "icon": "745_02",
-        "iconShiny": "",
-        "front": "745_02",
-        "frontShiny": "745_02",
-        "back": "745_02",
-        "backShiny": "745_02",
-        "footprint": "",
-        "character": "745_2",
-        "characterShiny": "745s_2",
-        "cry": "745_02cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

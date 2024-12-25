@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 130,
+        "description": 0
+      },
       "height": 9.2,
       "weight": 999.9,
       "type1": "steel",

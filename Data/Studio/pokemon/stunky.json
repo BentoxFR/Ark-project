@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 887,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 19.2,
       "type1": "poison",
@@ -61,6 +65,19 @@
         "keen_eye"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "434",
+        "iconShiny": "",
+        "front": "434",
+        "frontShiny": "434",
+        "back": "434",
+        "backShiny": "434",
+        "footprint": "434",
+        "character": "434_0",
+        "characterShiny": "434s_0",
+        "cry": "434cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -355,20 +372,7 @@
           "klass": "BreedLearnableMove",
           "move": "smog"
         }
-      ],
-      "resources": {
-        "icon": "434",
-        "iconShiny": "",
-        "front": "434",
-        "frontShiny": "434",
-        "back": "434",
-        "backShiny": "434",
-        "footprint": "434",
-        "character": "434_0",
-        "characterShiny": "434s_0",
-        "cry": "434cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

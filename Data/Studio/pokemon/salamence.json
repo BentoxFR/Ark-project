@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 758,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 102.6,
       "type1": "dragon",
@@ -60,6 +64,19 @@
         "moxie"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "373",
+        "iconShiny": "",
+        "front": "373",
+        "frontShiny": "373",
+        "back": "373",
+        "backShiny": "373",
+        "footprint": "373",
+        "character": "373_0",
+        "characterShiny": "373s_0",
+        "cry": "373cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -374,23 +391,14 @@
           "klass": "EvolutionLearnableMove",
           "move": "fly"
         }
-      ],
-      "resources": {
-        "icon": "373",
-        "iconShiny": "",
-        "front": "373",
-        "frontShiny": "373",
-        "back": "373",
-        "backShiny": "373",
-        "footprint": "373",
-        "character": "373_0",
-        "characterShiny": "373s_0",
-        "cry": "373cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 759,
+        "description": 180
+      },
       "height": 1.8,
       "weight": 112.6,
       "type1": "dragon",
@@ -420,13 +428,35 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "bagon",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "aerilate",
         "aerilate",
         "aerilate"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "373_30",
+        "iconShiny": "",
+        "front": "373_30",
+        "frontShiny": "373_30",
+        "back": "373_30",
+        "backShiny": "373_30",
+        "footprint": "373",
+        "character": "373_30",
+        "characterShiny": "373s_30",
+        "cry": "373_30cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -961,20 +991,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "373_30",
-        "iconShiny": "",
-        "front": "373_30",
-        "frontShiny": "373_30",
-        "back": "373_30",
-        "backShiny": "373_30",
-        "footprint": "373",
-        "character": "373_30",
-        "characterShiny": "373s_30",
-        "cry": "373_30cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

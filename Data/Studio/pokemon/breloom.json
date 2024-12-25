@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 98,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 39.2,
       "type1": "grass",
@@ -50,6 +54,19 @@
         "technician"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "286",
+        "iconShiny": "",
+        "front": "286",
+        "frontShiny": "286",
+        "back": "286",
+        "backShiny": "286",
+        "footprint": "286",
+        "character": "286_0",
+        "characterShiny": "286s_0",
+        "cry": "286cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -343,20 +360,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "mach_punch"
         }
-      ],
-      "resources": {
-        "icon": "286",
-        "iconShiny": "",
-        "front": "286",
-        "frontShiny": "286",
-        "back": "286",
-        "backShiny": "286",
-        "footprint": "286",
-        "character": "286_0",
-        "characterShiny": "286s_0",
-        "cry": "286cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

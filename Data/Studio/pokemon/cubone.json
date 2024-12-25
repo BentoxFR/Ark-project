@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 182,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 6.5,
       "type1": "ground",
@@ -61,6 +65,19 @@
         "battle_armor"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "104",
+        "iconShiny": "",
+        "front": "104",
+        "frontShiny": "104",
+        "back": "104",
+        "backShiny": "104",
+        "footprint": "104",
+        "character": "104_0",
+        "characterShiny": "104s_0",
+        "cry": "104cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -394,20 +411,7 @@
           "klass": "BreedLearnableMove",
           "move": "curse"
         }
-      ],
-      "resources": {
-        "icon": "104",
-        "iconShiny": "",
-        "front": "104",
-        "frontShiny": "104",
-        "back": "104",
-        "backShiny": "104",
-        "footprint": "104",
-        "character": "104_0",
-        "characterShiny": "104s_0",
-        "cry": "104cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

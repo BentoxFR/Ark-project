@@ -58,7 +58,7 @@
  </layer>
  <layer id="21" name="murs_superieur" width="29" height="27">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUjIJRMApoB54LEIfPCQy0S4c3wBf20YIQNbGCA+vGUTAKRsHgBwDLAhIg
+   eJxjYBgFo2AUjIJRMApoB54LEIfPCQy0S4c3wBf20YIQNbGCEP4oGAWjYBTgAgDJ6hMX
   </data>
  </layer>
  <layer id="22" name="deco_murs2" width="29" height="27">

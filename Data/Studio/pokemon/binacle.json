@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 83,
+        "description": 0
+      },
       "height": 0.5,
       "weight": 31,
       "type1": "rock",
@@ -61,6 +65,19 @@
         "pickpocket"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "688",
+        "iconShiny": "",
+        "front": "688",
+        "frontShiny": "688",
+        "back": "688",
+        "backShiny": "688",
+        "footprint": "",
+        "character": "688_0",
+        "characterShiny": "688s_0",
+        "cry": "688cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -398,20 +415,7 @@
           "klass": "BreedLearnableMove",
           "move": "water_sport"
         }
-      ],
-      "resources": {
-        "icon": "688",
-        "iconShiny": "",
-        "front": "688",
-        "frontShiny": "688",
-        "back": "688",
-        "backShiny": "688",
-        "footprint": "",
-        "character": "688_0",
-        "characterShiny": "688s_0",
-        "cry": "688cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

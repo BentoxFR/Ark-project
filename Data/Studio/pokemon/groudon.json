@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 379,
+        "description": 0
+      },
       "height": 3.5,
       "weight": 950,
       "type1": "ground",
@@ -386,6 +390,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 380,
+        "description": 103
+      },
       "height": 5,
       "weight": 999.7,
       "type1": "ground",
@@ -415,7 +423,16 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "desolate_land",
         "desolate_land",

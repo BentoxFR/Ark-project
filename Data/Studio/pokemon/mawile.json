@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 544,
+        "description": 0
+      },
       "height": 0.6,
       "weight": 11.5,
       "type1": "steel",
@@ -486,6 +490,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 545,
+        "description": 122
+      },
       "height": 1,
       "weight": 23.5,
       "type1": "steel",
@@ -515,7 +523,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "mawile",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "huge_power",
         "huge_power",

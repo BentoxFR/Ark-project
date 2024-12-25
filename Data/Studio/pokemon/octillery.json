@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 626,
+        "description": 0
+      },
       "height": 0.9,
       "weight": 28.5,
       "type1": "water",
@@ -50,6 +54,23 @@
         "moody"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "224",
+        "iconShiny": "",
+        "front": "224",
+        "frontF": "224f",
+        "frontShiny": "224",
+        "frontShinyF": "224f",
+        "back": "224",
+        "backF": "224f",
+        "backShiny": "224",
+        "backShinyF": "224f",
+        "footprint": "224",
+        "character": "224_0",
+        "characterShiny": "224s_0",
+        "cry": "224cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -330,24 +351,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "octazooka"
         }
-      ],
-      "resources": {
-        "icon": "224",
-        "iconShiny": "",
-        "front": "224",
-        "frontF": "224f",
-        "frontShiny": "224",
-        "frontShinyF": "224f",
-        "back": "224",
-        "backF": "224f",
-        "backShiny": "224",
-        "backShinyF": "224f",
-        "footprint": "224",
-        "character": "224_0",
-        "characterShiny": "224s_0",
-        "cry": "224cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

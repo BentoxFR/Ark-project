@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 132,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 34.6,
       "type1": "normal",
@@ -61,6 +65,26 @@
         "healer"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "113",
+        "iconF": "113",
+        "iconShiny": "",
+        "front": "113",
+        "frontF": "113f",
+        "frontShiny": "113",
+        "frontShinyF": "113",
+        "back": "113",
+        "backF": "113",
+        "backShiny": "113",
+        "backShinyF": "113",
+        "footprint": "113",
+        "character": "113_0",
+        "characterF": "113_0",
+        "characterShiny": "113s_0",
+        "characterShinyF": "113s_0",
+        "cry": "113cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -512,27 +536,7 @@
           "klass": "BreedLearnableMove",
           "move": "last_resort"
         }
-      ],
-      "resources": {
-        "icon": "113",
-        "iconF": "113",
-        "iconShiny": "",
-        "front": "113",
-        "frontF": "113f",
-        "frontShiny": "113",
-        "frontShinyF": "113",
-        "back": "113",
-        "backF": "113",
-        "backShiny": "113",
-        "backShinyF": "113",
-        "footprint": "113",
-        "character": "113_0",
-        "characterF": "113_0",
-        "characterShiny": "113s_0",
-        "characterShinyF": "113s_0",
-        "cry": "113cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

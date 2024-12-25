@@ -14,8 +14,8 @@
     "pitch": 100
   },
   "tiledFilename": "ville4_narville_biblio",
-  "mtime": 1716207193812,
-  "sha1": "0858d23ee4c328629e910eb547b9d49fb1fc91cc",
+  "mtime": 1730668745769,
+  "sha1": "47a48b0754df30a10e602eb5294676f2c747726b",
   "tileMetadata": {
     "width": 29,
     "height": 27,
@@ -3499,7 +3499,8 @@
         112
       ],
       [
-        49
+        36,
+        87
       ],
       [],
       [],

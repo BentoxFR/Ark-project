@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 228,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 8.5,
       "type1": "ground",
@@ -61,6 +65,19 @@
         "mold_breaker"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "529",
+        "iconShiny": "",
+        "front": "529",
+        "frontShiny": "529",
+        "back": "529",
+        "backShiny": "529",
+        "footprint": "529",
+        "character": "529_0",
+        "characterShiny": "529s_0",
+        "cry": "529cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -317,23 +334,14 @@
           "klass": "BreedLearnableMove",
           "move": "submission"
         }
-      ],
-      "resources": {
-        "icon": "529",
-        "iconShiny": "",
-        "front": "529",
-        "frontShiny": "529",
-        "back": "529",
-        "backShiny": "529",
-        "footprint": "529",
-        "character": "529_0",
-        "characterShiny": "529s_0",
-        "cry": "529cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 229,
+        "description": 54
+      },
       "height": 0.3,
       "weight": 8.5,
       "type1": "ground",
@@ -369,18 +377,40 @@
       "femaleRate": 50,
       "breedGroups": [
         5,
-        0
+        15
       ],
       "hatchSteps": 5355,
       "babyDbSymbol": "__undef__",
       "babyForm": 1,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sand_rush",
         "sand_force",
         "mold_breaker"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "529",
+        "iconShiny": "",
+        "front": "529",
+        "frontShiny": "529",
+        "back": "529",
+        "backShiny": "529",
+        "footprint": "529",
+        "character": "",
+        "characterShiny": "",
+        "cry": "529cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -835,20 +865,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "529",
-        "iconShiny": "",
-        "front": "529",
-        "frontShiny": "529",
-        "back": "529",
-        "backShiny": "529",
-        "footprint": "529",
-        "character": "",
-        "characterShiny": "",
-        "cry": "529cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

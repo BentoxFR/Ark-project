@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 419,
+        "description": 0
+      },
       "height": 3.8,
       "weight": 199,
       "type1": "fire",

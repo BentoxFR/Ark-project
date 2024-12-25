@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="left-up" width="32" height="50" tilewidth="32" tileheight="32" infinite="0" nextlayerid="169" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/Exterieurs_1.tsx"/>
+ <tileset firstgid="1497" source="../Tilesets/passages.tsx"/>
+ <tileset firstgid="1641" source="../Tilesets/Ville_1.tsx"/>
+ <tileset firstgid="6137" source="../Tilesets/Mobilier.tsx"/>
+ <tileset firstgid="7633" source="../Tilesets/Intro.tsx"/>
+ <tileset firstgid="8913" source="../Tilesets/Interieur.tsx"/>
+ <tileset firstgid="11665" source="../Tilesets/systemtags.tsx"/>
+ <tileset firstgid="11793" source="../Tilesets/Animation - Nature.tsx"/>
+ <layer id="135" name="creuvace1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="136" name="plantes_sousmarine1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="165" name="ocean1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzrEJACAMRFFncgT3H8rKNihEUuQ9+PXdGAAAQGTNuKrd7A8ve5lfsnZvvvzcuvlRtX8+dN6XJElSvzYfvnVw
+  </data>
+ </layer>
+ <layer id="167" name="riviere1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="137" name="sols1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlMEKgzAQRBfx523NIVYPrT/rCgkEKU3Yxswh82AuHvLGJdlBRAZD/CiyaDbNPtrOsGZS3wx2n//+auxO547yv9W5Br/TPDucAf04f/r2P4D374FzR/nPmT9C4u5zybeYWrtgupw7J/ftV5yxi9VX0iXXo5avZCbf+tzlLe3T2s8w/yYHylu7Qy1Q3pIuKND+2KFnfw+g73rvfguozq13cc5PCCGE3MUBwk31Cw==
+  </data>
+ </layer>
+ <layer id="168" name="bordure_riviere1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="166" name="bordure_ocean1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1cENgCAMheFuYNwEVkBX0p3cSZ1FE8OFg4Ip1MT/S7jSR0tABAAAAPiuyYsMD2v29eqOGXsHhQzpOXPqphne9KPknBpZ0tlp1r3LUuOOlOawztB9oAeoa3Ui27l2Z1M/3rHeaNah0buiyWpmse7ir3+gdc9Cw38AAPBvBwozI0s=
+  </data>
+ </layer>
+ <layer id="138" name="verdures_deco1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1c0NgCAMgFGG8OYmLOtOTOSBiyFIfzCEmu/d1EptCzEl2ZUVQY3TENeL1b6/gvVbLLW31966Z3J617IqWV5/p7l7aXo8UhznbeQtv2X2vfuHM2/7XIrT9CPqvtH2yLvu13tpRtQZWUhn4vkvjdIPqabo/l4fKua8F+YBAAAAYKUbXdAJhQ==
+  </data>
+ </layer>
+ <layer id="139" name="arbres_racine1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlH0KwyAMxb3/f9stunt4go7tOusoAQn5spqug/cDoY36EuNrl1LKYxu3bdzLTvs8gqTTo92ufQb3LGU/j1cLX0fz2v4IVdDjeb13L569jlP9JSpWL6N9iGgR5JEebUl3lv85NVFbIpJrZj2WVyJ5RryWjfb/0eLeebN8INVTnfkvVj1rZzxC+93xe5d0XwO5foXVHzrzO7mGtm9SLoodvcsj+0Z8cwYz6ruqX1fl+Wws31+1dwAAAAAAAAAA/pcPzsFCOQ==
+  </data>
+ </layer>
+ <layer id="140" name="batiments1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="141" name="1ere_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztlcEKgzAMhmOfa8JAmYPteXaV4Um3vbPboRhKuqaausP+D3KQlnx/tFIiALbRVERt9Tv/5e2+Cv4+I1NshluhuWpH1LnlOTYD3+trCoqvHZzcI+SY2MedZ2XPD6dEhlrZM5UvlaGLVOjV7gP/yUv436R6Gp8X730o+44GOfisWm8sx5osg/E7zM1i7c/NUtLPuQee3LNm6d/T6+94/i2k9VJ8u+M16wAAAAAAAAAA1jMDGfQqwA==
+  </data>
+ </layer>
+ <layer id="142" name="2eme_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="143" name="3eme_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="144" name="4eme_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="145" name="5eme_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="146" name="6eme_falaises1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="148" name="mobiliers1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt0z0KhDAQhuF4DMGLLf4sVt5PtMk99BTqNoKtYxURg7rgWPg+MJBiyBcmiTEArmgCt24Df99dOsnspQapn2J+GhkTS42rzEkxv4j0ss7kf5TPk23yvg/PQ9tb/90i3fl3yc33b0O33r69Rf6y9+dTSdVPH8KjDI97/u23F/eGw+wAAAAAQNcMpjoZaQ==
+  </data>
+ </layer>
+ <layer id="147" name="audessus1" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIA6DZwv5JjaCfDyQgAbir/h4AAAAAAOwGIPIAGg==
+  </data>
+ </layer>
+ <group id="2" name="z=0" offsetx="-2" offsety="3"/>
+ <layer id="149" name="creuvace_relief2" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="150" name="batiments2" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="151" name="verdures_deco2" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1dEKgCAMhWHf/9UMuvJ96iaQaDonU7H/g25Cc1snCkEn3tehXPtHaXYBDlp7IiOyHfOR6+2vtl/K1mqZq9Vjqbend8t7GTlTTX3WbGn6OI3PtnjOSh/3rDMv7ZPmtto38zayPo9zSnnNe4sOZ2uNzH2L3f+TAAAAAIA5LrnBJqk=
+  </data>
+ </layer>
+ <layer id="152" name="mobiliers2" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <group id="3" name="z=1"/>
+ <layer id="153" name="arbres_centre3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEOABEQhWHX5xaclEYjmBEMxf8lisU+jM06N+ZLC5PxnlhaUmS18+r46P1VNa9dV3qW+m/PO2lWS20dNFk72b3cm7WyvAfNWlb7efH9vSSd97d6WO/n1H8WAAAAAAAA+FkGxKMgeA==
+  </data>
+ </layer>
+ <layer id="154" name="verdures_deco3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1UEOgCAMRFHufy3c6plkQ8JCQIvFUv9LWBKmdRJD8GFP5/g6xMuezhTT2ZSyrM5jP0qj8/Xu17plrXO9PJK8I7NLvsvMnd7JJ+2WtW5kV/NIs7bu1fZmdS/ZzHwa77T6Ws4WFd5enff/JAAAAADgn07Lxiou
+  </data>
+ </layer>
+ <layer id="155" name="batiments3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="156" name="mobiliers3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="157" name="arbres_top3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1FEKwCAIgGGvvm6xnTZh9DLWEjTdw/+BRBFWFoncDo2mcWpc4jfyjfY5PuuvxnfPi/RVS2sdLLk8ud/y7qxV5j1Y1sraT8X7q7Q679/qkb2fqH8WAAAAAAAAwFwHagAaPA==
+  </data>
+ </layer>
+ <layer id="158" name="batiments_toits3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="159" name="variant_batiments3" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <group id="14" name="z=2" offsetx="-2" offsety="3"/>
+ <layer id="160" name="mobiliers4" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="161" name="batiments4" width="32" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <group id="101" name="z=3"/>
+ <layer id="162" name="passages" width="32" height="50" opacity="0.27">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <layer id="163" name="systemtags" width="32" height="50" opacity="0.47">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAMCXARkAAAE=
+  </data>
+ </layer>
+ <group id="12" name="Infos" offsetx="-2" offsety="3"/>
+</map>

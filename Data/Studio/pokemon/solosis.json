@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 861,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 1,
       "type1": "psychic",
@@ -61,6 +65,19 @@
         "regenerator"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "577",
+        "iconShiny": "",
+        "front": "577",
+        "frontShiny": "577",
+        "back": "577",
+        "backShiny": "577",
+        "footprint": "577",
+        "character": "577_0",
+        "characterShiny": "577s_0",
+        "cry": "577cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -390,20 +407,7 @@
           "klass": "BreedLearnableMove",
           "move": "trick"
         }
-      ],
-      "resources": {
-        "icon": "577",
-        "iconShiny": "",
-        "front": "577",
-        "frontShiny": "577",
-        "back": "577",
-        "backShiny": "577",
-        "footprint": "577",
-        "character": "577_0",
-        "characterShiny": "577s_0",
-        "cry": "577cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

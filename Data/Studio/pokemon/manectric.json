@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 530,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 40.2,
       "type1": "electric",
@@ -60,6 +64,19 @@
         "minus"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "310",
+        "iconShiny": "",
+        "front": "310",
+        "frontShiny": "310",
+        "back": "310",
+        "backShiny": "310",
+        "footprint": "310",
+        "character": "310_0",
+        "characterShiny": "310s_0",
+        "cry": "310cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -308,23 +325,14 @@
           "klass": "TechLearnableMove",
           "move": "strength"
         }
-      ],
-      "resources": {
-        "icon": "310",
-        "iconShiny": "",
-        "front": "310",
-        "frontShiny": "310",
-        "back": "310",
-        "backShiny": "310",
-        "footprint": "310",
-        "character": "310_0",
-        "characterShiny": "310s_0",
-        "cry": "310cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 531,
+        "description": 120
+      },
       "height": 1.8,
       "weight": 44,
       "type1": "electric",
@@ -354,13 +362,35 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "electrike",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "intimidate",
         "intimidate",
         "intimidate"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "310_30",
+        "iconShiny": "",
+        "front": "310_30",
+        "frontShiny": "310_30",
+        "back": "310_30",
+        "backShiny": "310_30",
+        "footprint": "310",
+        "character": "310_30",
+        "characterShiny": "310s_30",
+        "cry": "310_30cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -885,20 +915,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "310_30",
-        "iconShiny": "",
-        "front": "310_30",
-        "frontShiny": "310_30",
-        "back": "310_30",
-        "backShiny": "310_30",
-        "footprint": "310",
-        "character": "310_30",
-        "characterShiny": "310s_30",
-        "cry": "310_30cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

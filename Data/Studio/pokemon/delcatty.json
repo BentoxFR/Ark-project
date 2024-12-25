@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 198,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 32.6,
       "type1": "normal",
@@ -50,6 +54,19 @@
         "wonder_skin"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "301",
+        "iconShiny": "",
+        "front": "301",
+        "frontShiny": "301",
+        "back": "301",
+        "backShiny": "301",
+        "footprint": "301",
+        "character": "301_0",
+        "characterShiny": "301s_0",
+        "cry": "301cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -279,20 +296,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_smash"
         }
-      ],
-      "resources": {
-        "icon": "301",
-        "iconShiny": "",
-        "front": "301",
-        "frontShiny": "301",
-        "back": "301",
-        "backShiny": "301",
-        "footprint": "301",
-        "character": "301_0",
-        "characterShiny": "301s_0",
-        "cry": "301cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

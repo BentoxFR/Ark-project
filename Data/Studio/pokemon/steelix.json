@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 881,
+        "description": 0
+      },
       "height": 9.2,
       "weight": 400,
       "type1": "steel",
@@ -421,6 +425,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 882,
+        "description": 213
+      },
       "height": 10.5,
       "weight": 740,
       "type1": "steel",
@@ -450,7 +458,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "onix",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sand_force",
         "sand_force",

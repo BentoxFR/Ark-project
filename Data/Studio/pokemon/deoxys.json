@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 201,
+        "description": 0
+      },
       "height": 1.7,
       "weight": 60.8,
       "type1": "psychic",
@@ -462,6 +466,10 @@
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 202,
+        "description": 49
+      },
       "height": 1.7,
       "weight": 60.8,
       "type1": "psychic",
@@ -903,6 +911,10 @@
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 203,
+        "description": 50
+      },
       "height": 1.7,
       "weight": 60.8,
       "type1": "psychic",
@@ -1358,6 +1370,10 @@
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 204,
+        "description": 51
+      },
       "height": 1.7,
       "weight": 60.8,
       "type1": "psychic",

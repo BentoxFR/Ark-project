@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 253,
+        "description": 0
+      },
       "height": 1.6,
       "weight": 150,
       "type1": "fire",
@@ -50,6 +54,19 @@
         "reckless"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "500",
+        "iconShiny": "",
+        "front": "500",
+        "frontShiny": "500",
+        "back": "500",
+        "backShiny": "500",
+        "footprint": "500",
+        "character": "500_0",
+        "characterShiny": "500s_0",
+        "cry": "500cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -407,20 +424,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_smash"
         }
-      ],
-      "resources": {
-        "icon": "500",
-        "iconShiny": "",
-        "front": "500",
-        "frontShiny": "500",
-        "back": "500",
-        "backShiny": "500",
-        "footprint": "500",
-        "character": "500_0",
-        "characterShiny": "500s_0",
-        "cry": "500cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

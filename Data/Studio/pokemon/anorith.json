@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 24,
+        "description": 0
+      },
       "height": 0.7,
       "weight": 12.5,
       "type1": "rock",
@@ -61,6 +65,19 @@
         "swift_swim"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "347",
+        "iconShiny": "",
+        "front": "347",
+        "frontShiny": "347",
+        "back": "347",
+        "backShiny": "347",
+        "footprint": "347",
+        "character": "347_0",
+        "characterShiny": "347s_0",
+        "cry": "347cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -317,20 +334,7 @@
           "klass": "BreedLearnableMove",
           "move": "water_pulse"
         }
-      ],
-      "resources": {
-        "icon": "347",
-        "iconShiny": "",
-        "front": "347",
-        "frontShiny": "347",
-        "back": "347",
-        "backShiny": "347",
-        "footprint": "347",
-        "character": "347_0",
-        "characterShiny": "347s_0",
-        "cry": "347cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

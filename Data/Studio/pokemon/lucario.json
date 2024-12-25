@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 499,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 54,
       "type1": "fighting",
@@ -422,6 +426,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 500,
+        "description": 117
+      },
       "height": 1.3,
       "weight": 57.5,
       "type1": "fighting",
@@ -451,7 +459,16 @@
       "hatchSteps": 6400,
       "babyDbSymbol": "riolu",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "adaptability",
         "adaptability",

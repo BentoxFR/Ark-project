@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 724,
+        "description": 0
+      },
       "height": 0.3,
       "weight": 3.5,
       "type1": "normal",
@@ -61,6 +65,23 @@
         "hustle"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "019",
+        "iconShiny": "",
+        "front": "019",
+        "frontF": "019f",
+        "frontShiny": "019",
+        "frontShinyF": "019f",
+        "back": "019",
+        "backF": "019f",
+        "backShiny": "019",
+        "backShinyF": "019f",
+        "footprint": "019",
+        "character": "019_0",
+        "characterShiny": "019s_0",
+        "cry": "019cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -339,27 +360,14 @@
           "klass": "BreedLearnableMove",
           "move": "screech"
         }
-      ],
-      "resources": {
-        "icon": "019",
-        "iconShiny": "",
-        "front": "019",
-        "frontF": "019f",
-        "frontShiny": "019",
-        "frontShinyF": "019f",
-        "back": "019",
-        "backF": "019f",
-        "backShiny": "019",
-        "backShinyF": "019f",
-        "footprint": "019",
-        "character": "019_0",
-        "characterShiny": "019s_0",
-        "cry": "019cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 725,
+        "description": 169
+      },
       "height": 0.3,
       "weight": 3.8,
       "type1": "dark",
@@ -420,6 +428,23 @@
         "thick_fat"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "019_01",
+        "iconShiny": "",
+        "front": "019_01",
+        "frontF": "019f",
+        "frontShiny": "019_01",
+        "frontShinyF": "019f",
+        "back": "019_01",
+        "backF": "019f",
+        "backShiny": "019_01",
+        "backShinyF": "019f",
+        "footprint": "019",
+        "character": "",
+        "characterShiny": "",
+        "cry": "019cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -706,27 +731,14 @@
           "klass": "BreedLearnableMove",
           "move": "switcheroo"
         }
-      ],
-      "resources": {
-        "icon": "019_01",
-        "iconShiny": "",
-        "front": "019_01",
-        "frontF": "019f",
-        "frontShiny": "019_01",
-        "frontShinyF": "019f",
-        "back": "019_01",
-        "backF": "019f",
-        "backShiny": "019_01",
-        "backShinyF": "019f",
-        "footprint": "019",
-        "character": "",
-        "characterShiny": "",
-        "cry": "019cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 726,
+        "description": 170
+      },
       "height": 0.3,
       "weight": 3.8,
       "type1": "dark",
@@ -783,6 +795,23 @@
         "thick_fat"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "019",
+        "iconShiny": "",
+        "front": "019",
+        "frontF": "019f",
+        "frontShiny": "019",
+        "frontShinyF": "019f",
+        "back": "019",
+        "backF": "019f",
+        "backShiny": "019",
+        "backShinyF": "019f",
+        "footprint": "019",
+        "character": "",
+        "characterShiny": "",
+        "cry": "019cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1025,27 +1054,14 @@
           "klass": "BreedLearnableMove",
           "move": "revenge"
         }
-      ],
-      "resources": {
-        "icon": "019",
-        "iconShiny": "",
-        "front": "019",
-        "frontF": "019f",
-        "frontShiny": "019",
-        "frontShinyF": "019f",
-        "back": "019",
-        "backF": "019f",
-        "backShiny": "019",
-        "backShinyF": "019f",
-        "footprint": "019",
-        "character": "",
-        "characterShiny": "",
-        "cry": "019cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 727,
+        "description": 171
+      },
       "height": 0.3,
       "weight": 3.8,
       "type1": "dark",
@@ -1102,6 +1118,23 @@
         "thick_fat"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "019",
+        "iconShiny": "",
+        "front": "019",
+        "frontF": "019f",
+        "frontShiny": "019",
+        "frontShinyF": "019f",
+        "back": "019",
+        "backF": "019f",
+        "backShiny": "019",
+        "backShinyF": "019f",
+        "footprint": "019",
+        "character": "",
+        "characterShiny": "",
+        "cry": "019cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1344,27 +1377,14 @@
           "klass": "BreedLearnableMove",
           "move": "revenge"
         }
-      ],
-      "resources": {
-        "icon": "019",
-        "iconShiny": "",
-        "front": "019",
-        "frontF": "019f",
-        "frontShiny": "019",
-        "frontShinyF": "019f",
-        "back": "019",
-        "backF": "019f",
-        "backShiny": "019",
-        "backShinyF": "019f",
-        "footprint": "019",
-        "character": "",
-        "characterShiny": "",
-        "cry": "019cry.ogg",
-        "hasFemale": true
-      }
+      ]
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 728,
+        "description": 172
+      },
       "height": 0.3,
       "weight": 3.8,
       "type1": "dark",
@@ -1421,6 +1441,23 @@
         "thick_fat"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "019",
+        "iconShiny": "",
+        "front": "019",
+        "frontF": "019f",
+        "frontShiny": "019",
+        "frontShinyF": "019f",
+        "back": "019",
+        "backF": "019f",
+        "backShiny": "019",
+        "backShinyF": "019f",
+        "footprint": "019",
+        "character": "",
+        "characterShiny": "",
+        "cry": "019cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1663,24 +1700,7 @@
           "klass": "BreedLearnableMove",
           "move": "revenge"
         }
-      ],
-      "resources": {
-        "icon": "019",
-        "iconShiny": "",
-        "front": "019",
-        "frontF": "019f",
-        "frontShiny": "019",
-        "frontShinyF": "019f",
-        "back": "019",
-        "backF": "019f",
-        "backShiny": "019",
-        "backShinyF": "019f",
-        "footprint": "019",
-        "character": "",
-        "characterShiny": "",
-        "cry": "019cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

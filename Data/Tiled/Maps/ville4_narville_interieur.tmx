@@ -2,7 +2,7 @@
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="left-up" width="38" height="53" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
  <tileset firstgid="1" source="../Tilesets/Interieur.tsx"/>
  <tileset firstgid="2753" source="../Tilesets/passages.tsx"/>
- <tileset firstgid="2769" source="../Tilesets/Interieur_molarock.tsx"/>
+ <tileset firstgid="2897" source="../Tilesets/Interieur_molarock.tsx"/>
  <layer id="1" name="sol" width="38" height="53">
   <data encoding="base64" compression="zlib">
    eJzt1sENgCAQAEFiGdZA//X5RxIgoCLMJDw993cXAqs5j/uLyWuVfh8z/9C1R1duxk5drTN19c0EgDeVbq+R+7HnLtT1z6437y9dz82ctQsAvlTa+zW7v2bmiHtC1xpdM9xfutbogtEusC5GdQ==
@@ -20,7 +20,7 @@
  </layer>
  <layer id="9" name="murs" width="38" height="53">
   <data encoding="base64" compression="zlib">
-   eJzt1jsOgCAQBUA8l516Te9q6TYkfkACziQvodqwgeKlxFPzhbSYuWayT+f5rtzMGChtSf4XAIyopx4dO7QeTQ1/6bxxz9F3BYBaeurRbzuvHj2G+F5b47sAfOEAvWIe8w==
+   eJztljEOgzAQBM27UgQR/hB+AB3p4DP8NXS5xrCLfZEtdqSTKE7D2lBsCOIKz30ewLSkN9U57POKzNb8nt9krpjTzpFzAN/D5MrhVC7O+e9cXaj7/5pAxwju5XJ+QMcM7uVyrqBjAfe8nEIIIdLw6NE5nLEebTs026OPurl6tI+zxlxo52WcllLuy57z7Kzq0ZxTPVoIIe5BbT2a6bwezhp7IerwcHrlst+rLyhXqrPUXOrRnFM9WnjwBZz7SaA=
   </data>
  </layer>
  <layer id="19" name="deco_murs1" width="38" height="53">

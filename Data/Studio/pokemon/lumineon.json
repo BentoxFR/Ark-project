@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 503,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 24,
       "type1": "water",
@@ -50,6 +54,23 @@
         "water_veil"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "457",
+        "iconShiny": "",
+        "front": "457",
+        "frontF": "457f",
+        "frontShiny": "457",
+        "frontShinyF": "457f",
+        "back": "457",
+        "backF": "457f",
+        "backShiny": "457",
+        "backShinyF": "457f",
+        "footprint": "457",
+        "character": "457_0",
+        "characterShiny": "457s_0",
+        "cry": "457cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -289,24 +310,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "457",
-        "iconShiny": "",
-        "front": "457",
-        "frontF": "457f",
-        "frontShiny": "457",
-        "frontShinyF": "457f",
-        "back": "457",
-        "backF": "457f",
-        "backShiny": "457",
-        "backShinyF": "457f",
-        "footprint": "457",
-        "character": "457_0",
-        "characterShiny": "457s_0",
-        "cry": "457cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

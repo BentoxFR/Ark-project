@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 284,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 33.5,
       "type1": "water",
@@ -50,6 +54,21 @@
         "water_veil"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "419",
+        "iconShiny": "",
+        "front": "419",
+        "frontShiny": "419",
+        "back": "419",
+        "backF": "419f",
+        "backShiny": "419",
+        "backShinyF": "419f",
+        "footprint": "419",
+        "character": "419_0",
+        "characterShiny": "419s_0",
+        "cry": "419cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -334,22 +353,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "419",
-        "iconShiny": "",
-        "front": "419",
-        "frontShiny": "419",
-        "back": "419",
-        "backF": "419f",
-        "backShiny": "419",
-        "backShinyF": "419f",
-        "footprint": "419",
-        "character": "419_0",
-        "characterShiny": "419s_0",
-        "cry": "419cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

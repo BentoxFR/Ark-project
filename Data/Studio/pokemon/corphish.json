@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 165,
+        "description": 0
+      },
       "height": 0.6,
       "weight": 11.5,
       "type1": "water",
@@ -61,6 +65,19 @@
         "adaptability"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "341",
+        "iconShiny": "",
+        "front": "341",
+        "frontShiny": "341",
+        "back": "341",
+        "backShiny": "341",
+        "footprint": "341",
+        "character": "341_0",
+        "characterShiny": "341s_0",
+        "cry": "341cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -365,20 +382,7 @@
           "klass": "BreedLearnableMove",
           "move": "trump_card"
         }
-      ],
-      "resources": {
-        "icon": "341",
-        "iconShiny": "",
-        "front": "341",
-        "frontShiny": "341",
-        "back": "341",
-        "backShiny": "341",
-        "footprint": "341",
-        "character": "341_0",
-        "characterShiny": "341s_0",
-        "cry": "341cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

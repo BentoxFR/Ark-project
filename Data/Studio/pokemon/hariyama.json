@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 393,
+        "description": 0
+      },
       "height": 2.3,
       "weight": 253.8,
       "type1": "fighting",
@@ -50,6 +54,19 @@
         "sheer_force"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "297",
+        "iconShiny": "",
+        "front": "297",
+        "frontShiny": "297",
+        "back": "297",
+        "backShiny": "297",
+        "footprint": "297",
+        "character": "297_0",
+        "characterShiny": "297s_0",
+        "cry": "297cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -355,20 +372,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_climb"
         }
-      ],
-      "resources": {
-        "icon": "297",
-        "iconShiny": "",
-        "front": "297",
-        "frontShiny": "297",
-        "back": "297",
-        "backShiny": "297",
-        "footprint": "297",
-        "character": "297_0",
-        "characterShiny": "297s_0",
-        "cry": "297cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 508,
+        "description": 0
+      },
       "height": 0.9,
       "weight": 30.5,
       "type1": "electric",
@@ -61,6 +65,23 @@
         "guts"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "404",
+        "iconShiny": "",
+        "front": "404",
+        "frontF": "404f",
+        "frontShiny": "404",
+        "frontShinyF": "404f",
+        "back": "404",
+        "backF": "404f",
+        "backShiny": "404",
+        "backShinyF": "404f",
+        "footprint": "404",
+        "character": "404_0",
+        "characterShiny": "404s_0",
+        "cry": "404cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -259,24 +280,7 @@
           "klass": "TechLearnableMove",
           "move": "strength"
         }
-      ],
-      "resources": {
-        "icon": "404",
-        "iconShiny": "",
-        "front": "404",
-        "frontF": "404f",
-        "frontShiny": "404",
-        "frontShinyF": "404f",
-        "back": "404",
-        "backF": "404f",
-        "backShiny": "404",
-        "backShinyF": "404f",
-        "footprint": "404",
-        "character": "404_0",
-        "characterShiny": "404s_0",
-        "cry": "404cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

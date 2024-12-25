@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 26,
+        "description": 0
+      },
       "height": 3.5,
       "weight": 65,
       "type1": "poison",
@@ -50,6 +54,19 @@
         "unnerve"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "024",
+        "iconShiny": "",
+        "front": "024",
+        "frontShiny": "024",
+        "back": "024",
+        "backShiny": "024",
+        "footprint": "024",
+        "character": "024_0",
+        "characterShiny": "024s_0",
+        "cry": "024cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -358,20 +375,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "crunch"
         }
-      ],
-      "resources": {
-        "icon": "024",
-        "iconShiny": "",
-        "front": "024",
-        "frontShiny": "024",
-        "back": "024",
-        "backShiny": "024",
-        "footprint": "024",
-        "character": "024_0",
-        "characterShiny": "024s_0",
-        "cry": "024cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

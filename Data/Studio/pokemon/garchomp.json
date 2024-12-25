@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 323,
+        "description": 0
+      },
       "height": 1.9,
       "weight": 95,
       "type1": "dragon",
@@ -386,6 +390,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 324,
+        "description": 84
+      },
       "height": 1.9,
       "weight": 95,
       "type1": "dragon",
@@ -415,7 +423,16 @@
       "hatchSteps": 10240,
       "babyDbSymbol": "gible",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sand_force",
         "sand_force",

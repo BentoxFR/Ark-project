@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 814,
+        "description": 0
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "normal",
@@ -438,6 +442,10 @@
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 815,
+        "description": 192
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "fighting",
@@ -867,6 +875,10 @@
     },
     {
       "form": 2,
+      "formTextId": {
+        "name": 816,
+        "description": 193
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "flying",
@@ -1296,6 +1308,10 @@
     },
     {
       "form": 3,
+      "formTextId": {
+        "name": 817,
+        "description": 194
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "poison",
@@ -1725,6 +1741,10 @@
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 818,
+        "description": 195
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "ground",
@@ -2154,6 +2174,10 @@
     },
     {
       "form": 5,
+      "formTextId": {
+        "name": 819,
+        "description": 196
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "rock",
@@ -2583,6 +2607,10 @@
     },
     {
       "form": 6,
+      "formTextId": {
+        "name": 820,
+        "description": 197
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "bug",
@@ -3012,6 +3040,10 @@
     },
     {
       "form": 7,
+      "formTextId": {
+        "name": 821,
+        "description": 198
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "ghost",
@@ -3441,6 +3473,10 @@
     },
     {
       "form": 8,
+      "formTextId": {
+        "name": 822,
+        "description": 199
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "steel",
@@ -3870,6 +3906,10 @@
     },
     {
       "form": 9,
+      "formTextId": {
+        "name": 823,
+        "description": 200
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "__undef__",
@@ -4299,6 +4339,10 @@
     },
     {
       "form": 10,
+      "formTextId": {
+        "name": 824,
+        "description": 201
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "fire",
@@ -4728,6 +4772,10 @@
     },
     {
       "form": 11,
+      "formTextId": {
+        "name": 825,
+        "description": 202
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "water",
@@ -5157,6 +5205,10 @@
     },
     {
       "form": 12,
+      "formTextId": {
+        "name": 826,
+        "description": 203
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "grass",
@@ -5586,6 +5638,10 @@
     },
     {
       "form": 13,
+      "formTextId": {
+        "name": 827,
+        "description": 204
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "electric",
@@ -6015,6 +6071,10 @@
     },
     {
       "form": 14,
+      "formTextId": {
+        "name": 828,
+        "description": 205
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "psychic",
@@ -6444,6 +6504,10 @@
     },
     {
       "form": 15,
+      "formTextId": {
+        "name": 829,
+        "description": 206
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "ice",
@@ -6873,6 +6937,10 @@
     },
     {
       "form": 16,
+      "formTextId": {
+        "name": 830,
+        "description": 207
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "dragon",
@@ -7306,6 +7374,10 @@
     },
     {
       "form": 17,
+      "formTextId": {
+        "name": 831,
+        "description": 208
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "dark",
@@ -7735,6 +7807,10 @@
     },
     {
       "form": 18,
+      "formTextId": {
+        "name": 832,
+        "description": 209
+      },
       "height": 2.3,
       "weight": 100.5,
       "type1": "fairy",

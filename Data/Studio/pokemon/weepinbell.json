@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1046,
+        "description": 0
+      },
       "height": 1,
       "weight": 6.4,
       "type1": "grass",
@@ -61,6 +65,19 @@
         "gluttony"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "070",
+        "iconShiny": "",
+        "front": "070",
+        "frontShiny": "070",
+        "back": "070",
+        "backShiny": "070",
+        "footprint": "070",
+        "character": "070_0",
+        "characterShiny": "070s_0",
+        "cry": "070cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -286,20 +303,7 @@
           "klass": "TechLearnableMove",
           "move": "cut"
         }
-      ],
-      "resources": {
-        "icon": "070",
-        "iconShiny": "",
-        "front": "070",
-        "frontShiny": "070",
-        "back": "070",
-        "backShiny": "070",
-        "footprint": "070",
-        "character": "070_0",
-        "characterShiny": "070s_0",
-        "cry": "070cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

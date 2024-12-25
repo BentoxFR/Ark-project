@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 65,
+        "description": 0
+      },
       "height": 1.3,
       "weight": 96,
       "type1": "rock",
@@ -50,6 +54,19 @@
         "pickpocket"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "689",
+        "iconShiny": "",
+        "front": "689",
+        "frontShiny": "689",
+        "back": "689",
+        "backShiny": "689",
+        "footprint": "",
+        "character": "689_0",
+        "characterShiny": "689s_0",
+        "cry": "689cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -440,20 +457,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "689",
-        "iconShiny": "",
-        "front": "689",
-        "frontShiny": "689",
-        "back": "689",
-        "backShiny": "689",
-        "footprint": "",
-        "character": "689_0",
-        "characterShiny": "689s_0",
-        "cry": "689cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

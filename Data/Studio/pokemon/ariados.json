@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 48,
+        "description": 0
+      },
       "height": 1.1,
       "weight": 33.5,
       "type1": "bug",
@@ -50,6 +54,19 @@
         "sniper"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "168",
+        "iconShiny": "",
+        "front": "168",
+        "frontShiny": "168",
+        "back": "168",
+        "backShiny": "168",
+        "footprint": "168",
+        "character": "168_0",
+        "characterShiny": "168s_0",
+        "cry": "168cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -331,20 +348,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "swords_dance"
         }
-      ],
-      "resources": {
-        "icon": "168",
-        "iconShiny": "",
-        "front": "168",
-        "frontShiny": "168",
-        "back": "168",
-        "backShiny": "168",
-        "footprint": "168",
-        "character": "168_0",
-        "characterShiny": "168s_0",
-        "cry": "168cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

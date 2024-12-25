@@ -25,24 +25,26 @@ Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,Chemin pluvieux,
 Intro ext,Intro ext,Intro ext,Intro ext,Intro ext,Intro ext
 Intro indoor,Intro indoor,Intro indoor,Intro indoor,Intro indoor,Intro indoor
 Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2,Intro indoor 2
-route 10,route 10,route 10,route 10,route 10,route 10
-route 11,route 11,route 11,route 11,route 11,route 11
+route 10,Route 10,route 10,route 10,route 10,route 10
+route 11,Route 11,route 11,route 11,route 11,route 11
 route 111,Start (Arkhè),route 111,route 111,route 111,route 111
-route 12,route 12,route 12,route 12,route 12,route 12
-route 13,route 13,route 13,route 13,route 13,route 13
-route 9,route 9,route 9,route 9,route 9,route 9
-ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde
-ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur
-Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock
-ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket
-ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock
-ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple
-ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur
-ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi
-ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition
-ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot
-ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur
-ville4 narville,ville4 narville,ville4 narville,ville4 narville,ville4 narville,ville4 narville
-ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio
-ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur
-ville5,ville5,ville5,ville5,ville5,ville5
+route 12,Route 12,route 12,route 12,route 12,route 12
+route 13,Route 13,route 13,route 13,route 13,route 13
+route 9,Route 9,route 9,route 9,route 9,route 9
+ville1 bourgagde,Ville 1 - Bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde,ville1 bourgagde
+ville1 bourgagde interieur,Ville 1 - Bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur,ville1 bourgagde interieur
+Ville2 Grotte Molarock,Ville 2 - Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock,Ville2 Grotte Molarock
+ville2 molarcok repaire rocket,Ville 2 - Molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket,ville2 molarcok repaire rocket
+ville2 molarock,Ville 2 - Molarock,ville2 molarock,ville2 molarock,ville2 molarock,ville2 molarock
+ville2 molarock Dojo-temple,Ville 2 - Molarock Dojo / Temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple,ville2 molarock Dojo-temple
+ville2 molarock interieur,Ville 2 - Molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur,ville2 molarock interieur
+ville3 solevi,Ville 3 - Solevi,ville3 solevi,ville3 solevi,ville3 solevi,ville3 solevi
+ville3 solevi Competition,Ville 3 - Solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition,ville3 solevi Competition
+ville3 solevi entrepot,Ville 3 - Solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot,ville3 solevi entrepot
+ville3 solevi interieur,Ville 3 - Solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur,ville3 solevi interieur
+ville4 narville,Ville 4 - Narville,ville4 narville,ville4 narville,ville4 narville,ville4 narville
+ville4 narville biblio,Ville 4 - Narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio,ville4 narville biblio
+ville4 narville interieur,Ville 4 - Narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur,ville4 narville interieur
+ville5,Ville 5,ville5,ville5,ville5,ville5
+Chenal 3,Intro_plage,Chenal 3,Chenal 3,Chenal 3,Chenal 3
+route 12 Labo,Route 12 - Labo,route 12 Labo,route 12 Labo,route 12 Labo,route 12 Labo

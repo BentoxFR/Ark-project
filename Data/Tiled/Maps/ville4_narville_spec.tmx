@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="left-up" width="17" height="11" tilewidth="32" tileheight="32" infinite="0" nextlayerid="26" nextobjectid="1">
+ <tileset firstgid="1" source="../Tilesets/Interieur.tsx"/>
+ <tileset firstgid="2753" source="../Tilesets/passages.tsx"/>
+ <tileset firstgid="2897" source="../Tilesets/Interieur_molarock.tsx"/>
+ <tileset firstgid="4177" source="../Tilesets/Interieur_speciaux.tsx"/>
+ <tileset firstgid="5457" source="../Tilesets/Donjon_TR.tsx"/>
+ <tileset firstgid="8209" source="../Tilesets/Intro.tsx"/>
+ <tileset firstgid="9489" source="../Tilesets/Animation - Mecanique.tsx"/>
+ <layer id="1" name="sol" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhe4KAgKj5EBBuGYQCbHC4z0fnI7iBkDi6ziTGDWL/gU4NL/BAOM3Cpw+cWdL9g00PITGoBALuMVjk=
+  </data>
+ </layer>
+ <layer id="15" name="deco_sol" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJztjDESQDAUBf/kBskVUaFCJVElKlQ4r60jI6PQeTNbvdkV+ff1rBZxMOn7VxiREirz3PC4AeZEo8ZtoM00FtwVtkSjw+1hyDR23APORGPEteAyjXhW4ah3TjyPHzKNC39WD1s=
+  </data>
+ </layer>
+ <layer id="16" name="ombres" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBheIFOAfIxuBjazswUw2bj4uHA2FrNBIBuLGVk4cC5UHT45mBmUgsFiBqUAAAFXF8I=
+  </data>
+ </layer>
+ <layer id="9" name="murs" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAciAoyMOgQwK/wYDEg5gFiEwL4Ex7MDTWDEjBqBqYZQhSaIQjUL0WhGZJA/UoUmqEI1A8Aw5UUpQ==
+  </data>
+ </layer>
+ <layer id="19" name="deco_murs1" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+qJFgYKiVQPCXcTIwLAdiSyEGBhshiBiIthbCbUYLUH8rkhnrgPrXA7EjUI8LVB+IdsZjxigYBcgAAHDOB7k=
+  </data>
+ </layer>
+ <layer id="11" name="escaliers1" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="18" name="dessous1" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="10" name="mobiliers1" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/sBbCLRcniF9MCarXWQiVDwN/OBkYIoHqo4A4GklfJBJbG00PiA/SBwOVQLWJQJwExMlQfalAOg3JDB00M7TQ+I1AtZlAnAvFOVA6D8kME6AeVyB2A2J3IDZCM6MTS1gMVYAcvvTQhw0AAOSDERo=
+  </data>
+ </layer>
+ <layer id="17" name="audessus1" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAvsBJiYLAUgtDkABGoPkcy9YOADJreCEFMNYTEVNDMSMCinlixUUAfAABGwARP
+  </data>
+ </layer>
+ <group id="2" name="z=0"/>
+ <layer id="12" name="escaliers2" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="21" name="murs_superieur" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="22" name="deco_murs2" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="23" name="dessous2" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="13" name="mobiliers2" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg84AsnbfTFCpJnLgyk4NBvK8TAYAfE9kKUmT/YAa3ihd4AABJnBcg=
+  </data>
+ </layer>
+ <layer id="20" name="audessus2" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <group id="3" name="z=1"/>
+ <layer id="25" name="dessous3" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="14" name="mobiliers3" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <layer id="24" name="audessus3" width="17" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BkAAAC7AAB
+  </data>
+ </layer>
+ <group id="4" name="z=2"/>
+ <group id="5" name="z=3"/>
+ <layer id="7" name="passages" width="17" height="11" visible="0" opacity="0.44">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAcXOAavBjZjdjY2NyPLobMJzcsyDWDXECpfmqbQa451EwLANkyShc=
+  </data>
+ </layer>
+ <group id="8" name="Infos"/>
+</map>

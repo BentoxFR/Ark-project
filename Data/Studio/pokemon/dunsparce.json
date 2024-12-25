@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 235,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 14,
       "type1": "normal",
@@ -50,6 +54,19 @@
         "rattled"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "206",
+        "iconShiny": "",
+        "front": "206",
+        "frontShiny": "206",
+        "back": "206",
+        "backShiny": "206",
+        "footprint": "206",
+        "character": "206_0",
+        "characterShiny": "206s_0",
+        "cry": "206cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -437,20 +454,7 @@
           "klass": "BreedLearnableMove",
           "move": "trump_card"
         }
-      ],
-      "resources": {
-        "icon": "206",
-        "iconShiny": "",
-        "front": "206",
-        "frontShiny": "206",
-        "back": "206",
-        "backShiny": "206",
-        "footprint": "206",
-        "character": "206_0",
-        "characterShiny": "206s_0",
-        "cry": "206cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

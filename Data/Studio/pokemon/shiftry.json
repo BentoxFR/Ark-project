@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 805,
+        "description": 0
+      },
       "height": 1.3,
       "weight": 59.6,
       "type1": "grass",
@@ -50,6 +54,23 @@
         "pickpocket"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "275",
+        "iconShiny": "",
+        "front": "275",
+        "frontF": "275f",
+        "frontShiny": "275",
+        "frontShinyF": "275f",
+        "back": "275",
+        "backF": "275f",
+        "backShiny": "275",
+        "backShinyF": "275f",
+        "footprint": "275",
+        "character": "275_0",
+        "characterShiny": "275s_0",
+        "cry": "275cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -326,24 +347,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_smash"
         }
-      ],
-      "resources": {
-        "icon": "275",
-        "iconShiny": "",
-        "front": "275",
-        "frontF": "275f",
-        "frontShiny": "275",
-        "frontShinyF": "275f",
-        "back": "275",
-        "backF": "275f",
-        "backShiny": "275",
-        "backShinyF": "275f",
-        "footprint": "275",
-        "character": "275_0",
-        "characterShiny": "275s_0",
-        "cry": "275cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

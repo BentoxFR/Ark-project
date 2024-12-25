@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 743,
+        "description": 0
+      },
       "height": 0.7,
       "weight": 20.2,
       "type1": "fighting",
@@ -65,6 +69,19 @@
         "prankster"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "447",
+        "iconShiny": "",
+        "front": "447",
+        "frontShiny": "447",
+        "back": "447",
+        "backShiny": "447",
+        "footprint": "447",
+        "character": "447_0",
+        "characterShiny": "447s_0",
+        "cry": "447cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -381,20 +398,7 @@
           "klass": "BreedLearnableMove",
           "move": "vacuum_wave"
         }
-      ],
-      "resources": {
-        "icon": "447",
-        "iconShiny": "",
-        "front": "447",
-        "frontShiny": "447",
-        "back": "447",
-        "backShiny": "447",
-        "footprint": "447",
-        "character": "447_0",
-        "characterShiny": "447s_0",
-        "cry": "447cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

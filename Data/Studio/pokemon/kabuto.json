@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 437,
+        "description": 0
+      },
       "height": 0.5,
       "weight": 11.5,
       "type1": "rock",
@@ -61,6 +65,19 @@
         "weak_armor"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "140",
+        "iconShiny": "",
+        "front": "140",
+        "frontShiny": "140",
+        "back": "140",
+        "backShiny": "140",
+        "footprint": "140",
+        "character": "140_0",
+        "characterShiny": "140s_0",
+        "cry": "140cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -322,20 +339,7 @@
           "klass": "BreedLearnableMove",
           "move": "take_down"
         }
-      ],
-      "resources": {
-        "icon": "140",
-        "iconShiny": "",
-        "front": "140",
-        "frontShiny": "140",
-        "back": "140",
-        "backShiny": "140",
-        "footprint": "140",
-        "character": "140_0",
-        "characterShiny": "140s_0",
-        "cry": "140cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

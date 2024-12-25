@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 1003,
+        "description": 0
+      },
       "height": 1.2,
       "weight": 38.5,
       "type1": "bug",
@@ -50,6 +54,26 @@
         "unnerve"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "416",
+        "iconF": "416",
+        "iconShiny": "",
+        "front": "416",
+        "frontF": "416",
+        "frontShiny": "416",
+        "frontShinyF": "416",
+        "back": "416",
+        "backF": "416",
+        "backShiny": "416",
+        "backShinyF": "416",
+        "footprint": "416",
+        "character": "416_0",
+        "characterF": "416_0",
+        "characterShiny": "416s_0",
+        "characterShinyF": "416s_0",
+        "cry": "416cry.ogg",
+        "hasFemale": true
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -311,27 +335,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "slash"
         }
-      ],
-      "resources": {
-        "icon": "416",
-        "iconF": "416",
-        "iconShiny": "",
-        "front": "416",
-        "frontF": "416",
-        "frontShiny": "416",
-        "frontShinyF": "416",
-        "back": "416",
-        "backF": "416",
-        "backShiny": "416",
-        "backShinyF": "416",
-        "footprint": "416",
-        "character": "416_0",
-        "characterF": "416_0",
-        "characterShiny": "416s_0",
-        "characterShinyF": "416s_0",
-        "cry": "416cry.ogg",
-        "hasFemale": true
-      }
+      ]
     }
   ]
 }

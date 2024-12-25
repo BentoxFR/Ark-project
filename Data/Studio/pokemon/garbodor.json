@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 319,
+        "description": 0
+      },
       "height": 1.9,
       "weight": 107.3,
       "type1": "poison",
@@ -50,6 +54,19 @@
         "aftermath"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "569",
+        "iconShiny": "",
+        "front": "569",
+        "frontShiny": "569",
+        "back": "569",
+        "backShiny": "569",
+        "footprint": "569",
+        "character": "569_0",
+        "characterShiny": "569s_0",
+        "cry": "569cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -318,23 +335,14 @@
           "klass": "TechLearnableMove",
           "move": "secret_power"
         }
-      ],
-      "resources": {
-        "icon": "569",
-        "iconShiny": "",
-        "front": "569",
-        "frontShiny": "569",
-        "back": "569",
-        "backShiny": "569",
-        "footprint": "569",
-        "character": "569_0",
-        "characterShiny": "569s_0",
-        "cry": "569cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 320,
+        "description": 81
+      },
       "height": 1.9,
       "weight": 107.3,
       "type1": "poison",
@@ -359,18 +367,40 @@
       "femaleRate": 50,
       "breedGroups": [
         10,
-        0
+        15
       ],
       "hatchSteps": 5355,
       "babyDbSymbol": "__undef__",
       "babyForm": 1,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "stench",
         "weak_armor",
         "aftermath"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "569",
+        "iconShiny": "",
+        "front": "569",
+        "frontShiny": "569",
+        "back": "569",
+        "backShiny": "569",
+        "footprint": "569",
+        "character": "",
+        "characterShiny": "",
+        "cry": "569cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -895,23 +925,14 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "569",
-        "iconShiny": "",
-        "front": "569",
-        "frontShiny": "569",
-        "back": "569",
-        "backShiny": "569",
-        "footprint": "569",
-        "character": "",
-        "characterShiny": "",
-        "cry": "569cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 4,
+      "formTextId": {
+        "name": 321,
+        "description": 82
+      },
       "height": 1.9,
       "weight": 107.3,
       "type1": "poison",
@@ -936,18 +957,40 @@
       "femaleRate": 50,
       "breedGroups": [
         10,
-        0
+        15
       ],
       "hatchSteps": 5355,
       "babyDbSymbol": "__undef__",
       "babyForm": 4,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "stench",
         "weak_armor",
         "aftermath"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "569",
+        "iconShiny": "",
+        "front": "569",
+        "frontShiny": "569",
+        "back": "569",
+        "backShiny": "569",
+        "footprint": "569",
+        "character": "",
+        "characterShiny": "",
+        "cry": "569cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -1472,23 +1515,14 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "569",
-        "iconShiny": "",
-        "front": "569",
-        "frontShiny": "569",
-        "back": "569",
-        "backShiny": "569",
-        "footprint": "569",
-        "character": "",
-        "characterShiny": "",
-        "cry": "569cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 8,
+      "formTextId": {
+        "name": 322,
+        "description": 83
+      },
       "height": 1.9,
       "weight": 107.3,
       "type1": "poison",
@@ -1513,18 +1547,40 @@
       "femaleRate": 50,
       "breedGroups": [
         10,
-        0
+        15
       ],
       "hatchSteps": 5355,
       "babyDbSymbol": "__undef__",
       "babyForm": 8,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "stench",
         "weak_armor",
         "aftermath"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "569",
+        "iconShiny": "",
+        "front": "569",
+        "frontShiny": "569",
+        "back": "569",
+        "backShiny": "569",
+        "footprint": "569",
+        "character": "",
+        "characterShiny": "",
+        "cry": "569cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -2049,20 +2105,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "569",
-        "iconShiny": "",
-        "front": "569",
-        "frontShiny": "569",
-        "back": "569",
-        "backShiny": "569",
-        "footprint": "569",
-        "character": "",
-        "characterShiny": "",
-        "cry": "569cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

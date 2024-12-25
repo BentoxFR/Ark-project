@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 389,
+        "description": 0
+      },
       "height": 6.5,
       "weight": 235,
       "type1": "water",
@@ -372,6 +376,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 390,
+        "description": 104
+      },
       "height": 6.5,
       "weight": 305,
       "type1": "water",
@@ -401,7 +409,16 @@
       "hatchSteps": 1280,
       "babyDbSymbol": "magikarp",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "mold_breaker",
         "mold_breaker",

@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 77,
+        "description": 0
+      },
       "height": 0.4,
       "weight": 5.8,
       "type1": "grass",
@@ -50,6 +54,19 @@
         "healer"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "182",
+        "iconShiny": "",
+        "front": "182",
+        "frontShiny": "182",
+        "back": "182",
+        "backShiny": "182",
+        "footprint": "182",
+        "character": "182_0",
+        "characterShiny": "182s_0",
+        "cry": "182cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -270,20 +287,7 @@
           "klass": "EvolutionLearnableMove",
           "move": "magical_leaf"
         }
-      ],
-      "resources": {
-        "icon": "182",
-        "iconShiny": "",
-        "front": "182",
-        "frontShiny": "182",
-        "back": "182",
-        "backShiny": "182",
-        "footprint": "182",
-        "character": "182_0",
-        "characterShiny": "182s_0",
-        "cry": "182cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

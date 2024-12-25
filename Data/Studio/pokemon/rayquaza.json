@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 729,
+        "description": 0
+      },
       "height": 7,
       "weight": 206.5,
       "type1": "dragon",
@@ -421,6 +425,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 730,
+        "description": 173
+      },
       "height": 10.8,
       "weight": 392,
       "type1": "dragon",
@@ -450,7 +458,16 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "delta_stream",
         "delta_stream",

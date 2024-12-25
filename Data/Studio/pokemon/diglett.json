@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 213,
+        "description": 0
+      },
       "height": 0.2,
       "weight": 0.8,
       "type1": "ground",
@@ -61,6 +65,19 @@
         "sand_force"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "050",
+        "iconShiny": "",
+        "front": "050",
+        "frontShiny": "050",
+        "back": "050",
+        "backShiny": "050",
+        "footprint": "050",
+        "character": "050_0",
+        "characterShiny": "050s_0",
+        "cry": "050cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -312,23 +329,14 @@
           "klass": "BreedLearnableMove",
           "move": "final_gambit"
         }
-      ],
-      "resources": {
-        "icon": "050",
-        "iconShiny": "",
-        "front": "050",
-        "frontShiny": "050",
-        "back": "050",
-        "backShiny": "050",
-        "footprint": "050",
-        "character": "050_0",
-        "characterShiny": "050s_0",
-        "cry": "050cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 214,
+        "description": 53
+      },
       "height": 0.2,
       "weight": 1,
       "type1": "ground",
@@ -385,6 +393,19 @@
         "sand_force"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "050_01",
+        "iconShiny": "",
+        "front": "050_01",
+        "frontShiny": "050_01",
+        "back": "050_01",
+        "backShiny": "050_01",
+        "footprint": "050",
+        "character": "",
+        "characterShiny": "",
+        "cry": "050cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -644,20 +665,7 @@
           "klass": "BreedLearnableMove",
           "move": "thrash"
         }
-      ],
-      "resources": {
-        "icon": "050_01",
-        "iconShiny": "",
-        "front": "050_01",
-        "frontShiny": "050_01",
-        "back": "050_01",
-        "backShiny": "050_01",
-        "footprint": "050",
-        "character": "",
-        "characterShiny": "",
-        "cry": "050cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

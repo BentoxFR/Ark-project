@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 564,
+        "description": 0
+      },
       "height": 2,
       "weight": 122,
       "type1": "psychic",
@@ -543,6 +547,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 565,
+        "description": 128
+      },
       "height": 2.3,
       "weight": 127,
       "type1": "psychic",
@@ -572,7 +580,16 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "steadfast",
         "steadfast",
@@ -1115,6 +1132,10 @@
     },
     {
       "form": 31,
+      "formTextId": {
+        "name": 566,
+        "description": 129
+      },
       "height": 1.5,
       "weight": 33,
       "type1": "psychic",
@@ -1144,7 +1165,16 @@
       "hatchSteps": 30720,
       "babyDbSymbol": "__undef__",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "insomnia",
         "insomnia",

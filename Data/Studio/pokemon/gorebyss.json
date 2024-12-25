@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 362,
+        "description": 0
+      },
       "height": 1.8,
       "weight": 22.6,
       "type1": "water",
@@ -50,6 +54,19 @@
         "hydration"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "368",
+        "iconShiny": "",
+        "front": "368",
+        "frontShiny": "368",
+        "back": "368",
+        "backShiny": "368",
+        "footprint": "368",
+        "character": "368_0",
+        "characterShiny": "368s_0",
+        "cry": "368cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -274,20 +291,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "368",
-        "iconShiny": "",
-        "front": "368",
-        "frontShiny": "368",
-        "back": "368",
-        "backShiny": "368",
-        "footprint": "368",
-        "character": "368_0",
-        "characterShiny": "368s_0",
-        "cry": "368cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

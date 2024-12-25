@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 731,
+        "description": 0
+      },
       "height": 1.8,
       "weight": 175,
       "type1": "ice",
@@ -50,6 +54,19 @@
         "ice_body"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "378",
+        "iconShiny": "",
+        "front": "378",
+        "frontShiny": "378",
+        "back": "378",
+        "backShiny": "378",
+        "footprint": "378",
+        "character": "378_0",
+        "characterShiny": "378s_0",
+        "cry": "378cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -352,20 +369,7 @@
           "klass": "TechLearnableMove",
           "move": "rock_climb"
         }
-      ],
-      "resources": {
-        "icon": "378",
-        "iconShiny": "",
-        "front": "378",
-        "frontShiny": "378",
-        "back": "378",
-        "backShiny": "378",
-        "footprint": "378",
-        "character": "378_0",
-        "characterShiny": "378s_0",
-        "cry": "378cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }

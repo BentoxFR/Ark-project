@@ -688,4 +688,16 @@
    <frame tileid="3426" duration="300"/>
   </animation>
  </tile>
+ <tile id="3520">
+  <animation>
+   <frame tileid="3520" duration="200"/>
+   <frame tileid="3521" duration="200"/>
+   <frame tileid="3522" duration="200"/>
+   <frame tileid="3523" duration="200"/>
+   <frame tileid="3524" duration="200"/>
+   <frame tileid="3525" duration="200"/>
+   <frame tileid="3526" duration="200"/>
+   <frame tileid="3527" duration="200"/>
+  </animation>
+ </tile>
 </tileset>

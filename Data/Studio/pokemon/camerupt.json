@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 116,
+        "description": 0
+      },
       "height": 1.9,
       "weight": 220,
       "type1": "fire",
@@ -366,6 +370,10 @@
     },
     {
       "form": 30,
+      "formTextId": {
+        "name": 117,
+        "description": 36
+      },
       "height": 2.5,
       "weight": 320.5,
       "type1": "fire",
@@ -395,7 +403,16 @@
       "hatchSteps": 5120,
       "babyDbSymbol": "numel",
       "babyForm": 0,
-      "itemHeld": [],
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
       "abilities": [
         "sheer_force",
         "sheer_force",

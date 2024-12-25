@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 541,
+        "description": 0
+      },
       "height": 0.7,
       "weight": 22.2,
       "type1": "fighting",

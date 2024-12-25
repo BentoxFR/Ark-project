@@ -5,6 +5,10 @@
   "forms": [
     {
       "form": 0,
+      "formTextId": {
+        "name": 374,
+        "description": 0
+      },
       "height": 1.5,
       "weight": 40,
       "type1": "water",
@@ -50,6 +54,19 @@
         "battle_bond"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "658",
+        "iconShiny": "",
+        "front": "658",
+        "frontShiny": "658",
+        "back": "658",
+        "backShiny": "658",
+        "footprint": "",
+        "character": "658_0",
+        "characterShiny": "658s_0",
+        "cry": "658cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -386,23 +403,14 @@
           "klass": "EvolutionLearnableMove",
           "move": "water_shuriken"
         }
-      ],
-      "resources": {
-        "icon": "658",
-        "iconShiny": "",
-        "front": "658",
-        "frontShiny": "658",
-        "back": "658",
-        "backShiny": "658",
-        "footprint": "",
-        "character": "658_0",
-        "characterShiny": "658s_0",
-        "cry": "658cry.ogg",
-        "hasFemale": false
-      }
+      ]
     },
     {
       "form": 1,
+      "formTextId": {
+        "name": 375,
+        "description": 101
+      },
       "height": 1.5,
       "weight": 40,
       "type1": "water",
@@ -448,6 +456,19 @@
         "battle_bond"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "658_01",
+        "iconShiny": "",
+        "front": "658_01",
+        "frontShiny": "658_01",
+        "back": "658_01",
+        "backShiny": "658_01",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "cry": "658cry.ogg",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -982,20 +1003,7 @@
           "klass": "TechLearnableMove",
           "move": "whirlpool"
         }
-      ],
-      "resources": {
-        "icon": "658_01",
-        "iconShiny": "",
-        "front": "658_01",
-        "frontShiny": "658_01",
-        "back": "658_01",
-        "backShiny": "658_01",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "cry": "658cry.ogg",
-        "hasFemale": false
-      }
+      ]
     }
   ]
 }
