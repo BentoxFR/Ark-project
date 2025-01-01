@@ -3,6 +3,9 @@ module UI
     # Coordinate of the button on screen
     COORDINATES_ICON = 137, 16
 
+    # @return [Boolean] selected
+    attr_reader :selected
+
     # Create a new ARKMenuButton
     # @param viewport [Viewport]
     # @param real_index [Integer] real index of the button in the menu
@@ -14,7 +17,7 @@ module UI
       create_graphic
     end
 
-        # Set the selected state
+    # Set the selected state
     # @param value [Boolean]
     def selected=(value)
       return if value == @selected
@@ -27,11 +30,12 @@ module UI
       @selected = value
     end
 
-  private
+    private
 
     def create_graphic
       create_background
       create_icon
+      create_text
     end
 
     def create_background
@@ -50,6 +54,12 @@ module UI
       @index
     end
 
+    def create_text
+      add_text(96, 0, 128, 16, text.sub(PFM::Text::TRNAME[0], $trainer.name), 2)
+    end
+
+    # Get the text based on the index
+    # @return [Integer]
     def text
       case @index
       when 0 then return text_get(14, 1) # Dex
