@@ -33,13 +33,8 @@ module UI
     private
 
     def create_graphic
-      create_background
       create_icon
       create_text
-    end
-
-    def create_background
-
     end
 
     def create_icon
