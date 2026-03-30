@@ -8,8 +8,13 @@
   "southMaps": [
     {
       "mapId": 32,
-      "offset": 0
+      "offset": 40
     }
   ],
-  "westMaps": []
+  "westMaps": [
+    {
+      "mapId": 46,
+      "offset": 0
+    }
+  ]
 }

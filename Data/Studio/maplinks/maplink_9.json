@@ -6,13 +6,13 @@
   "northMaps": [
     {
       "mapId": 31,
-      "offset": 0
+      "offset": -40
     }
   ],
   "eastMaps": [
     {
       "mapId": 26,
-      "offset": 2
+      "offset": -2
     }
   ],
   "southMaps": [],
