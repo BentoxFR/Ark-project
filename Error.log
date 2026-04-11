@@ -1,20 +1,20 @@
 ================================Erreur de script================================
 Message :
-uninitialized constant Yuki::Sw::QuestBook
+no implicit conversion from nil to integer
 
-Type : NameError
-Script : 0 Systems/001 Ark_Menu/110 ArkMenu.rb (user)
-Ligne : 258
-Date : 30/03/2026 22:11:32
+Type : TypeError
+Script : 4 Systems/100 Ark_Menu/100 ArkMenu.rb (user)
+Ligne : 211
+Date : 06/04/2026 21:55:51
 Game Version : 256
 Logiciel : PSDK 26.54
 ===================================Backtraces===================================
-[22] : 0 Systems/001 Ark_Menu/110 ArkMenu.rb (user) | ligne 258 <class:ArkMenu>
-[21] : 0 Systems/001 Ark_Menu/110 ArkMenu.rb (user) | ligne 155 map
-[20] : 0 Systems/001 Ark_Menu/110 ArkMenu.rb (user) | ligne 155 init_conditions
-[19] : 0 Systems/001 Ark_Menu/110 ArkMenu.rb (user) | ligne 17 initialize
-[18] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 195 new
-[17] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 195 call_scene
+[22] : 4 Systems/100 Ark_Menu/100 ArkMenu.rb (user) | ligne 211 action
+[21] : 4 Systems/100 Ark_Menu/100 ArkMenu.rb (user) | ligne 63 update_inputs
+[20] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 487 update
+[19] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 268 main_process
+[18] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 158 main
+[17] : 4 Systems/000 General/2 GamePlay__Base/000 GamePlay__Base.rb (PSDK) | ligne 196 call_scene
 [16] : 4 Systems/000 General/100 GamePlay.rb (PSDK) | ligne 23 open_menu
 [15] : 4 Systems/003 Map Engine/3 GamePlay/201 Scene_Map calling.rb (PSDK) | ligne 157 call_menu
 [14] : 4 Systems/003 Map Engine/3 GamePlay/201 Scene_Map calling.rb (PSDK) | ligne 68 update_scene_calling
